@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.justforentrepreneurs.j4eapp">
+
+    <uses-sdk tools:overrideLibrary="android.support.v17.leanback" />
+    <!-- PERMISSIONS -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To use account credentials -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application
+        android:name=".abmainj4e.J4EApp"
+        android:allowBackup="false"
+        android:icon="@drawable/j4e_app_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/j4e_app_logo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:supportsRtl,android:allowBackup,android:roundIcon,android:icon"
+        tools:node="replace">
+        <activity
+            android:name=".abmainj4e.ui.profile.BusinessCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".abmainj4e.ui.allmembers.AllMembersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myrefrral.receive.ReferralReceivedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myrefrral.givan.ReferralGivenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".abmainj4e.ui.homeService.CreateReferralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.SubscribePlanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.NewMyMembershipDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".abmainj4e.ui.terms.PrivacyAndPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".abmainj4e.ui.terms.TermsAndConditionActivity"
+            android:exported="false" /> <!-- <service -->
+        <!-- android:name=".services.CompleteSetupService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" /> -->
+        <!-- <service -->
+        <!-- android:name=".services.BackupService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" /> -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- ACTIVITIES -->
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false"/> <!-- <service -->
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:node="merge">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" /> <!-- //j4e -->
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.MapsEventsActivity"
+            android:label="@string/title_activity_maps_events"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.pendingresponsibilities.CreateFollowUpActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homeService.CreateBuddyMeetActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.toprankings.TopRankingActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homeService.CreateOfflineBusinessActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homeService.CreatePostsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homeService.CreateEventsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homeService.UpdateEventsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homeService.CreateRequirementActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myrecognition.MyRecognitionAddActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.MembershipAddActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.FirstLoginMembershipAddActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.mydiary.MyLeads.RecommendedLeadActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusAddActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusListActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsDetailActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.EventJoinerActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.EventStatusActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.searchalldata.SearchActivityHome"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.EventBookingActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".abmainj4e.ui.profile.ProfileContactUsEditActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.profile.ProfileAboutUsEditActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.profile.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.setting.SettingActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.aboutus.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.supportfeedback.J4ERatingandReviewActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.supportfeedback.FeedbackEventActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.supportfeedback.ReviewActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.drawer.j4emembers.J4EMembersActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.pendingresponsibilities.PendingResponsibilitiesActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myreportcard.MyReportCardActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.recommended.RecommendedActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myrecognition.MyRecognitionActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myawardrecognition.MyAwardRecognitionActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mytestimonials.MyTestimonialsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mybusinesstransactions.MyBusinessTransactionsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mybuddies.MyBuddiesActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myguestinvites.MyGuestInvitesActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mylead.MyLeadsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myguestinvites.CreateGuestInviteActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myconnections.MyConnectionsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myrequirements.MyRequirementsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.MyEventsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myposts.MyPostsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.mybusinesstransactions.OfflineTransactionDetails"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.RecommendedEventsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            tools:node="merge">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".abmainj4e.ui.OTPVerification.OTPVerificationActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".abmainj4e.ui.welcome.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.splash.SplashActivityJ4E"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable"
+            tools:node="merge"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+
+                <!-- below line is to set the action to our intent to view -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <!-- on below line we are adding a default category to our intent -->
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!-- on below line we are adding a category to make our app browsable -->
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!--
+                     on below line we are specifying the host name and
+                    the scheme type from which we will be calling our app
+                -->
+                <data
+                    android:host="just4entrepreneurs.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="just4entrepreneurs.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".abmainj4e.ui.home.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false"
+            tools:ignore="Instantiatable">
+
+
+
+        </activity>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.MyEventsDetailsActivity"
+            tools:ignore="Instantiatable"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.profile.GallerViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.homemydiary.myevents.GallerViewEventsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false"/>
+        <activity
+            android:name=".abmainj4e.ui.profile.GallerViewActivityZoom"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme"
+            android:exported="false"/> <!-- If you're sharing links, images or video via the Facebook for Android app, you also need to declare the FacebookContentProvider in the manifest. -->
+        <!-- Append your app id to the end of the authorities value. For example if your Facebook app id is 1533993016893247 -->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider4956080674559338967"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/splash_app_logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimaryDark" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <service
+            android:name=".abmainj4e.fcm.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="false"
+            tools:node="merge">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".abmainj4e.fcm.MyFirebaseInstanceIdService"
+            android:exported="false"
+            tools:node="merge">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".abmainj4e.ui.login.SmsBroadcastReceiver"
+            android:exported="true"
+            tools:node="merge">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

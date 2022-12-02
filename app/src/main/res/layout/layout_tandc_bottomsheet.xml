@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/dp15"
+                    app:cardElevation="@dimen/dp15"
+                    android:layout_marginBottom="-10dp"
+                    app:cardUseCompatPadding="false"
+                    app:contentPadding="0dp">
+
+                    <LinearLayout
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/memberdetails"
+                                android:paddingBottom="@dimen/dp20"
+                                android:paddingTop="@dimen/dp20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_bold"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp16"
+                                android:text="@string/term_amp_conditions"
+                                android:textColor="#084268"
+                                android:textSize="20dp" />
+
+                            <ImageView
+                                android:id="@+id/ivcancle"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_close"
+                                android:layout_gravity="center_vertical"/>
+
+                            <LinearLayout
+                                android:paddingBottom="@dimen/dp20"
+                                android:paddingTop="@dimen/dp20"
+                                android:background="@color/white"
+                                android:layout_width="wrap_content"
+                                android:gravity="right"
+                                android:layout_marginRight="@dimen/dp16"
+                                android:layout_gravity="right"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp1"
+                            android:background="@color/black">
+                        </View>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scrollbars="none">
+                            <TextView
+                                android:id="@+id/txtTandCC"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:layout_marginRight="10dp"/>
+                        </ScrollView>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+        <ImageView
+            android:visibility="gone"
+
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_close"/>
+    </RelativeLayout>
+</layout>

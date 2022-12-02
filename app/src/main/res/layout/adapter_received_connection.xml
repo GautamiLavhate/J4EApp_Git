@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border_f2f2f2_rectangle_white_0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivProfileImg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_profile_edit"
+            app:civ_border_width="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayoutProfileDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namerv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:text="Radhesh Kulkarni"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:text="motivational speaker, leadership"
+                android:textColor="#707070"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:text="speaker friends"
+                android:textColor="#707070"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:visibility="gone"
+            android:id="@+id/fabClose"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:contentDescription="Close"
+            android:src="@drawable/ic_close"
+            android:tint="@color/expired"
+            app:backgroundTint="@color/white"
+            app:fabCustomSize="36dp"
+            app:fabSize="normal"
+            app:maxImageSize="20dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:visibility="gone"
+            android:id="@+id/fabAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_right_sign"
+            app:backgroundTint="@color/white"
+            app:fabCustomSize="36dp"
+            app:fabSize="normal"
+            app:maxImageSize="36dp" />
+    </LinearLayout>
+</layout>

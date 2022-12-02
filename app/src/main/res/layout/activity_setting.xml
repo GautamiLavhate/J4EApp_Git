@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.drawer.setting.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/lay_toolbar" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="Privacy"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/off"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.github.angads25.toggle.widget.LabeledSwitch
+                        android:id="@+id/switch1"
+                        android:layout_width="42dp"
+                        android:layout_height="20dp"
+                        android:textSize="0dp"
+                        app:colorBorder="@color/colorPrimary"
+                        app:on="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/on"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#707070" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="@string/notification"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/off"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.github.angads25.toggle.widget.LabeledSwitch
+                        android:id="@+id/switch2"
+                        android:layout_width="42dp"
+                        android:layout_height="20dp"
+                        android:textSize="0dp"
+                        app:colorBorder="@color/colorPrimary"
+                        app:on="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/on"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#707070" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="Buzzer Tone"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/off"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.github.angads25.toggle.widget.LabeledSwitch
+                        android:id="@+id/switch3"
+                        android:layout_width="42dp"
+                        android:layout_height="20dp"
+                        android:textSize="0dp"
+                        app:colorBorder="@color/colorPrimary"
+                        app:on="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/on"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#707070" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="Buzzer Tone"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/off"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.github.angads25.toggle.widget.LabeledSwitch
+                        android:id="@+id/switch4"
+                        android:layout_width="42dp"
+                        android:layout_height="20dp"
+                        android:textSize="0dp"
+                        app:colorBorder="@color/colorPrimary"
+                        app:on="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/on"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="#707070" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="Buzzer Tone"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="12dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/off"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.github.angads25.toggle.widget.LabeledSwitch
+                        android:id="@+id/switch5"
+                        android:layout_width="42dp"
+                        android:layout_height="20dp"
+                        android:textSize="0dp"
+                        app:colorBorder="@color/colorPrimary"
+                        app:on="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="@string/on"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="#707070" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:onClick="onDeleteAccClick"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="@string/delete_account"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#707070" />
+                <LinearLayout
+                    android:id="@+id/llLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_rectangle_white_9dp"
+                    android:gravity="center"
+                    android:onClick="onLogoutClick"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:includeFontPadding="false"
+                        android:text="@string/logout"
+                        android:textColor="#0C090D"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

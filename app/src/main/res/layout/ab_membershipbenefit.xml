@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FCFCFC"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/rounded_rectangle_white_8dp"
+                        android:backgroundTint="@color/light_gray">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="96dp"
+                            android:scaleType="fitXY"
+                            android:src="@color/light_gray" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="80dp"
+                                    android:layout_height="90dp"
+                                    app:cardCornerRadius="6dp"
+                                    app:cardElevation="0dp"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginEnd="16dp">
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="90dp"
+                                        android:src="@color/gray_light"
+                                        android:scaleType="fitXY" />
+                                </androidx.cardview.widget.CardView>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="16dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:textColor="@color/gray_light"
+                                        android:background="@color/gray_light"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:layout_marginTop="3dp"
+                                        android:textColor="@color/gray_light"
+                                        android:background="@color/gray_light"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="3dp"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:textColor="@color/gray_light"
+                                        android:background="@color/gray_light"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:layout_marginTop="3dp"
+                                        android:textColor="@color/gray_light"
+                                        android:background="@color/gray_light"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="@dimen/dp13"
+                                android:layout_width="86dp"
+                                android:layout_marginBottom="@dimen/dp10"
+                                android:layout_height="25dp"
+                                android:background="@color/gray_light"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:text="Benefit"
+                        android:textColor="@color/light_gray"
+                        android:background="@color/light_gray"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/notosans_jp_regular"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/gray_light"
+                        android:background="@color/light_gray"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#FCFCFC"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dp1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/notosans_jp_bold"
+                                android:includeFontPadding="false"
+                                android:text="Membership Details"
+                                android:textColor="@color/light_gray"
+                                android:background="@color/light_gray"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:fontFamily="@font/notosans_jp_bold"
+                                android:includeFontPadding="false"
+                                android:textColor="@color/gray_light"
+                                android:background="@color/light_gray"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:letterSpacing="0.1"
+                            android:textAllCaps="true"
+                            android:textColor="@color/gray_light"
+                            android:background="@color/light_gray"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/Libackground"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/featuestxt"
+                                android:layout_marginLeft="@dimen/dp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:includeFontPadding="false"
+                                android:text="View Registered member profile"
+                                android:textColor="@color/light_gray"
+                                android:background="@color/light_gray"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:includeFontPadding="false"
+                                android:text="View Registered member profile"
+                                android:textColor="@color/light_gray"
+                                android:background="@color/light_gray"
+                                android:textSize="12sp" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/dp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:includeFontPadding="false"
+                                android:text="View Registered member profile"
+                                android:textColor="@color/light_gray"
+                                android:background="@color/light_gray"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:includeFontPadding="false"
+                                android:text="View Registered member profile"
+                                android:textColor="@color/light_gray"
+                                android:background="@color/light_gray"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Upgrade"
+                        android:textAllCaps="false"
+                        android:layout_weight="1"
+                        android:textColor="@color/light_gray"
+                        android:background="@color/light_gray"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/notosans_jp_medium" />
+
+                    <Button
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Renew"
+                        android:textAllCaps="false"
+                        android:textColor="@color/light_gray"
+                        android:background="@color/light_gray"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/notosans_jp_medium" />
+
+                </LinearLayout>
+            </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.drawer.mydiary.MyLeads.MyLeadsStatusListActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_gray"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ivDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:text="Monday \n10:30am"
+                android:background="@color/gray_light"
+                android:textColor="@color/gray_light"
+                android:textSize="11sp" />
+
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/llLeadStatus"
+                android:layout_alignBottom="@+id/llLeadStatus"
+                android:layout_marginStart="17dp"
+                android:layout_toEndOf="@+id/ivDate"
+                android:background="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/rlDateBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/ivDate">
+
+                <RelativeLayout
+                    android:id="@+id/rlDate"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ovel_white">
+
+                    <TextView
+                        android:id="@+id/month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="7dp"
+                        android:background="@color/gray_light"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="Jan \n12"
+                        android:textColor="@color/gray_light"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llLeadStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/rlDateBar"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray_light"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:includeFontPadding="false"
+                    android:text="Lead / requirement shared"
+                    android:textColor="@color/gray_light"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/gray_light"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:includeFontPadding="false"
+                    android:text="Gaurav Patil meet Skill development"
+                    android:textColor="@color/gray_light"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

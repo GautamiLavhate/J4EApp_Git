@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.notification.NotificationActivity">
+
+        <include
+            android:id="@+id/toolbarnoti"
+            layout="@layout/toolbar_simple" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notificationRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/toolbarnoti" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txtNoRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="No Record Found"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/toolbarnoti">
+            <include layout="@layout/ab_notifications"/>
+            <include layout="@layout/ab_notifications"/>
+            <include layout="@layout/ab_notifications"/>
+            <include layout="@layout/ab_notifications"/>
+            <include layout="@layout/ab_notifications"/>
+            <include layout="@layout/ab_notifications"/>
+            <include layout="@layout/ab_notifications"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

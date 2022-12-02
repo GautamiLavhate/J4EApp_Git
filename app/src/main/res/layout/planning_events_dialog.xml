@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/dp15"
+                app:cardElevation="@dimen/dp15"
+                android:layout_marginBottom="-10dp"
+                app:cardUseCompatPadding="false"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/dp25"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_marginTop="@dimen/dp25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:gravity="center"
+                        android:text="Planning to attend this event?"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/notosans_jp_bold"
+                        android:gravity="center"
+                        android:text="Continue to book ticket"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_marginRight="@dimen/dp16"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cancle"
+                            android:layout_marginTop="@dimen/dp25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_bold"
+                            android:gravity="center"
+                            android:text="Cancel"
+                            android:padding="@dimen/dp8"
+                            android:layout_marginRight="@dimen/dp25"
+                            android:textColor="@color/pencancle"
+                            android:textSize="16dp" />
+                        <TextView
+                            android:id="@+id/proceed"
+                            android:layout_marginTop="@dimen/dp25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_bold"
+                            android:gravity="center"
+                            android:text="Proceed"
+                            android:padding="@dimen/dp8"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfileImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@color/light_gray"
+                app:civ_border_color="@color/light_gray"
+                app:civ_border_width="1dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:includeFontPadding="false"
+                    android:text="Pankaj Joris"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/light_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosans_jp_regular"
+                    android:includeFontPadding="false"
+                    android:layout_marginTop="@dimen/dp2"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/light_gray"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/cateimage"
+                android:layout_width="@dimen/text_24"
+                android:layout_height="@dimen/text_24"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp5"
+                android:src="@color/light_gray"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:fontFamily="@font/notosans_jp_regular"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:background="@color/light_gray"
+                android:textColor="@color/light_gray"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/dp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:fontFamily="@font/notosans_jp_regular"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:background="@color/light_gray"
+                android:textColor="@color/light_gray"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/postimg"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@color/light_gray"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/llComments"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:layout_weight=".4"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:background="@color/light_gray"
+                    android:adjustViewBounds="true"
+                    android:src="@color/light_gray" />
+
+                <TextView
+                    android:id="@+id/posttotalcomment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:gravity="start|center"
+                    android:includeFontPadding="false"
+                    android:text="12545"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/light_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llLike"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight=".4"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagelike"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_gravity="center"
+                    android:background="@color/light_gray"
+                    android:adjustViewBounds="true"
+                    android:src="@color/light_gray" />
+
+                <TextView
+                    android:id="@+id/totalike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:gravity="start|center"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:includeFontPadding="false"
+                    android:text="12545"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/light_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llShare"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@color/light_gray"
+                    android:adjustViewBounds="true"
+                    android:src="@color/light_gray" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

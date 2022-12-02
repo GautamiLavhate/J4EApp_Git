@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp16"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:elevation="@dimen/dp4"
+        app:cardUseCompatPadding="false"
+        app:contentPadding="0dp"
+        app:ignore="NamespaceTypo">
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="160dp"
+                android:background="@drawable/ic_path_ab"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/plantitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#E7F1F9"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Basic Membership"
+                    android:fontFamily="@font/notosans_jp_medium"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="8dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:text="₹ "
+                        android:fontFamily="@font/notosans_jp_regular" />
+
+                    <TextView
+                        android:id="@+id/btnPlanAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="34dp"
+                        android:textColor="@color/white"
+                        android:text="9999"
+                        android:fontFamily="@font/notosans_jp_bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text=".00"
+                        android:fontFamily="@font/notosans_jp_bold" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_gravity="bottom"
+                        android:textColor="#E7F1F9"
+                        android:text="mo"
+                        android:fontFamily="@font/notosans_jp_regular" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/imageqty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:gravity="left"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/notosans_jp_bold"/>
+
+
+                    <TextView
+                        android:id="@+id/Images"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="center"
+                        android:paddingLeft="4dp"
+                        android:text="View Registered member profile"
+                        android:textColor="#3E3E3E"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerFeatuesPlan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#E7F1F9"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/Ani2dqty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_close_di"
+                            android:gravity="center_vertical"
+                            android:textSize="14dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/notosans_jp_bold"/>
+
+                        <TextView
+                            android:id="@+id/Animation2d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:paddingLeft="4dp"
+                            android:layout_gravity="center"
+                            android:textColor="#3E3E3E"
+                            android:text="Share Requirements"
+                            android:fontFamily="@font/notosans_jp_medium"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/Ani3dqty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_close_di"
+                            android:textSize="14dp"
+                            android:gravity="left"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/notosans_jp_bold"/>
+
+                        <TextView
+                            android:id="@+id/Animation3d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:paddingLeft="4dp"
+                            android:layout_gravity="center"
+                            android:textColor="#3E3E3E"
+                            android:text="Recommandations"
+                            android:fontFamily="@font/notosans_jp_medium"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#E7F1F9"
+                    android:paddingLeft="48dp"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/Whiteboardqty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_close_di"
+                            android:gravity="center_vertical"
+                            android:textSize="14dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/notosans_jp_bold"/>
+
+                        <TextView
+                            android:id="@+id/whitebord"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_gravity="center"
+                            android:textColor="#3E3E3E"
+                            android:paddingLeft="4dp"
+                            android:text="Create Offers"
+                            android:fontFamily="@font/notosans_jp_medium"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/Giftsqty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_close_di"
+                            android:textSize="14dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/notosans_jp_bold"/>
+
+
+                        <TextView
+                            android:id="@+id/GiftsAanimated"
+                            android:paddingLeft="4dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_gravity="center"
+                            android:textColor="#3E3E3E"
+                            android:text="One to one chat"
+                            android:fontFamily="@font/notosans_jp_medium"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#E7F1F9"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/Documentqty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/ic_close_di"
+                            android:fontFamily="@font/notosans_jp_bold"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:id="@+id/Documents"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:paddingLeft="4dp"
+                            android:layout_gravity="center"
+                            android:textColor="#3E3E3E"
+                            android:text="Group Chat"
+                            android:fontFamily="@font/notosans_jp_medium"/>
+                    </LinearLayout>
+                </LinearLayout>-->
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_toRightOf="@id/plantitle"
+        android:id="@+id/btnUpgrade"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:text="Upgrade"
+        android:layout_marginTop="-40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/notosans_jp_medium"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/dp20"
+        android:background="@drawable/bg_upgrade"/>
+</LinearLayout>
+</layout>

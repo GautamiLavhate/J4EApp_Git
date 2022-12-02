@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/eventDetailsRelLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/eventDetailsRelLay23"
+                    android:layout_width="119dp"
+                    android:layout_alignTop="@+id/llContain"
+                    android:layout_alignBottom="@+id/llContain"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/ivImg"
+                        android:layout_width="119dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+
+                    <LinearLayout
+                        android:id="@+id/eventlitext"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignBottom="@+id/ivImg"
+                        android:background="#CC18980A"
+                        android:layout_height="@dimen/dp20">
+                        <TextView
+                            android:id="@+id/eventtype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_marginLeft="@dimen/dp5"
+                            android:layout_marginRight="@dimen/dp5"
+                            android:gravity="right"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:text="Register"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/btpublish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/ivImg"
+                        app:srcCompat="@drawable/ab_svg_create_event" />
+                </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llContain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/eventDetailsRelLay23"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/eventtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:maxLines="2"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp" />
+
+
+                        <TextView
+                            android:id="@+id/datetime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:maxLines="1"
+                            android:text="Fri 25 Feb 2020 at 10:30 AM"
+                            android:textColor="#707070"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/address"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:includeFontPadding="false"
+                                android:maxLines="1"
+                                android:text="Deccan pune"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/amount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:includeFontPadding="false"
+                                android:maxLines="1"
+                                android:text="₹ 1250."
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#707070" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/map"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="14dp"
+                        android:src="@drawable/ic_location" />
+
+                    <ImageView
+                        android:id="@+id/orgnaizenumber"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="14dp"
+                        android:src="@drawable/ic_call_blue" />
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/msgc"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="14dp"
+                        android:src="@drawable/ic_chat_two" />
+
+                    <ImageView
+                        android:id="@+id/tikitbooking"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="14dp"
+                        android:src="@drawable/ic_ticket" />
+
+                    <ImageView
+                        android:id="@+id/ivshare"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:padding="14dp"
+                        android:src="@drawable/ic_sharepng" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</layout>

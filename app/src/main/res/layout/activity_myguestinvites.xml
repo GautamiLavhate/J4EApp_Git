@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.homemydiary.myguestinvites.MyGuestInvitesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/lay_toolbar_myguestinvites" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGuestinvites"
+            android:layout_marginTop="@dimen/dp5"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/dp5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+
+        <LinearLayout
+            android:id="@+id/NoGuestInvited"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ic_guest_user_no_invited" />
+
+            <TextView
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:gravity="left"
+                android:text="No Guest Invited"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+            <include layout="@layout/ab_guestinvitesli"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

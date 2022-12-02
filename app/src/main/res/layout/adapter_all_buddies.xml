@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border_rectangle_white_0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="65dp">
+
+            <ImageView
+                android:id="@+id/imagevepro"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_default_user_svg" />
+
+            <ImageView
+                android:id="@+id/imageselected"
+                android:layout_width="20dp"
+                android:visibility="gone"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_select_rv" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namebudd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:text="Radhesh Kulkarni"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:text="Ux Designer"
+                android:textColor="#707070"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:text="Sun Computer Infrastructures and Developers Pvt. Ltd., Pune"
+                android:textColor="#707070"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/membership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visiblemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/msg"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:adjustViewBounds="true"
+                android:padding="7dp"
+                android:src="@drawable/ic_messagepng" />
+
+            <ImageView
+                android:id="@+id/phonecall"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:adjustViewBounds="true"
+                android:padding="7dp"
+                android:src="@drawable/ic_call_green" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

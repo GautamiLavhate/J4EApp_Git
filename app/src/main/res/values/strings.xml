@@ -1,0 +1,558 @@
+<resources>
+    <string name="view_contact">View Contact</string>
+    <string name="Settings">Settings</string>
+    <string name="typing">Typing...</string>
+    <string name="recording">Recording...</string>
+
+    <string-array name="autodownload">
+        <item>Photos</item>
+        <item>Audio</item>
+        <item>Videos</item>
+        <item>Files</item>
+    </string-array>
+
+
+    <string-array name="autodownload_cellular_defaults">
+        <item>0</item>
+    </string-array>
+
+    <array name="autodownload_roaming_defaults" />
+    <string-array name="autodownload_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="autodownload_wifi_defaults">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="space_or_permissions_error_toast">Error :( ,Please check Space or Permissions</string>
+    <string name="unblock_contact">Unblock Contact</string>
+    <string name="block_contact">Block Contact</string>
+    <string name="unmute_notifications">UnMute Notifications</string>
+    <string name="mute_notifications">Mute Notifications</string>
+    <string name="loading">Loading..</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="copied_to_clipboard">Copied To Clipboard...</string>
+    <string name="image_video_not_found">CHOSEN IMAGE/Video Not Found</string>
+    <string name="sending_messages">Sending Messages...</string>
+    <string name="message_is_too_long">Message is Too long please try to reduce it</string>
+    <string name="error_playing_this">Error playing this :(</string>
+    <string name="cannot_open_this_file">cannot open this file</string>
+    <string name="checking">Checking..</string>
+    <string name="does_not_have_fireapp">does not have %s</string>
+    <string name="user_is_blocked">User is Blocked</string>
+    <string name="unblock">UnBlock</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="closeapp">Close App</string>
+    <string name="grandper">Grant Permission</string>
+    <string name="you_have_to_grant_permissions">You have to grant permissions in order to use this App</string>
+    <string name="goseeting"><u>Go to Settings</u></string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_conversation_confirmation">Are you sure you want to delete this conversation?</string>
+    <string name="current_app_version">Current version : 4.0.1</string>
+
+    <string name="yes">YES</string>
+    <string name="default_status">Heeey I am using %s!</string>
+    <string name="reply">Reply</string>
+    <string name="choose_number">Choose a Number</string>
+    <string name="delete_messages_confirmation">Delete Message?</string>
+    <string name="you">You</string>
+    <string name="no">NO</string>
+
+    <string name="count">Count</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="forward">Forward</string>
+    <string name="share">Share</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="edit1">Edit</string>
+    <string name="checking_contact">Checking Contact</string>
+    <string name="online">Online</string>
+    <string name="could_not_get_audio_file">could not get audio file</string>
+    <string name="could_not_get_this_image">Could not get this image</string>
+    <string name="delete_media_from_phone">Delete Media From Phone</string>
+    <string name="media_player_error">file not found or permissions missing</string>
+    <string name="not_found">Not found</string>
+
+
+    <string name="choose_email_app">Choose Email App</string>
+    <string name="error">error</string>
+    <string name="new_group">New Group</string>
+    <string name="add_participants">Add Participants</string>
+    <string name="exit_group">Exit group</string>
+    <string name="participants">Participants</string>
+    <string name="adding">Adding...</string>
+    <string name="added_successfully">added successfully</string>
+    <string name="group_name_changed">group name changed</string>
+    <string name="exiting_group">Exiting group...</string>
+    <string name="you_cant_send_messages_to_group">You cant\'t send message to this group because you are no longer a participant</string>
+    <string name="no_longer_participant">You are no longer a participant in this group</string>
+    <string name="delete_group">Delete group</string>
+    <string name="created_this_group">created this group</string>
+    <string name="removed">Removed</string>
+    <string name="is_now_an_admin">is now an Admin</string>
+    <string name="exit_the_group">Exit the group</string>
+    <string name="added">Added</string>
+    <string name="group_info">Group info</string>
+    <string name="are_now_an_admin">are now an Admin</string>
+    <string name="at">at</string>
+    <string name="created_by">Created by</string>
+    <string name="you_deleted_this_message">You deleted this message</string>
+    <string name="this_message_was_deleted">This message was deleted</string>
+    <string name="delete_for_me">DELETE FOR ME</string>
+    <string name="delete_for_everyone">DELETE FOR EVERYONE</string>
+    <string name="message_member">Message</string>
+    <string name="make_group_admin">Make group admin</string>
+    <string name="dismiss_admin">Dismiss admin</string>
+
+    <string name="remove_member">Remove</string>
+    <string name="only_admins_can_post">Only admins can post</string>
+    <string name="are_no_longer_an_admin">are no longer an admin</string>
+    <string name="is_no_longer_an_admin">is no longer an admin</string>
+    <string name="you_added">You added</string>
+    <string name="you_left">You Left</string>
+    <string name="left_group">Left group</string>
+    <string name="you_removed">You removed</string>
+    <string name="you_created_this_group">You created this group</string>
+    <string name="you_changed_group_preferences">You changed group preferences</string>
+    <string name="changed_group_preferences">changed group preferences</string>
+    <string name="this_user_has_old_version">This user has old version of this app</string>
+    <string name="exit_group_confirmation_dialog">are you sure you want to exit this group?</string>
+    <string name="delete_group_confirmation">are you sure you want to delete this chat</string>
+    <string name="playing_audio">Playing Audio</string>
+    <string name="chats">Chats</string>
+    <string name="status">Status</string>
+    <string name="calls">Calls</string>
+
+
+    <string name="recent_updates">Recent Updates</string>
+    <string name="my_status">My Status</string>
+    <string name="tap_to_add_status">Tap to add status update</string>
+
+    <string name="title_activity_view_status">ViewStatusActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_my_status">My Status</string>
+    <string name="your_status_will_disappear_note">Your status updates will disappear after 24 hours.</string>
+    <string name="deleting">Deleting...</string>
+    <string name="delete_status_confirmation">are you sure you want to delete this status?</string>
+    <string name="uploading_status">Uploading status...</string>
+    <string name="voice_call_hint">Voice Call</string>
+    <string name="video_call_hint">Video Call</string>
+    <string name="connecting">Connecting</string>
+    <string name="fireapp_video_call">%s Video Call</string>
+    <string name="fireapp_voice_call">%s Voice Call</string>
+    <string name="call_ended">Call ended</string>
+    <string name="call_denied">Denied</string>
+    <string name="call_failure">Failed to connect</string>
+    <string name="call_cancelled">Cancelled</string>
+    <string name="user_hungup">User Hung up</string>
+    <string name="call_no_answer">No answer</string>
+    <string name="voice_call_confirmation">Are you sure want to make a voice call?</string>
+    <string name="video_call_confirmation">are you sure you want to make a video call?</string>
+    <string name="error_calling">Error performing call</string>
+    <string name="missed_call_notification">Missed call from:</string>
+    <string name="answer">ANSWER</string>
+    <string name="decline">DECLINE</string>
+    <string name="incoming_video_call">Incoming Video Call</string>
+    <string name="incoming_voice_call">Incoming Voice Call</string>
+    <string name="hangup">HANGUP</string>
+    <string name="video_call">Video Call</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="delete_calls_confirmation">Delete Selected Calls?</string>
+    <string name="viewed_statuses">Viewed updates</string>
+    <string name="video_length_is_too_long">Video length is too long</string>
+    <string name="there_is_active_call_currently">There is already an active call</string>
+    <string name="status_uploaded">Status uploaded Successfully</string>
+    <string name="error_uploading_status">Error uploading status</string>
+    <string name="invite">Invite</string>
+    <string name="share_app_text">Download now %s App for Instant messaging,groups support,Video Calls, and more. </string>
+    <string name="no_contacts">No %s Contacts</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="yesterday_at">Yesterday at</string>
+    <string name="today_at">Today at</string>
+    <string name="days_ago">days ago</string>
+    <string name="just_now">Just now</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="now">now</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="clear_chat_message">are you sure you want to delete all messages in this chat?</string>
+
+    <string name="failed_to_load_wallpaper">Failed to load Wallpaper</string>
+    <string name="mark_as_read">mark as read</string>
+    <string name="unsupported_type">Unsupported type, please update the app</string>
+    <string name="write_your_message">Write your message</string>
+    <string name="profile_translation_name" translatable="false">profile_translation_name</string>
+    <string name="backup">BACK UP</string>
+
+    <string name="ignore_battery_dialog_title">Ignore Battery Optimization</string>
+    <string name="ignore_battery_summary">In order to make sure that all messages delivered correctly you have to disable Battery Optimizations</string>
+
+
+    <string name="joined_via_invite_link">joined via invite link</string>
+    <string name="new_broadcast">New broadcast</string>
+
+    <string name="broadcast_list_info">Broadcast list info</string>
+    <string name="created">Created</string>
+    <string name="select">Select</string>
+    <string name="message3">Message</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="add">ADD</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="voice_message">Voice Message</string>
+    <string name="do_not_show_again">Do not show this message again</string>
+    <string name="ignore_battery_dialog_message">In order to make sure that all messages delivered correctly you have to disable Battery Optimization.\n after clicking OK , choose %s and click on \'Don\'t optimize\'</string>
+
+
+    <string name="iris">Iris</string>
+    <string name="security">Security</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="chat">Chat</string>
+
+    <string name="initiating">INITIATING</string>
+    <string name="waiting_for_answer">WAITING FOR ANSWER</string>
+    <string name="failed">FAILED</string>
+    <string name="reconnecting">RECONNECTING</string>
+    <string name="answered">ANSWERED</string>
+
+
+    <string name="logged_out">Logged Out</string>
+    <string name="logged_in_another_device">you have logged in on another device.</string>
+    <string name="finalizing">Finalizing</string>
+
+
+    <!--    je4-->
+
+
+    <string name="version">Version 4.0.1</string>
+    <string name="error_internet">Please check your internet connection</string>
+    <string name="skip">Skip</string>
+    <string name="welcome_to_organizar">Welcome to organizer</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="or_connect_with">Or Connect with</string>
+    <string name="continue_with_linkedin">Continue with Linkedin</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="term_amp_conditions_underline"><u><![CDATA[Term & Conditions]]></u></string>
+    <string name="term_amp_conditions"><![CDATA[Term & Conditions]]></string>
+    <string name="privacy_policy_underline"><u>Privacy Policy</u></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="change"><u>Change</u></string>
+    <string name="login">Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_events">My Events</string>
+    <string name="interested">Interested</string>
+    <string name="attended">Attended</string>
+    <string name="my_connections">My Connections</string>
+    <string name="total_connections">Total Connections</string>
+    <string name="served">Served</string>
+    <string name="open">Open</string>
+    <string name="total_buddies">Total Buddies</string>
+    <string name="my_buddies">My Buddies</string>
+    <string name="my_post">My Posts</string>
+    <string name="my_guest_invites">My Guest Invites</string>
+    <string name="my_testimonials">Given Testimonial</string>
+    <string name="my_business_transactions">My Business Transactions</string>
+    <string name="times">Times</string>
+    <string name="received">Received</string>
+    <string name="given">Given</string>
+    <string name="my_recognitions">My Recognitions</string>
+    <string name="my_membership_benefits">My Membership Benefits</string>
+    <string name="share_my_profile">Share My Profile</string>
+    <string name="recommended_to">Recommended To</string>
+    <string name="peoples">Peoples</string>
+    <string name="recommended_by">Recommended By</string>
+    <string name="my_report_card">My Report Card</string>
+    <string name="my_service">My Service</string>
+    <string name="services">Services</string>
+    <string name="pending_responsibilities">Pending Responsibilities</string>
+    <string name="leads">Leads</string>
+    <string name="buddy_meet">Buddy Meet</string>
+    <string name="follow_up">Follow Up</string>
+    <string name="settings">Settings</string>
+    <string name="view_profile">View Profile</string>
+    <string name="home">Home</string>
+    <string name="my_diary">My Diary</string>
+    <string name="deals_amp_discounts"><![CDATA[Deals & Discounts]]></string>
+    <string name="all_leads">All Leads</string>
+    <string name="all_posts">All Posts</string>
+    <string name="all_events">Upcoming Events</string>
+    <string name="all_recognition">All Recognition</string>
+    <string name="j4e_members">J4E Members</string>
+    <string name="share_app">Share App</string>
+    <string name="about_us">About Us</string>
+    <string name="support_amp_feedback">J4E Rating and Review</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="my_business">My Business</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="my_leads">My Leads</string>
+    <string name="my_requirement">My Requirement</string>
+    <string name="my_prospects">My Prospects</string>
+    <string name="my_groups">My Groups</string>
+    <string name="my_membership">My Membership</string>
+    <string name="my_recognition">My Recognition</string>
+    <string name="deals_of_the_day">Deals of the Day</string>
+    <string name="hotel">Hotel</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="website1">Website</string>
+    <string name="see_more">See More</string>
+    <string name="invitation">Invitation</string>
+    <string name="see_all">See All</string>
+    <string name="total_transactions">Total J4E "\n"Transactions</string>
+    <string name="given_testimonial">Given Testimonial</string>
+    <string name="award">My Rewards</string>
+    <string name="edit">Edit</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="j4e_membership_card">J4E Membership</string>
+    <string name="my_recommendations">My Recommendations</string>
+    <string name="activities_details">Activities details</string>
+    <string name="points">Points</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="leads_requirement">Leads / requirement</string>
+    <string name="connection">Connection</string>
+    <string name="business">Business</string>
+    <string name="testimonial">Testimonial</string>
+    <string name="post">Post</string>
+    <string name="guest_invited">Guest Invited</string>
+    <string name="membership">Membership</string>
+    <string name="total_j4e_meet">Total J4E Meet</string>
+    <string name="saving">Saving</string>
+    <string name="search">Search</string>
+    <string name="rate_this_products_and_services">Rate this products and services :</string>
+    <string name="rate_your_experience">Rate your experience</string>
+    <string name="write_your_experience_here">write your experience here....</string>
+    <string name="submit">Submit</string>
+    <string name="review">Review</string>
+    <string name="feedBack">FeedBack</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="notification">Notification</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="set_new_password">Set New Password</string>
+    <string name="reward_point">Reward Point</string>
+    <string name="rank">Rank</string>
+    <string name="badge">Badge</string>
+    <string name="connections">Connections</string>
+    <string name="about">About</string>
+    <string name="company_name">Company Name</string>
+    <string name="business_entity">Business Entity</string>
+    <string name="business_type">Business Type</string>
+    <string name="business_expertise">Business Expertise</string>
+    <string name="working_from">Working From:</string>
+    <string name="no_of_employees">No. of Employees</string>
+    <string name="expected_turnover">Expected Turnover</string>
+    <string name="who_is_your_target_audience">Who is your Target Audience</string>
+    <string name="type_of_membership">Type of membership</string>
+    <string name="company_brochure">Company Brochure PDF</string>
+    <string name="company_brochure_ppt">Company Brochure PPT</string>
+    <string name="business_card">Business Card</string>
+    <string name="business_category">Business Category</string>
+    <string name="your_total_year_of_experience">Your total year of Experience:</string>
+    <string name="designation">Designation</string>
+    <string name="designation1">Designation<font color='#F82C2C'> *</font></string>
+    <string name="company_name1">Company Name<font color='#F82C2C'> *</font></string>
+    <string name="select_gender">Select Gender<font color='#F82C2C'> *</font></string>
+    <string name="_50_lakh_amp_1_crore"><![CDATA[> 50 Lakh & < 1 crore]]></string>
+    <string name="event_reviews">Event Reviews</string>
+    <string name="personal_reviews">Personal Reviews</string>
+    <string name="emailid">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="location">Location</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gallery">Gallery</string>
+    <string name="event_by">Event by:</string>
+    <string name="ratings_amp_reviews"><![CDATA[Ratings & Reviews:]]></string>
+    <string name="review_amp_comment"><![CDATA[Review & comment]]></string>
+    <string name="write_a_review">Write a review</string>
+    <string name="see_all_reviews">See all reviews</string>
+    <string name="organizer">Organizer</string>
+    <string name="organizer_details">Organizer Details</string>
+    <string name="j4e_meet_group">J4E Meet Group</string>
+    <string name="label_terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="attending">Attending</string>
+    <string name="may_be">May be</string>
+    <string name="feedback">Feedback:</string>
+    <string name="feedback_">Feedback</string>
+    <string name="full_name">Full Name</string>
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="enter_category">Enter Category</string>
+    <string name="enter_email_id">Enter email id</string>
+    <string name="how_many_seats">How many seats?</string>
+    <string name="continue_booking">Continue booking</string>
+    <string name="lead_post_by">Lead Post by</string>
+    <string name="message">Message</string>
+    <string name="recommand">Recommend</string>
+    <string name="recommend_myself">Recommend Myself</string>
+    <string name="recommended_person">Recommended Person(s)</string>
+    <string name="lead_details">Lead Details</string>
+    <string name="publish">Publish</string>
+    <string name="lead_status">Lead Status</string>
+    <string name="enter_status">Enter Status..</string>
+    <string name="enter_date">Enter Date Time<font color='#F82C2C'> *</font></string>
+    <string name="enter_amount">Enter Amount:</string>
+    <string name="send_to">Send To</string>
+    <string name="company_organisation">Company/Organisation</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="office_phone_number">Office phone Number</string>
+    <string name="venue">Address</string>
+    <string name="enter_referal_code">Enter Referral Mobile number</string>
+    <string name="create_recognition">Create Recognition</string>
+    <string name="write_something_about">Write something about ...<font color='#F82C2C'>*</font></string>
+    <string name="create_requirement">Create Requirement</string>
+    <string name="title">Title</string>
+    <string name="create_events">Create Event</string>
+    <string name="create_offline_business">Create Offline Business</string>
+    <string name="create_offline">Create Offline Business Transaction</string>
+    <string name="event_title">Event Title<font color='#F82C2C'>*</font></string>
+    <string name="type_of_event">Type of Event<font color='#F82C2C'>*</font></string>
+    <string name="end_date">End Date<font color='#F82C2C'>*</font></string>
+    <string name="start_date">Start Date<font color='#F82C2C'>*</font></string>
+    <string name="create_posts">Create Post</string>
+    <string name="introduction">Introduction</string>
+    <string name="achievement">Achievement</string>
+    <string name="requirement">Requirement</string>
+    <string name="new_product_or_service">New Product or Service Promotion</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_by_name">Search by Name</string>
+    <string name="service_product">Service/Product <font color='#F82C2C'>*</font></string>
+    <string name="remark">Remark<font color='#F82C2C'>*</font></string>
+    <string name="view_detail">View Detail</string>
+    <string name="sent">Sent</string>
+    <string name="closed">Closed</string>
+    <string name="my_posts">My Posts</string>
+    <string name="total_count">Total Count</string>
+    <string name="my_contribution">My Contribution</string>
+    <string name="conversions">Conversions</string>
+    <string name="revenue">Revenue</string>
+    <string name="total_j4e_meets">Total J4E Meets</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="valid_from">Valid From</string>
+    <string name="valid_to">Valid To</string>
+    <string name="top_rankings">Top Rankings</string>
+    <string name="view">View</string>
+    <string name="create_buddy_meet">Create Buddy Meet</string>
+    <string name="Create_Guest_Invite">Create Guest Invite</string>
+    <string name="guest_name">Guest Name<font color='#F82C2C'> *</font></string>
+    <string name="mobile_number1">Mobile Number<font color='#F82C2C'> *</font></string>
+    <string name="event_name">Event Name<font color='#F82C2C'> *</font></string>
+    <string name="email_id">Email ID<font color='#F82C2C'> *</font></string>
+    <string name="buddies_selection">Buddies selection <font color='#F82C2C'> *</font></string>
+    <string name="enter_description">Enter Description <font color='#F82C2C'> *</font></string>
+    <string name="lead">Lead</string>
+    <string name="selection_requirement">Select Requirement <font color='#F82C2C'> *</font></string>
+    <string name="selection_Lead">Select Lead <font color='#F82C2C'> *</font></string>
+    <string name="selection_recommended_person">Select Recommended person <font color='#F82C2C'> *</font></string>
+    <string name="description">Description<font color='#F82C2C'> *</font></string>
+    <string name="create_follow_up">Create Follow Up</string>
+    <string name="recognitions_on">Recognitions On:</string>
+    <string name="type_membership"><u>Type Membership:</u></string>
+    <string name="category_line"><u>Category:</u></string>
+    <string name="revenue_line"><u>Revenue:</u></string>
+    <string name="no_of_employees_line"><u>No of Employees:</u></string>
+    <string name="clear_all">Clear All</string>
+    <string name="filter_by">Filter By</string>
+    <string name="rank_line"><u>Rank:</u></string>
+    <string name="location_line"><u>Location:</u></string>
+
+    <string name="error_empty_mobile_num">Please enter mobile number</string>
+    <string name="error_empty_otp">Please enter OTP</string>
+    <string name="error_invalid_mobile_num">Please enter valid mobile number</string>
+    <string name="error_invalid_otp">Please enter valid OTP</string>
+    <string name="error_something_wrong">Something went wrong please try again after some time</string>
+    <string name="facebook_app_id">321898748952998</string>
+    <string name="fb_login_protocol_scheme">fb321898748952998</string>
+
+
+    <string name="name_of_the_String"><font color='#707070'>Recommended By </font><font color='#567E98'>Shivajiraje Shahajiraje Bhosl...</font></string>
+
+    <string name="RemovePhoto">Remove Photo</string>
+    <string name="TakePhoto">Take Photo</string>
+    <string name="ChooseGallery">Choose from Gallery</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="type"><u>Type:</u></string>
+    <string name="event_detail">Event Detail</string>
+    <string name="registered_members">Registered Members</string>
+    <string name="h">376945901182-rr88av8hnkqggd8mb0djlt0jullpgn8t.apps.googleusercontent.com</string>
+
+    <string name="Note"><font color='#F82C2C'>Note:</font> All filed are Mandatory<font color='#F82C2C'>*</font></string>
+    <string name="address">Address<font color='#F82C2C'>*</font></string>
+    <string name="be_a_member">Be A Member</string>
+    <string name="guest_member">Guest Member</string>
+    <string name="first_name">First Name<font color='#F82C2C'>*</font></string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name<font color='#F82C2C'>*</font></string>
+    <string name="email1">Email<font color='#F82C2C'>*</font></string>
+    <string name="designation_profession">Designation/Profession</string>
+    <string name="mobile_numberone">Mobile Number<font color='#F82C2C'>*</font></string>
+    <string name="whatsapp_number">Whatsapp Number<font color='#F82C2C'>*</font></string>
+    <string name="whatsapp_number_business">Whatsapp Business Number<font color='#F82C2C'>**</font></string>
+    <string name="hint"><font color='#F82C2C'>** Enter either Whatsapp number or Whatsapp Business number.</font></string>
+    <string name="channel_name">All Notificaions</string>
+    <string name="channel_description">This includes all notifications</string>
+
+    <string name="default_notification_channel_id">Default</string>
+    <string name="select_your_expected_turnover">Select your Expected Turnover</string>
+
+    <string name="select_your_NoofEmp">Select your No Of Employees</string>
+    <string name="turnover">Turnover:</string>
+    <string name="business_with">Business With <font color='#F82C2C'>*</font></string>
+    <string name="_17_feb_2020">17 Feb 2020<font color='#F82C2C'>*</font></string>
+    <string name="price">Price<font color='#F82C2C'>*</font></string>
+    <string name="typeofevent">Type of Event<font color='#F82C2C'>*</font></string>
+    <string name="select_package">Select Package<font color='#F82C2C'>*</font></string>
+    <string name="permisson">Permission<font color='#F82C2C'>*</font></string>
+    <string name="venue1">Address<font color='#F82C2C'>*</font></string>
+    <string name="EntryFeee">Entry Fees (₹) <font color='#F82C2C'>*</font>Per Member</string>
+    <string name="EntryFeeegu">Entry Fees (₹) <font color='#F82C2C'>*</font>Per Guest</string>
+    <string name="allocate_number_of_tickets_qty">Allocate number of tickets Qty<font color='#F82C2C'>*</font></string>
+    <string name="title_activity_maps_events">Map</string>
+
+    <string name="title1">Title<font color='#F82C2C'>*</font></string>
+    <string name="namet">Name<font color='#F82C2C'>*</font></string>
+    <string name="select_category">Select your Category<font color='#F82C2C'>*</font></string>
+    <string name="confirm">Confirm</string>
+    <string name="audio">Audio</string>
+    <string name="file">File</string>
+    <string name="sticker">Sticker</string>
+    <string name="ReferralFor">Referral For<font color='#F82C2C'>*</font></string>
+    <string name="Write_something">Write something<font color='#F82C2C'>*</font></string>
+    <string name="select_functional_area">Select Business Category</string>
+    <string name="select_sub_functional_area">Select Sub-Functional Area</string>
+    <string name="KBBFMembersstart">Select J4E Members For<font color='#F82C2C'>*</font></string>
+    <string name="mobile_number2">Mobile Number<font color='#F82C2C'> *</font><font color='#F82C2C'>*</font></string>
+    <string name="LandlineNumber1"> Landline Number<font color='#F82C2C'>*</font><font color='#F82C2C'>*</font></string>
+    <string name="Whatsap1">Whatsapp Number</string>
+    <string name="emailidtext">Email ID</string>
+
+    <string name="create_referral">Create Referral</string>
+    <string name="Referralsgiven">Referrals Given</string>
+    <string name="Referralsreceived">Referrals Received</string>
+    <string name="referral_details">Referral Details</string>
+    <string name="select_post_category">Select Post Category<font color='#F82C2C'>*</font></string>
+
+</resources>

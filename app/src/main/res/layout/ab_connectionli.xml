@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:contentDescription="Close"
+            android:src="@color/light_gray"
+            android:tint="@color/light_gray"
+            app:backgroundTint="@color/light_gray"
+            app:fabCustomSize="40dp"
+            app:fabSize="normal"
+            app:maxImageSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:text="Radhesh Kulkarni"
+                android:background="@color/light_gray"
+                android:textColor="@color/light_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/dp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:background="@color/light_gray"
+                android:textColor="@color/light_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:includeFontPadding="false"
+                android:background="@color/light_gray"
+                android:textColor="@color/light_gray"
+                android:layout_marginTop="@dimen/dp3"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:contentDescription="Close"
+            android:src="@color/light_gray"
+            android:tint="@color/light_gray"
+            app:backgroundTint="@color/light_gray"
+            app:fabCustomSize="36dp"
+            app:fabSize="normal"
+            app:maxImageSize="20dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:contentDescription="Close"
+            android:src="@color/light_gray"
+            android:tint="@color/light_gray"
+            app:backgroundTint="@color/light_gray"
+            app:fabCustomSize="36dp"
+            app:fabSize="normal"
+            app:maxImageSize="20dp" />
+    </LinearLayout>
+</layout>

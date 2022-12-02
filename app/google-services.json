@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592002479924",
+    "project_id": "j4e-app",
+    "storage_bucket": "j4e-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592002479924:android:4f3a72f19ab5c0f9385761",
+        "android_client_info": {
+          "package_name": "com.justforentrepreneurs.j4eapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592002479924-6vt82ftf5rm0cv5h0ro0b1i3kebohdq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Xyy2CY4UNbCoqL6iw6UlroRJvGOTYrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592002479924-6vt82ftf5rm0cv5h0ro0b1i3kebohdq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

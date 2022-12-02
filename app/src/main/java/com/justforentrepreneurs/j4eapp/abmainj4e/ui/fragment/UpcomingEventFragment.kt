@@ -1,0 +1,306 @@
+package com.justforentrepreneurs.j4eapp.abmainj4e.ui.fragment
+
+import android.content.Context
+import android.content.SharedPreferences
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.justforentrepreneurs.j4eapp.R
+import com.justforentrepreneurs.j4eapp.abmainj4e.SingleSlection
+import com.justforentrepreneurs.j4eapp.abmainj4e.api.APIinterface
+import com.justforentrepreneurs.j4eapp.abmainj4e.api.ServiceBuilder
+import com.justforentrepreneurs.j4eapp.databinding.FragmentUpcomingEventBinding
+import com.justforentrepreneurs.j4eapp.abmainj4e.base.BaseFragment
+import com.justforentrepreneurs.j4eapp.abmainj4e.ui.fragment.adapters.AdapterCategoriesEvents
+import com.justforentrepreneurs.j4eapp.abmainj4e.ui.fragment.model.Allevents
+import com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.model.Eventcategory
+import com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.Adapter.AdapterUpcomingEvents
+import com.justforentrepreneurs.j4eapp.abmainj4e.utils.dismissLoader
+import com.justforentrepreneurs.j4eapp.abmainj4e.utils.isInternetAvailable
+import com.justforentrepreneurs.j4eapp.abmainj4e.utils.readUsingSharedPreference
+import com.justforentrepreneurs.j4eapp.abmainj4e.utils.storeUsingSharedPreference
+import com.justforentrepreneurs.j4eapp.databinding.BsAllEventsFilterBinding
+import kotlinx.android.synthetic.main.activity_all_events.*
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.util.ConcurrentModificationException
+
+
+class UpcomingEventFragment : BaseFragment(), SingleSlection {
+
+    private lateinit var binding:FragmentUpcomingEventBinding
+    var companyName: MutableList<Allevents.Alleventsdata> = mutableListOf<Allevents.Alleventsdata>()
+    private val sharedPrefFile = "AllEventsFragment"
+    var rankck :String=""
+    companion object {
+        var lstChk: MutableList<Eventcategory.Eventdata> = mutableListOf<Eventcategory.Eventdata>()
+    }
+    var new1st:String= ""
+    var new2st:String=""
+
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        binding = DataBindingUtil.inflate(inflater,R.layout.fragment_upcoming_event, container, false)
+        recyclerData()
+        binding.fabFilter.setOnClickListener {
+            val dialog = BottomSheetDialog(requireActivity(), R.style.CustomBottomSheetDialogTheme)
+            val mBsMemberFilterBinding: BsAllEventsFilterBinding =
+                DataBindingUtil.inflate(LayoutInflater.from(requireActivity()), R.layout.bs_all_events_filter, null, false)
+            dialog.setCancelable(true)
+            dialog.setCanceledOnTouchOutside(true)
+            dialog.setContentView(mBsMemberFilterBinding.root)
+            mBsMemberFilterBinding.top100.visibility=View.GONE
+
+            val sharedPreferences: SharedPreferences = requireActivity().getSharedPreferences(sharedPrefFile, Context.MODE_PRIVATE)
+
+
+            var rankckst = sharedPreferences.getString("type", "")
+            val lstChkst = sharedPreferences.getString("CheckCat", "")
+
+            /*   if(!lstChkst.equals("")) {
+                   val arrayst: String = lstChkst.toString()
+                   if (arrayst.isEmpty()) {
+                   } else {
+                       val str = arrayst.split(",".toRegex()).toTypedArray()
+                       var al: List<String?> = ArrayList()
+                       al = Arrays.asList(*str)
+                       for (s in al) {
+                           val datum: Eventcategory.Eventdata= Eventcategory.Eventdata(s,"",false)
+                           lstChk.add(datum)
+                       }
+                   }
+               }*/
+
+
+
+            if(!rankckst.equals("")){
+
+                if(rankckst=="1"){
+                    mBsMemberFilterBinding.top10.isChecked=true
+                    rankck="1"
+                }else if(rankckst=="2"){
+                    mBsMemberFilterBinding.top100.isChecked=true
+                    rankck="2"
+                }else if(rankckst=="3"){
+                    mBsMemberFilterBinding.top500.isChecked=true
+                    rankck="3"
+                }
+
+            }
+
+
+            mBsMemberFilterBinding.top10.setOnClickListener {
+                mBsMemberFilterBinding.top10.isChecked=true
+                mBsMemberFilterBinding.top100.isChecked=false
+                mBsMemberFilterBinding.top500.isChecked=false
+                rankck="1"
+            }
+
+            mBsMemberFilterBinding.top100.setOnClickListener {
+                mBsMemberFilterBinding.top10.isChecked=false
+                mBsMemberFilterBinding.top100.isChecked=true
+                mBsMemberFilterBinding.top500.isChecked=false
+                rankck="2"
+            }
+
+            mBsMemberFilterBinding.top500.setOnClickListener {
+                mBsMemberFilterBinding.top10.isChecked=false
+                mBsMemberFilterBinding.top100.isChecked=false
+                mBsMemberFilterBinding.top500.isChecked=true
+                rankck="3"
+            }
+
+            getAllEventsCat(mBsMemberFilterBinding)
+
+            mBsMemberFilterBinding.ivClose.setOnClickListener {
+                lstChk.clear()
+                val editor = sharedPreferences.edit()
+                editor.clear()
+                editor.apply()
+                dialog.dismiss()
+
+            }
+            mBsMemberFilterBinding.clearall.setOnClickListener {
+                lstChk.clear()
+                val editor = sharedPreferences.edit()
+                editor.clear()
+                editor.apply()
+                dialog.dismiss()
+                if (isInternetAvailable(requireActivity())) {
+                    getUpcomingEvents("2","")
+                }
+            }
+
+            mBsMemberFilterBinding.tvApplyFilter.setOnClickListener {
+                dialog.dismiss()
+                if(isInternetAvailable(requireActivity())) {
+                    val editor: SharedPreferences.Editor = sharedPreferences.edit()
+                    editor.putString("type", rankck)
+                    editor.putString("CheckCat", lstChk.toString())
+                    editor.apply()
+                    editor.commit()
+
+                    new1st=""
+                    new2st=""
+                    for (i in lstChk.indices) {
+                        new1st = lstChk.get(i).cat_id
+                        new2st = new2st + "," + new1st
+                    }
+                    rvevents.visibility=View.VISIBLE
+                    rvCommon.visibility = View.GONE
+                    getUpcomingEvents(rankck, new2st.replaceFirst(",", ""))
+                }
+            }
+            dialog.show()
+        }
+        return binding.root
+    }
+
+    private fun recyclerData() {
+        val layoutManager = LinearLayoutManager(requireActivity(), RecyclerView.VERTICAL, false)
+        binding.rvCommon.layoutManager = layoutManager
+
+        if(isInternetAvailable(requireActivity())){
+            getUpcomingEvents("2","")
+        }
+    }
+
+    private fun getUpcomingEvents(type:String,category: String){
+        val request = ServiceBuilder.buildService(APIinterface::class.java)
+        val call = request.app_get_event_listfilter(type, category,readUsingSharedPreference(requireActivity(), "userid").toString())
+
+        call.enqueue(object : Callback<Allevents> {
+            override fun onResponse(
+                call: Call<Allevents>,
+                response: Response<Allevents>
+            ) {
+                dismissLoader();
+                if (response.isSuccessful) {
+                    if (response.body()?.status == true) {
+                        if (response.body()?.data != null) {
+
+                            storeUsingSharedPreference(
+                                requireActivity(),
+                                "eventCountOld", response.body()?.data?.size.toString()
+                            )
+
+                            binding.rvevents.visibility=View.GONE
+
+                            binding.rvCommon.visibility = View.VISIBLE
+                            binding.Noevents.visibility = View.GONE
+                            if(readUsingSharedPreference(requireActivity(), "addpersmisson").toString().equals("1")) {
+                                companyName.clear()
+                                companyName.addAll(response.body()?.data!!)
+                            }else{
+                                companyName.clear()
+                                for (j in 0 until response.body()?.data!!.size) {
+                                    if(response.body()?.data?.get(j)?.event_publish_status.toString().equals("2")){
+
+                                    }else{
+                                        companyName.add(response.body()?.data?.get(j)!!)
+                                    }
+                                }
+                            }
+
+                            val mAdapter = AdapterUpcomingEvents(
+                                requireActivity(),
+                                companyName, "Fragment"
+                            )
+                            binding.rvCommon.adapter = mAdapter
+
+                        }else{
+                            binding.rvevents.visibility=View.GONE
+                            binding.rvCommon.visibility = View.GONE
+                            binding.Noevents.visibility = View.VISIBLE
+                        }
+                    } else {
+                        binding.rvCommon.visibility=View.GONE
+                        binding.rvCommon.visibility = View.GONE
+                        binding.Noevents.visibility = View.VISIBLE
+                    }
+                }
+            }
+
+            override fun onFailure(call: Call<Allevents>, t: Throwable) {
+                dismissLoader();
+            }
+        })
+
+    }
+
+    private fun getAllEventsCat(mBsMemberFilterBinding: BsAllEventsFilterBinding){
+        val request = ServiceBuilder.buildService(APIinterface::class.java)
+        val call = request.app_get_event_category()
+
+        call.enqueue(object : Callback<Eventcategory> {
+            override fun onResponse(
+                call: Call<Eventcategory>,
+                response: Response<Eventcategory>
+            ) {
+                dismissLoader();
+                if (response.isSuccessful) {
+                    if (response.body()?.status == true) {
+                        if (response.body()?.data != null) {
+                            mBsMemberFilterBinding.linearlayout1.visibility=View.GONE
+                            mBsMemberFilterBinding.linearlayout.visibility=View.VISIBLE
+                            val layoutManager = LinearLayoutManager(requireActivity(), RecyclerView.VERTICAL, false)
+                            mBsMemberFilterBinding.eventcatrecyler.layoutManager = layoutManager
+                            val mAdapter = AdapterCategoriesEvents(
+                                requireActivity(),
+                                response.body()?.data as MutableList<Eventcategory.Eventdata>,this@UpcomingEventFragment)
+                            mBsMemberFilterBinding.eventcatrecyler.adapter = mAdapter
+
+
+                        } else {
+                            mBsMemberFilterBinding.linearlayout1.visibility=View.GONE
+                            mBsMemberFilterBinding.linearlayout.visibility=View.VISIBLE
+
+                        }
+                    }
+                }
+            }
+
+            override fun onFailure(call: Call<Eventcategory>, t: Throwable) {
+                dismissLoader();
+
+            }
+        })
+
+    }
+
+    override fun addMultiSelection(multiModel: MutableList<Eventcategory.Eventdata>, pos: Int) {
+        lstChk.add(multiModel.get(pos))
+    }
+
+    override fun removeMultiSelection(
+        multiModel: MutableList<Eventcategory.Eventdata>,
+        id: String,
+        pos: Int
+    ) {
+        try {
+            for (j in 0 until lstChk.size) {
+                if (lstChk.get(j).cat_id.equals(id)) {
+                    lstChk.removeAt(j)
+                }
+            }
+
+        } catch (exception: ConcurrentModificationException) {
+            // Catch ConcurrentModificationExceptions.
+            // Logging.log(exception);
+        } catch (throwable: Throwable) {
+            // Catch any other Throwables.
+            // Logging.log(throwable);
+        }
+    }
+}
