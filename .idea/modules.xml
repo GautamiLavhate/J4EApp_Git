@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/J4EApp.iml" filepath="$PROJECT_DIR$/.idea/modules/J4EApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/J4EApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/J4EApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp.newpowemenu.iml" filepath="$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp.newpowemenu.iml" />
     </modules>
   </component>
 </project>

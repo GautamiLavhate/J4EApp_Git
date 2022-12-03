@@ -57,10 +57,10 @@
             android:exported="false" />
         <activity
             android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.SubscribePlanActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.NewMyMembershipDetailsActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".abmainj4e.ui.terms.PrivacyAndPolicyActivity"
             android:exported="false" />
@@ -149,7 +149,7 @@
         <activity
             android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.FirstLoginMembershipAddActivity"
             android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:exported="false"/>
         <activity
             android:name=".abmainj4e.ui.drawer.mydiary.MyLeads.RecommendedLeadActivity"
             android:screenOrientation="portrait"
@@ -181,7 +181,7 @@
         <activity
             android:name=".abmainj4e.ui.homemydiary.myevents.EventBookingActivity"
             android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:exported="false"/>
         <activity
             android:name=".abmainj4e.ui.profile.ProfileContactUsEditActivity"
             android:screenOrientation="portrait"
@@ -233,7 +233,7 @@
         <activity
             android:name=".abmainj4e.ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity"
             android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:exported="false"/>
         <activity
             android:name=".abmainj4e.ui.homemydiary.myrecognition.MyRecognitionActivity"
             android:screenOrientation="portrait"
@@ -257,7 +257,7 @@
         <activity
             android:name=".abmainj4e.ui.homemydiary.myguestinvites.MyGuestInvitesActivity"
             android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:exported="false"/>
         <activity
             android:name=".abmainj4e.ui.homemydiary.mylead.MyLeadsActivity"
             android:screenOrientation="portrait"
@@ -265,7 +265,7 @@
         <activity
             android:name=".abmainj4e.ui.homemydiary.myguestinvites.CreateGuestInviteActivity"
             android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:exported="false"/>
         <activity
             android:name=".abmainj4e.ui.homemydiary.myconnections.MyConnectionsActivity"
             android:screenOrientation="portrait"
@@ -307,7 +307,7 @@
         <activity
             android:name=".abmainj4e.ui.OTPVerification.OTPVerificationActivity"
             android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:exported="false"/>
         <activity
             android:name=".abmainj4e.ui.welcome.WelcomeActivity"
             android:screenOrientation="portrait"
@@ -435,7 +435,7 @@
 
         <receiver
             android:name=".abmainj4e.ui.login.SmsBroadcastReceiver"
-            android:exported="true"
+            android:exported="false"
             tools:node="merge">
             <intent-filter>
                 <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />

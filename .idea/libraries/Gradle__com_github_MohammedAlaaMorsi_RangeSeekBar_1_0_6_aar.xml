@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MohammedAlaaMorsi:RangeSeekBar:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/77f283b1d9ce4f0f3f7b4602d1e3eb37/transformed/jetified-RangeSeekBar-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/77f283b1d9ce4f0f3f7b4602d1e3eb37/transformed/jetified-RangeSeekBar-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/77f283b1d9ce4f0f3f7b4602d1e3eb37/transformed/jetified-RangeSeekBar-1.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MohammedAlaaMorsi/RangeSeekBar/1.0.6/21fbc5e1bfa50a5fef0ecae6f11b2cb54c118091/RangeSeekBar-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
