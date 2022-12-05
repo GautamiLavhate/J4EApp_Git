@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5301b663da733c9679c90d3cea613fb5/transformed/jetified-ethree-2.0.9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5301b663da733c9679c90d3cea613fb5/transformed/jetified-ethree-2.0.9/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5301b663da733c9679c90d3cea613fb5/transformed/jetified-ethree-2.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/895b94cc18517b3de6a3e549c9cbb0b4/transformed/jetified-ethree-2.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/895b94cc18517b3de6a3e549c9cbb0b4/transformed/jetified-ethree-2.0.9/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.virgilsecurity/ethree/2.0.9/68381947a199d782008b37285c29db55356c92ad/ethree-2.0.9-javadoc.jar!/" />

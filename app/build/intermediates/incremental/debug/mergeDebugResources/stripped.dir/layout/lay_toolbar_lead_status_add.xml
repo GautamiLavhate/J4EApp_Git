@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#084268"
+        android:gravity="center"
+        android:orientation="horizontal" android:tag="layout/lay_toolbar_lead_status_add_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:adjustViewBounds="true"
+            android:onClick="onBackClick"
+            android:padding="5dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/notosans_jp_medium"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/ivAdd"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:adjustViewBounds="true"
+            android:onClick="OnLeadStatusAdd"
+            android:padding="5dp"
+            android:src="@drawable/ic_add_two"
+            app:tint="@color/white" />
+    </LinearLayout>
+         

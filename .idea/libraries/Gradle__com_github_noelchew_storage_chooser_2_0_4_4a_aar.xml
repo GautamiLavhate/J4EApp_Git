@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/caa64da4fedbbd5ea4ccb2f241256b1c/transformed/jetified-storage-chooser-2.0.4.4a/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/caa64da4fedbbd5ea4ccb2f241256b1c/transformed/jetified-storage-chooser-2.0.4.4a/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/caa64da4fedbbd5ea4ccb2f241256b1c/transformed/jetified-storage-chooser-2.0.4.4a/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2fdf1776ccc2769651208dc6021aa347/transformed/jetified-storage-chooser-2.0.4.4a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fdf1776ccc2769651208dc6021aa347/transformed/jetified-storage-chooser-2.0.4.4a/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fdf1776ccc2769651208dc6021aa347/transformed/jetified-storage-chooser-2.0.4.4a/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.noelchew/storage-chooser/2.0.4.4a/d75cee127a4651c61d57c2c2d75ef48131d3335f/storage-chooser-2.0.4.4a-javadoc.jar!/" />

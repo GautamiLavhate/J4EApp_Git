@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rectangle_half_top_white_20dp"
+        android:orientation="vertical" android:tag="layout/bs_reward_list_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:paddingBottom="@dimen/dp10"
+                android:paddingTop="@dimen/dp10"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:layout_marginStart="@dimen/dp14"
+                android:text="Members"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="@dimen/text_24"
+                android:layout_height="@dimen/text_24"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_close"
+                app:tint="#7F7F7F" />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="@dimen/dp2"
+            android:background="#F2F2F2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <SearchView
+            android:background="@drawable/rounded_rectangle_whitegray_20dp"
+            android:theme="@style/SearchViewStylegray"
+            android:id="@+id/searchLinLay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:queryHint="Search by Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:iconifiedByDefault="false"
+            android:layout_alignParentTop="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRewardList"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:overScrollMode="never" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/NoLeadInvited"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/default_text"
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:gravity="left"
+                android:text="No Member"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+
+        </LinearLayout>
+    </LinearLayout>
+         

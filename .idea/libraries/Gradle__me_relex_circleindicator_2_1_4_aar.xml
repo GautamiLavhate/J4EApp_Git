@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/19c539173a947bb0cf0d8dd52b746719/transformed/jetified-circleindicator-2.1.4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/19c539173a947bb0cf0d8dd52b746719/transformed/jetified-circleindicator-2.1.4/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/19c539173a947bb0cf0d8dd52b746719/transformed/jetified-circleindicator-2.1.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9179b847da0df6b6e74b1680060e1fb4/transformed/jetified-circleindicator-2.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9179b847da0df6b6e74b1680060e1fb4/transformed/jetified-circleindicator-2.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9179b847da0df6b6e74b1680060e1fb4/transformed/jetified-circleindicator-2.1.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.relex/circleindicator/2.1.4/620aea7d06984419ff96e4a29e7968d5d02ec9b3/circleindicator-2.1.4-javadoc.jar!/" />

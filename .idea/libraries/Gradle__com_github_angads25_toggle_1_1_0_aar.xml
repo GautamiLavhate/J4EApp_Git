@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/39723a7f656235824b8720a119d8e1f8/transformed/jetified-toggle-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/39723a7f656235824b8720a119d8e1f8/transformed/jetified-toggle-1.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/39723a7f656235824b8720a119d8e1f8/transformed/jetified-toggle-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aab3a503a64f87b1414700beec4322de/transformed/jetified-toggle-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aab3a503a64f87b1414700beec4322de/transformed/jetified-toggle-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aab3a503a64f87b1414700beec4322de/transformed/jetified-toggle-1.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.angads25/toggle/1.1.0/e6d8549c32779295d7ece8733da79f1641a5862b/toggle-1.1.0-javadoc.jar!/" />

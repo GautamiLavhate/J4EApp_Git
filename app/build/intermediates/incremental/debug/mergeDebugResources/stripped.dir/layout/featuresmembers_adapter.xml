@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content" android:tag="layout/featuresmembers_adapter_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+        <LinearLayout
+            android:id="@+id/Libackground"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dot_db"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"/>
+            <WebView
+                android:visibility="visible"
+                android:id="@+id/webView_titile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="WebViewLayout"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/featuestxt"
+                android:layout_marginLeft="@dimen/dp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_dot_db"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/notosans_jp_regular"
+                android:includeFontPadding="false"
+                android:text="View Registered member profile"
+                android:textColor="#285B7A"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+         

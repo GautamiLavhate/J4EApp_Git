@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkPrimary"
+        android:orientation="horizontal" android:tag="layout/lay_toolbar_home_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/ivNavigationDrawer"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:onClick="onNavigationClick"
+            android:src="@drawable/ic_navigation_drawer" />
+
+        <ImageView
+            android:id="@+id/logotoolbar"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@+id/ivNavigationDrawer"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_toolbar" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_weight="1"
+            android:fontFamily="@font/notosans_jp_medium"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@+id/ivNavigationDrawer"
+            android:padding="5dp" />
+
+
+        <ImageView
+            android:id="@+id/searchhome"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/ivCreate"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_searchpng"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/ivCreate"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:adjustViewBounds="true"
+            android:onClick="onCreateClick"
+            android:padding="5dp"
+            android:src="@drawable/ic_create" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivaddCreate"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:onClick="onCreateClick"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:adjustViewBounds="true"
+            android:padding="2dp"/>
+    </RelativeLayout>
+         

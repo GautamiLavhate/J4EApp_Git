@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6b1eadec54c29787f679e1d9fb09f8f9/transformed/jetified-musicwave-1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6b1eadec54c29787f679e1d9fb09f8f9/transformed/jetified-musicwave-1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6b1eadec54c29787f679e1d9fb09f8f9/transformed/jetified-musicwave-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6cba32d2a5b65d6871e90d740b3fbe2a/transformed/jetified-musicwave-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6cba32d2a5b65d6871e90d740b3fbe2a/transformed/jetified-musicwave-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6cba32d2a5b65d6871e90d740b3fbe2a/transformed/jetified-musicwave-1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fxn769/musicwave/1.0/ff03872f8ddf14a22c11f8bbede0f71c2caa1747/musicwave-1.0-javadoc.jar!/" />

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/J4EApp.iml" filepath="$PROJECT_DIR$/.idea/modules/J4EApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/J4EApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/J4EApp.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp.newpowemenu.iml" filepath="$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp.newpowemenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/J4EApp_Git.iml" filepath="$PROJECT_DIR$/.idea/modules/J4EApp_Git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/J4EApp_Git.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.iml" filepath="$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.main.iml" filepath="$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/newpowemenu/J4EApp_Git.newpowemenu.unitTest.iml" />
     </modules>
   </component>
 </project>

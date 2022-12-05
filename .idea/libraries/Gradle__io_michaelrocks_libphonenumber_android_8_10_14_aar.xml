@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c12effc4830927cd1ad75e8c3644439a/transformed/jetified-libphonenumber-android-8.10.14/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c12effc4830927cd1ad75e8c3644439a/transformed/jetified-libphonenumber-android-8.10.14/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c12effc4830927cd1ad75e8c3644439a/transformed/jetified-libphonenumber-android-8.10.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9264e6568bb9aeb3df9d0d654a766451/transformed/jetified-libphonenumber-android-8.10.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9264e6568bb9aeb3df9d0d654a766451/transformed/jetified-libphonenumber-android-8.10.14/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.michaelrocks/libphonenumber-android/8.10.14/5c6636c341b9d6b31cdca8b7e16a0713fed157bc/libphonenumber-android-8.10.14-javadoc.jar!/" />

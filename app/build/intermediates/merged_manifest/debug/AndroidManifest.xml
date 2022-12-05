@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.justforentrepreneurs.j4eapp"
+    android:versionCode="6"
+    android:versionName="4.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="32" />
+    <!-- PERMISSIONS -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To use account credentials -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+
+            <category android:name="android.intent.category.OPENABLE" />
+
+            <data android:mimeType="*/*" />
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" /> <!-- For browser content -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent> <!-- End of browser content -->
+        <!-- For CustomTabsService -->
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.justforentrepreneurs.j4eapp.abmainj4e.J4EApp"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/j4e_app_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/j4e_app_logo"
+        android:supportsRtl="false"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.BusinessCardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.allmembers.AllMembersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrefrral.receive.ReferralReceivedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrefrral.givan.ReferralGivenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateReferralActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.SubscribePlanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.NewMyMembershipDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.PrivacyAndPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.TermsAndConditionActivity"
+            android:exported="false" /> <!-- <service -->
+        <!-- android:name=".services.CompleteSetupService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" /> -->
+        <!-- <service -->
+        <!-- android:name=".services.BackupService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" /> -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- ACTIVITIES -->
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" /> <!-- <service -->
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.justforentrepreneurs.j4eapp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" /> <!-- //j4e -->
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MapsEventsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.pendingresponsibilities.CreateFollowUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateBuddyMeetActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.toprankings.TopRankingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateOfflineBusinessActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreatePostsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateEventsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.UpdateEventsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateRequirementActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrecognition.MyRecognitionAddActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MembershipAddActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.FirstLoginMembershipAddActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.RecommendedLeadActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusAddActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventJoinerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventStatusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.searchalldata.SearchActivityHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventBookingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileContactUsEditActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileAboutUsEditActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.setting.SettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.aboutus.AboutUsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.J4ERatingandReviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.FeedbackEventActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.ReviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.j4emembers.J4EMembersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.pendingresponsibilities.PendingResponsibilitiesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myreportcard.MyReportCardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.recommended.RecommendedActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrecognition.MyRecognitionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myawardrecognition.MyAwardRecognitionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mytestimonials.MyTestimonialsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybusinesstransactions.MyBusinessTransactionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybuddies.MyBuddiesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myguestinvites.MyGuestInvitesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mylead.MyLeadsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myguestinvites.CreateGuestInviteActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myconnections.MyConnectionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrequirements.MyRequirementsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MyEventsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myposts.MyPostsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybusinesstransactions.OfflineTransactionDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.RecommendedEventsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.OTPVerification.OTPVerificationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.welcome.WelcomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.splash.SplashActivityJ4E"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+
+                <!-- below line is to set the action to our intent to view -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <!-- on below line we are adding a default category to our intent -->
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <!-- on below line we are adding a category to make our app browsable -->
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!--
+                     on below line we are specifying the host name and
+                    the scheme type from which we will be calling our app
+                -->
+                <data
+                    android:host="just4entrepreneurs.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="just4entrepreneurs.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.home.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MyEventsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.GallerViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.GallerViewEventsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.GallerViewActivityZoom"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- If you're sharing links, images or video via the Facebook for Android app, you also need to declare the FacebookContentProvider in the manifest. -->
+        <!-- Append your app id to the end of the authorities value. For example if your Facebook app id is 1533993016893247 -->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider4956080674559338967"
+            android:exported="false" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/splash_app_logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimaryDark" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <service
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseInstanceIdService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.SmsBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

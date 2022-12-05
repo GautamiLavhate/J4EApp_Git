@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1ad39901865f7847dc5abebcf0a5835e/transformed/jetified-realm-android-kotlin-extensions-10.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1ad39901865f7847dc5abebcf0a5835e/transformed/jetified-realm-android-kotlin-extensions-10.3.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1ad39901865f7847dc5abebcf0a5835e/transformed/jetified-realm-android-kotlin-extensions-10.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad792b2e243841e145580d51897d1d3a/transformed/jetified-realm-android-kotlin-extensions-10.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad792b2e243841e145580d51897d1d3a/transformed/jetified-realm-android-kotlin-extensions-10.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-kotlin-extensions/10.3.1/3e0b05614e6e2d91c8fabc459d9136d9fc5e37b4/realm-android-kotlin-extensions-10.3.1-javadoc.jar!/" />

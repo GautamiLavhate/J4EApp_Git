@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/abe9a01db093f9d126eaa171cd5a033d/transformed/jetified-ccp-2.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abe9a01db093f9d126eaa171cd5a033d/transformed/jetified-ccp-2.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abe9a01db093f9d126eaa171cd5a033d/transformed/jetified-ccp-2.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1316c916d709097e5343f8728b7c93ad/transformed/jetified-ccp-2.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1316c916d709097e5343f8728b7c93ad/transformed/jetified-ccp-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1316c916d709097e5343f8728b7c93ad/transformed/jetified-ccp-2.4.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/2.4.0/8dbcbc594a0fd1b5c57aa8211ce64232da04baf0/ccp-2.4.0-javadoc.jar!/" />

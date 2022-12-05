@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6e7da75a8e0f0c4b1b524dfad91b5089/transformed/jetified-Android-Image-Cropper-2.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e7da75a8e0f0c4b1b524dfad91b5089/transformed/jetified-Android-Image-Cropper-2.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e7da75a8e0f0c4b1b524dfad91b5089/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

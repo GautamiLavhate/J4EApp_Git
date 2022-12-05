@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                  
+                                                                                      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content" android:tag="layout/renew_bottomsheet_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" tools:context=".ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/dp15"
+                app:cardElevation="@dimen/dp15"
+                android:layout_marginBottom="-10dp"
+                app:cardUseCompatPadding="false"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:paddingBottom="@dimen/dp20"
+                            android:paddingTop="@dimen/dp20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:paddingLeft="@dimen/dp16"
+                            android:text="Membership Details"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <LinearLayout
+                            android:paddingBottom="@dimen/dp20"
+                            android:paddingTop="@dimen/dp20"
+                            android:background="@color/white"
+                            android:layout_width="wrap_content"
+                            android:gravity="right"
+                            android:layout_marginRight="@dimen/dp16"
+                            android:layout_gravity="right"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/ivcancle"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="right"
+                                android:src="@drawable/ic_close_upgrade"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/linearlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginRight="@dimen/dp16"
+                        android:layout_marginLeft="@dimen/dp16"
+                        android:layout_marginBottom="@dimen/dp10"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/dp20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                           <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_regular"
+                            android:gravity="left"
+                            android:text="Package Name:"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/basicmembership"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp5"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:text="Date:"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/datefinal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp5"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp1"
+                            android:background="@color/black">
+                        </View>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:text="Payment"
+                                android:textColor="@color/textg"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/Payment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="right"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp16"
+                                android:textColor="@color/textg"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp1"
+                            android:background="@color/black">
+                        </View>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:text="Total Charges"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/totalcharge"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="right"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp16"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_marginBottom="@dimen/dp20"
+                            android:layout_marginTop="@dimen/dp25"
+                            android:id="@+id/Renew"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp40"
+                            android:paddingLeft="@dimen/dp30"
+                            android:paddingRight="@dimen/dp30"
+                            android:gravity="center"
+                            android:textAllCaps="false"
+                            android:background="@drawable/btd_active"
+                            android:text="Renew"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/notosans_jp_medium" />
+
+
+
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginRight="@dimen/dp16"
+                        android:layout_marginLeft="@dimen/dp16"
+                        android:layout_marginBottom="@dimen/dp10"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/dp20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:layout_marginRight="@dimen/dp15"
+                                android:text="Package Name:"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp5"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:text="Date:"
+                                android:layout_marginRight="@dimen/dp15"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp5"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp1"
+                            android:background="@color/light_gray">
+                        </View>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:text="Payment"
+                                android:layout_marginRight="@dimen/dp15"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="right"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp16"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp1"
+                            android:background="@color/light_gray">
+                        </View>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_regular"
+                                android:gravity="left"
+                                android:layout_weight="1"
+                                android:text="Total Charges"
+                                android:layout_marginRight="@dimen/dp15"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="right"
+                                android:layout_weight="1"
+                                android:paddingLeft="@dimen/dp16"
+                                android:background="@color/light_gray"
+                                android:textColor="@color/light_gray"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_marginBottom="@dimen/dp20"
+                            android:layout_marginTop="@dimen/dp25"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp40"
+                            android:paddingLeft="@dimen/dp30"
+                            android:paddingRight="@dimen/dp30"
+                            android:gravity="center"
+                            android:textAllCaps="false"
+                            android:background="@drawable/btd_active"
+                            android:text="Renew"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/light_gray"
+                            android:textColor="@color/light_gray"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/notosans_jp_medium" />
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+         

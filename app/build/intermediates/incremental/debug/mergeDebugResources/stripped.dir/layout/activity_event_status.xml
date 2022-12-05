@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                             
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.homemydiary.myevents.EventStatusActivity" android:tag="layout/activity_event_status_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_simple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+
+            android:id="@+id/searchLinLay"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+
+            <SearchView
+                android:theme="@style/SearchViewStylegray"
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:queryHint="Search by Name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                android:iconifiedByDefault="false"
+                android:layout_alignParentTop="true" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/backgroundView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/md_grey_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchLinLay" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            app:contentPadding="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backgroundView"
+            card_view:cardElevation="5dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/labelLinLay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:text="Name"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="end"
+                        android:layout_marginRight="@dimen/dp10"
+                        android:includeFontPadding="false"
+                        android:text="Status"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/backgroundView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/md_grey_dark"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/labelLinLay" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/eventStatusRecyclerView"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/backgroundView1"/>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/NoLeadInvited"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/backgroundView1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/ic_profile_default_image" />
+
+                    <TextView
+                        android:id="@+id/default_text"
+                        android:layout_marginTop="@dimen/dp15"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginRight="@dimen/dp10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:gravity="left"
+                        android:text="No Event Members"
+                        android:textColor="@color/black"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/backgroundView1"
+                    android:id="@+id/linearlayout1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:orientation="vertical" android:tag="binding_1">
+
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+                    <include layout="@layout/ab_eventstatus" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c9ec794a7ef8e56f3e1ae94aa6296bf4/transformed/jetified-sdk-android-7.3.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c9ec794a7ef8e56f3e1ae94aa6296bf4/transformed/jetified-sdk-android-7.3.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c9ec794a7ef8e56f3e1ae94aa6296bf4/transformed/jetified-sdk-android-7.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83ed70c74407f63cde046ad6a531a3c2/transformed/jetified-sdk-android-7.3.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/83ed70c74407f63cde046ad6a531a3c2/transformed/jetified-sdk-android-7.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83ed70c74407f63cde046ad6a531a3c2/transformed/jetified-sdk-android-7.3.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.virgilsecurity.sdk/sdk-android/7.3.2/bdba623c8f6e66332e5fcf7c781d03d7b27b70f7/sdk-android-7.3.2-javadoc.jar!/" />

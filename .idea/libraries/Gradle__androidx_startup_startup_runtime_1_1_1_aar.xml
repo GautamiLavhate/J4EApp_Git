@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3f5651af2de967b48a3a8a092dcf23b8/transformed/jetified-startup-runtime-1.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3f5651af2de967b48a3a8a092dcf23b8/transformed/jetified-startup-runtime-1.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3f5651af2de967b48a3a8a092dcf23b8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b29f1b19feeb8b75dcad930aa984e6f3/transformed/jetified-startup-runtime-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b29f1b19feeb8b75dcad930aa984e6f3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b29f1b19feeb8b75dcad930aa984e6f3/transformed/jetified-startup-runtime-1.1.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

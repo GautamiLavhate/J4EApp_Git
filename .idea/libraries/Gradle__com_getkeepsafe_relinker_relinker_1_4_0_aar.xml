@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8d7eee2eb20cd0e14621b976be594efb/transformed/jetified-relinker-1.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8d7eee2eb20cd0e14621b976be594efb/transformed/jetified-relinker-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8d7eee2eb20cd0e14621b976be594efb/transformed/jetified-relinker-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2fe7f4b1fbb34a6f73ce73d0a5790aca/transformed/jetified-relinker-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fe7f4b1fbb34a6f73ce73d0a5790aca/transformed/jetified-relinker-1.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.getkeepsafe.relinker/relinker/1.4.0/c11c32bdd264d5b6947a34c5a22ee6a6aa874a0d/relinker-1.4.0-javadoc.jar!/" />

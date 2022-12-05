@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" android:tag="layout/ab_requirements_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:includeFontPadding="false"
+                    android:text="Indian Cook Required experience required"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/light_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/dobet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosans_jp_regular"
+                    android:includeFontPadding="false"
+                    android:layout_marginTop="@dimen/dp3"
+                    android:text="27 Mar 2020 at 12:30 PM"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/light_gray"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivShare"
+                android:layout_width="@dimen/text_24"
+                android:layout_height="@dimen/text_24"
+                android:adjustViewBounds="true"
+                android:layout_margin="7dp"
+                android:background="@color/light_gray"
+                android:src="@color/light_gray" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/notosans_jp_regular"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:background="@color/light_gray"
+            android:textColor="@color/light_gray"
+            android:textSize="10sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/notosans_jp_regular"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:background="@color/light_gray"
+            android:textColor="@color/light_gray"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/requirementimg"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@color/light_gray"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:src="@color/light_gray" />
+
+    </LinearLayout>
+         

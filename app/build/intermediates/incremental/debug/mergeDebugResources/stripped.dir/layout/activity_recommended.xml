@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                  
+                                                                    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        android:orientation="vertical" android:tag="layout/activity_recommended_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" tools:context=".ui.homemydiary.recommended.RecommendedActivity">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/lay_toolbar" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabHome"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="start|center_horizontal"
+            android:background="#fcfcfc"
+            android:textAlignment="gravity"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="#3E3E3E"
+            app:tabIndicatorFullWidth="true"
+            app:tabIndicatorGravity="bottom"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="#3E3E3E"
+            app:tabTextAppearance="@style/MineCustomTabText16"
+            app:tabTextColor="#803E3E3E" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E8E8E8" />
+
+        <com.justforentrepreneurs.j4eapp.abmainj4e.NonSwipeableViewPager
+            android:id="@+id/vpHome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never" />
+    </LinearLayout>
+         

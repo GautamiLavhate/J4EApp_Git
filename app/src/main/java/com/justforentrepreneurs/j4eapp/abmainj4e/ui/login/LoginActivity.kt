@@ -11,26 +11,23 @@ import android.view.Window
 import androidx.core.text.HtmlCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.google.firebase.messaging.FirebaseMessaging
+import com.justforentrepreneurs.j4eapp.R
 import com.justforentrepreneurs.j4eapp.abmainj4e.api.APIinterface
 import com.justforentrepreneurs.j4eapp.abmainj4e.api.ServiceBuilder
-import com.justforentrepreneurs.j4eapp.R
-import com.justforentrepreneurs.j4eapp.abmainj4e.base.BaseActivity
-import com.justforentrepreneurs.j4eapp.databinding.ActivityLoginBinding
+import com.justforentrepreneurs.j4eapp.abmainj4e.base.BaseActivityOP
 import com.justforentrepreneurs.j4eapp.abmainj4e.listener.AuthListener
 import com.justforentrepreneurs.j4eapp.abmainj4e.network.model.LoginRegisterModel
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.OTPVerification.OTPVerificationActivity
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.home.MainActivity
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.FirstLoginMembershipAddActivity
-import com.justforentrepreneurs.j4eapp.abmainj4e.utils.*
-import com.google.android.gms.tasks.OnCompleteListener
-import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.google.firebase.messaging.FirebaseMessaging
-import com.justforentrepreneurs.j4eapp.abmainj4e.base.BaseActivityOP
-import com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.model.TandCResponse
+import com.justforentrepreneurs.j4eapp.abmainj4e.utils.*
+import com.justforentrepreneurs.j4eapp.databinding.ActivityLoginBinding
 import com.justforentrepreneurs.j4eapp.databinding.DeactivatedDialogBinding
 import com.justforentrepreneurs.j4eapp.databinding.LayoutTandcBottomsheetBinding
-import com.justforentrepreneurs.j4eapp.databinding.PlanexpaireddialogBinding
 import org.koin.android.viewmodel.ext.android.viewModel
 import retrofit2.Call
 import retrofit2.Callback
@@ -55,7 +52,7 @@ class LoginActivity : BaseActivityOP(), AuthListener {
                         return@OnCompleteListener
                     }
                     token = task.result
-                    //displayToast(this,token)
+                    displayToast(this,token)
 
                 })
         binding.tvTermsConditions.setOnClickListener {

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/sapat/.gradle/caches/transforms-3/61a7d6321666abaf510fa5399c535439/transformed/appcompat-1.5.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/sapat/.gradle/caches/transforms-3/76dcf7f6d34e027c0583f6a06f339dd5/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

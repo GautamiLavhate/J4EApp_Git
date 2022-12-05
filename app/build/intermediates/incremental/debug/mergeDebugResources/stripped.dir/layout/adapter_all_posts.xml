@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:tag="layout/adapter_all_posts_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/linearlayoutPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="false">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/ivProfileImg"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            app:civ_border_width="1dp" />
+
+                        <LinearLayout
+                            android:id="@+id/linearlayoutProfileDetail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fullname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:includeFontPadding="false"
+                                android:text="Pankaj Joris"
+                                android:textColor="#084268"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/datetime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/notosans_jp_regular"
+                                    android:includeFontPadding="false"
+                                    android:text="27 Mar 2020 at 12:30 PM"
+                                    android:textColor="#084268"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" • Post • "
+                                    android:fontFamily="@font/notosans_jp_regular"
+                                    android:includeFontPadding="false"
+                                    android:textColor="#084268"
+                                    android:textSize="12sp"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ivEditPost"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:adjustViewBounds="true"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_editpng"
+                            android:visibility="visible" />
+                        <ImageView
+                            android:id="@+id/cateimage"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:adjustViewBounds="true"
+                            android:padding="7dp"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/notosans_jp_regular"
+                            android:includeFontPadding="false"
+                            android:maxLines="5"
+                            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                            android:textColor="#707070"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/othersmore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:text="More"
+                            android:layout_marginLeft="@dimen/dp2"
+                            android:layout_gravity="bottom|end"
+                            android:textColor="#084268"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/collapse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:text="Less"
+                            android:layout_marginLeft="@dimen/dp2"
+                            android:layout_gravity="bottom|end"
+                            android:textColor="#084268"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/postimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@color/black"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:scaleType="fitXY"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dip"
+                        android:background="#084268"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/llComments"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_comment" />
+
+                            <TextView
+                                android:id="@+id/posttotalcomment"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="15dp"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="start|center"
+                                android:includeFontPadding="false"
+                                android:text="12545"
+                                android:textColor="#707070"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llLike"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imagelike"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_like" />
+
+                            <TextView
+                                android:id="@+id/totalike"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="15dp"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="start|center"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:includeFontPadding="false"
+                                android:text="12545"
+                                android:textColor="#707070"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llShare"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_share_blank" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linearlayoutBuddyMeet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/linearlayoutProfileDetailBuddyMeet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:background="@drawable/date_bg">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:id="@+id/dateshort"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:gravity="center"
+                                        android:includeFontPadding="false"
+                                        android:text="01"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:id="@+id/weak"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="2dp"
+                                        android:fontFamily="@font/notosans_jp_regular"
+                                        android:includeFontPadding="false"
+                                        android:text="Thu"
+                                        android:gravity="center"
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/linearlayoutBonClick"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal"
+                                            android:layout_marginRight="2dp">
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:layout_weight="1">
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:id="@+id/ivProfileImgBM"
+                                                    android:layout_width="31dp"
+                                                    android:layout_height="31dp"
+                                                    android:layout_gravity="center"
+                                                    app:civ_border_width="1dp" />
+                                                <TextView
+                                                    android:id="@+id/name"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/notosans_jp_medium"
+                                                    android:gravity="start"
+                                                    android:includeFontPadding="false"
+                                                    android:text="Manokjkumar Shinde"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="14sp"
+                                                    android:maxLines="4"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginLeft="5dp"/>
+
+
+                                            </LinearLayout>
+                                            <View
+                                                android:layout_width="1dp"
+                                                android:layout_height="28dp"
+                                                android:layout_gravity="center"
+                                                android:background="@color/black"/>
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:layout_weight="1"
+                                                android:layout_marginLeft="10dp">
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:id="@+id/ivProfileImgBM2"
+                                                    android:layout_width="31dp"
+                                                    android:layout_height="31dp"
+                                                    android:layout_gravity="center"
+                                                    app:civ_border_width="1dp" />
+                                                <TextView
+                                                    android:id="@+id/name2"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/notosans_jp_medium"
+                                                    android:gravity="start"
+                                                    android:includeFontPadding="false"
+                                                    android:text="Manokjkumar Shinde"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="14sp"
+                                                    android:maxLines="4"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginLeft="5dp"/>
+
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+                                            <TextView
+                                                android:id="@+id/time"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/notosans_jp_regular"
+                                                android:gravity="bottom|end"
+                                                android:includeFontPadding="false"
+                                                android:text="02:30pm"
+                                                android:textColor="@color/black"
+                                                android:textSize="11sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text=" • Buddy Meet • "
+                                                android:fontFamily="@font/notosans_jp_regular"
+                                                android:includeFontPadding="false"
+                                                android:textColor="#084268"
+                                                android:textSize="12sp"
+                                                android:layout_marginLeft="5dp"/>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:visibility="gone"
+                                    android:id="@+id/llLocation"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:layout_weight="1"
+                                        android:src="@drawable/ic_location"
+                                        android:gravity="center_vertical"
+                                        android:layout_gravity="center"/>
+
+                                    <TextView
+                                        android:id="@+id/tcLocation"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="2dp"
+                                        android:ellipsize="end"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/notosans_jp_regular"
+                                        android:includeFontPadding="false"
+                                        android:maxLines="1"
+                                        android:layout_marginLeft="5dp"
+                                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. when an unknown printer took a galley of type and scrambled when then took a galley of type."
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:id="@+id/tvDescription"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="2dp"
+                                        android:ellipsize="end"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/notosans_jp_regular"
+                                        android:includeFontPadding="false"
+                                        android:maxLines="1"
+                                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. when an unknown printer took a galley of type and scrambled when then took a galley of type."
+                                        android:textColor="@color/black"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:id="@+id/othersmoreBM"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:text="More"
+                                        android:layout_gravity="bottom|end"
+                                        android:textColor="#084268"
+                                        android:textSize="12sp" />
+                                    <TextView
+                                        android:visibility="gone"
+                                        android:id="@+id/collapseBM"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:text="Less"
+                                        android:layout_gravity="bottom|end"
+                                        android:textColor="#084268"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp">
+
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:gravity="bottom"
+                                    android:layout_weight="1"
+                                    android:layout_gravity="bottom"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:visibility="gone"
+                                        android:layout_width="@dimen/text_24"
+                                        android:layout_height="@dimen/text_24"
+                                        android:layout_gravity="bottom|end"
+                                        android:background="@drawable/ic_arrow_rc"
+                                        />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dip"
+                        android:background="#084268"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/llCommentsBuddyMeet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_comment" />
+
+                            <TextView
+                                android:id="@+id/posttotalcommentBuddyMeet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="15dp"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="start|center"
+                                android:includeFontPadding="false"
+                                android:text="12545"
+                                android:textColor="#707070"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llLikeBuddyMeet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imagelikeBuddyMeet"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_like" />
+
+                            <TextView
+                                android:id="@+id/totalikeBuddyMeet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="15dp"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="start|center"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:includeFontPadding="false"
+                                android:text="12545"
+                                android:textColor="#707070"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llShareBuddyMeet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_share_blank" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linearlayoutRequirement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="false">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/ivProfileImgReq"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:visibility="gone"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:includeFontPadding="false"
+                                android:text="Indian Cook Required experience required"
+                                android:textColor="#084268"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/dobet"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/notosans_jp_regular"
+                                    android:includeFontPadding="false"
+                                    android:text="27 Mar 2020 at 12:30 PM"
+                                    android:textColor="#084268"
+                                    android:textSize="12sp" />
+                                <TextView
+                                    android:id="@+id/txtRequirement"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" • Requirement • "
+                                    android:fontFamily="@font/notosans_jp_regular"
+                                    android:includeFontPadding="false"
+                                    android:textColor="#084268"
+                                    android:textSize="12sp"
+                                    android:layout_marginLeft="5dp"/>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ivShare"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:adjustViewBounds="true"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_sharepng" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/descriptionReq"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/notosans_jp_regular"
+                            android:includeFontPadding="false"
+                            android:maxLines="5"
+                            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                            android:textColor="#707070"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/othersmoreReq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:text="More"
+                            android:layout_marginLeft="@dimen/dp2"
+                            android:layout_gravity="bottom|end"
+                            android:textColor="#084268"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/collapseReq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/notosans_jp_medium"
+                            android:includeFontPadding="false"
+                            android:text="Less"
+                            android:layout_marginLeft="@dimen/dp2"
+                            android:layout_gravity="bottom|end"
+                            android:textColor="#084268"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/requirementimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@color/black"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"
+                        android:scaleType="fitXY"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dip"
+                        android:background="#084268"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="16dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/llCommentsRequirement"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_comment" />
+
+                            <TextView
+                                android:id="@+id/posttotalcommentRequirement"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="15dp"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="start|center"
+                                android:includeFontPadding="false"
+                                android:text="12545"
+                                android:textColor="#707070"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llLikeRequirement"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imagelikeRequirement"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_like" />
+
+                            <TextView
+                                android:id="@+id/totalikeRequirement"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="15dp"
+                                android:fontFamily="@font/notosans_jp_medium"
+                                android:gravity="start|center"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:includeFontPadding="false"
+                                android:text="12545"
+                                android:textColor="#707070"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llShareRequirement"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_share_blank" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linearlayoutEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/eventDetailsRelLay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/ivImg"
+                                android:layout_width="119dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignTop="@+id/llContain"
+                                android:layout_alignBottom="@+id/llContain"
+                                android:scaleType="centerCrop" />
+
+                            <LinearLayout
+                                android:id="@+id/llContain"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/ivImg"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/eventtitle"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/notosans_jp_medium"
+                                    android:includeFontPadding="false"
+                                    android:maxLines="2"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="16sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:id="@+id/datetimeEvent"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="10dp"
+                                        android:ellipsize="end"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:maxLines="1"
+                                        android:singleLine="true"
+                                        android:text="Fri 25 Feb 2020 at 10:30 AM"
+                                        android:textColor="#707070"
+                                        android:textSize="14sp" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" • Event • "
+                                        android:fontFamily="@font/notosans_jp_regular"
+                                        android:includeFontPadding="false"
+                                        android:textColor="#084268"
+                                        android:textSize="12sp"
+                                        android:maxLines="1"
+                                        android:singleLine="true"
+                                        android:layout_marginLeft="5dp"/>
+                                </LinearLayout>
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/address"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:ellipsize="end"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:maxLines="1"
+                                        android:text="Deccan pune"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:id="@+id/amount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:fontFamily="@font/notosans_jp_medium"
+                                        android:includeFontPadding="false"
+                                        android:maxLines="1"
+                                        android:text="₹ 1250."
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="14dp"
+                                android:src="@drawable/ic_location" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="14dp"
+                                android:src="@drawable/ic_call_blue" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="14dp"
+                                android:src="@drawable/ic_chat_two" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="14dp"
+                                android:src="@drawable/ic_ticket" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:padding="14dp"
+                                android:src="@drawable/ic_sharepng" />
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.1dip"
+                            android:background="#084268"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@color/white"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/llCommentsEvent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="center"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/ic_comment" />
+
+                                <TextView
+                                    android:id="@+id/posttotalcommentEvent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="15dp"
+                                    android:fontFamily="@font/notosans_jp_medium"
+                                    android:gravity="start|center"
+                                    android:includeFontPadding="false"
+                                    android:text="12545"
+                                    android:textColor="#707070"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/llLikeEvent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imagelikeEvent"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:layout_gravity="center"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/ic_like" />
+
+                                <TextView
+                                    android:id="@+id/totalikeEvent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="15dp"
+                                    android:fontFamily="@font/notosans_jp_medium"
+                                    android:gravity="start|center"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:includeFontPadding="false"
+                                    android:text="12545"
+                                    android:textColor="#707070"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/llShareEvent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/ic_share_blank" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D2D0D0" />
+    </LinearLayout>
+         

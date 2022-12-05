@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/452ecab7810dee99aeb92b2ed05f1e80/transformed/jetified-RxFirebase-1.5.6/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/452ecab7810dee99aeb92b2ed05f1e80/transformed/jetified-RxFirebase-1.5.6/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/452ecab7810dee99aeb92b2ed05f1e80/transformed/jetified-RxFirebase-1.5.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b6749c7998e31f5e287d80d2b60d5c5d/transformed/jetified-RxFirebase-1.5.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b6749c7998e31f5e287d80d2b60d5c5d/transformed/jetified-RxFirebase-1.5.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b6749c7998e31f5e287d80d2b60d5c5d/transformed/jetified-RxFirebase-1.5.6/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

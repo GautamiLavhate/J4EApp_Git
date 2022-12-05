@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+                                                       
+                                                      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        android:orientation="vertical" android:tag="layout/fragment_frag_j4_e_members_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" tools:context=".abmainj4e.ui.home.FragJ4EMembers">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_rectangle_white_20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="12dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_searchpng"
+                    app:tint="#707070" />
+
+                <EditText
+                    android:id="@+id/editsearchname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:fontFamily="@font/notosans_jp_medium"
+                    android:hint="@string/search"
+                    android:imeOptions="actionDone"
+                    android:includeFontPadding="false"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="6dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#B5B5B5"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivFilter"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="10dp"
+                android:adjustViewBounds="true"
+                android:padding="3dp"
+                android:src="@drawable/ic_filter_j4e_member_screen"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAllBuddies"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/NoLeadInvited"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ic_profile_default_image" />
+
+            <TextView
+                android:id="@+id/default_text"
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:gravity="left"
+                android:text="No J4E Members"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+            <include layout="@layout/ab_j4emembers"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+         

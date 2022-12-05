@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.homemydiary.myevents.EventJoinerActivity" android:tag="layout/activity_event_joiner_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_simple" />
+
+        <SearchView
+            android:theme="@style/SearchViewStylegray"
+            android:id="@+id/searchLinLay"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:queryHint="Search by Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:iconifiedByDefault="false"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_searchpng"
+                app:tint="#707070" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:hint="Search by Name"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:textColor="#707070"
+                android:textColorHint="#707070"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/backgroundView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/md_grey_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchLinLay" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backgroundView"
+            tools:listitem="@layout/item_event_joiner" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/NoLeadInvited"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ic_profile_default_image" />
+
+            <TextView
+                android:id="@+id/default_text"
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_jp_medium"
+                android:gravity="left"
+                android:text="No J4E Members"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backgroundView"
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="16sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:id="@+id/designation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lib"
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:id="@+id/imageViewLinLay"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/connectedLabel"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="16sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="16sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="16sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="16sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/light_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="14sp"
+                        tools:text="Radhesh Kulkarni" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="@dimen/dp3"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        tools:text="Motivational speaker, leadership." />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal">
+                        <LinearLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_view"
+                            android:elevation="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:scaleType="fitXY"
+                                android:background="@color/light_gray"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/notosans_jp_medium"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:background="@color/light_gray"
+                        android:textColor="@color/light_gray"
+                        android:textSize="12sp"
+                        android:text="hhh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         
