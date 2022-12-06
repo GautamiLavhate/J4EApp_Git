@@ -134,7 +134,7 @@
 66-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/sapat/.gradle/caches/transforms-3/dcbf856e45172a4f5bd3e4f91108ec6f/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
 67
 68    <application
-68-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:30:5-450:19
+68-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:30:5-453:19
 69        android:name="com.justforentrepreneurs.j4eapp.abmainj4e.J4EApp"
 69-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:31:9-41
 70        android:allowBackup="false"
@@ -835,7 +835,7 @@
 431-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:404:13-37
 432
 433        <service
-433-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:9-411:19
+433-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:9-414:19
 434            android:name="com.google.firebase.components.ComponentDiscoveryService"
 434-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:18-89
 435            android:directBootAware="true"
@@ -854,73 +854,79 @@
 441-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:410:24-134
 442                android:value="com.google.firebase.components.ComponentRegistrar" />
 442-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:410:135-200
-443        </service>
-444
-445        <meta-data
-445-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:413:9-415:69
-446            android:name="com.google.android.gms.version"
-446-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:414:13-58
-447            android:value="@integer/google_play_services_version" />
-447-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:415:13-66
+443            <meta-data
+443-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:411:13-413:84
+444                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+444-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:412:17-109
+445                android:value="com.google.firebase.components.ComponentRegistrar" />
+445-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:413:17-82
+446        </service>
+447
 448        <meta-data
-448-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:416:9-418:60
-449            android:name="com.google.firebase.messaging.default_notification_icon"
-449-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:417:13-83
-450            android:resource="@drawable/splash_app_logo" />
-450-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:418:13-57
+448-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:416:9-418:69
+449            android:name="com.google.android.gms.version"
+449-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:417:13-58
+450            android:value="@integer/google_play_services_version" />
+450-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:418:13-66
 451        <meta-data
-451-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:419:9-421:58
-452            android:name="com.google.firebase.messaging.default_notification_color"
-452-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:420:13-84
-453            android:resource="@color/colorPrimaryDark" />
-453-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:421:13-55
+451-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:419:9-421:60
+452            android:name="com.google.firebase.messaging.default_notification_icon"
+452-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:420:13-83
+453            android:resource="@drawable/splash_app_logo" />
+453-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:421:13-57
 454        <meta-data
-454-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:422:9-424:71
-455            android:name="com.google.firebase.messaging.default_notification_channel_id"
-455-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:423:13-89
-456            android:value="@string/default_notification_channel_id" />
-456-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:424:13-68
-457
-458        <service
-458-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:426:9-433:19
-459            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseMessagingService"
-459-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:427:13-69
-460            android:exported="true" >
-460-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:428:13-36
-461            <intent-filter>
-461-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:430:13-432:29
-462                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-462-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:431:17-78
-462-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:431:25-75
-463            </intent-filter>
-464        </service>
-465        <service
-465-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:9-440:19
-466            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseInstanceIdService"
-466-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:18-75
-467            android:exported="false" >
-467-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:435:13-37
-468            <intent-filter>
-468-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:437:13-439:29
-469                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-469-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:438:17-80
-469-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:438:25-77
-470            </intent-filter>
-471        </service>
-472
-473        <receiver
-473-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:442:9-449:20
-474            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.SmsBroadcastReceiver"
-474-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:443:13-68
-475            android:exported="false" >
-475-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:444:13-37
-476            <intent-filter>
-476-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:446:13-448:29
-477                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
-477-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:447:17-94
-477-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:447:25-91
-478            </intent-filter>
-479        </receiver>
-480    </application>
-481
-482</manifest>
+454-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:422:9-424:58
+455            android:name="com.google.firebase.messaging.default_notification_color"
+455-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:423:13-84
+456            android:resource="@color/colorPrimaryDark" />
+456-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:424:13-55
+457        <meta-data
+457-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:425:9-427:71
+458            android:name="com.google.firebase.messaging.default_notification_channel_id"
+458-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:426:13-89
+459            android:value="@string/default_notification_channel_id" />
+459-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:427:13-68
+460
+461        <service
+461-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:429:9-436:19
+462            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseMessagingService"
+462-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:430:13-69
+463            android:exported="true" >
+463-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:431:13-36
+464            <intent-filter>
+464-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:433:13-435:29
+465                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+465-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:17-78
+465-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:25-75
+466            </intent-filter>
+467        </service>
+468        <service
+468-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:437:9-443:19
+469            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseInstanceIdService"
+469-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:437:18-75
+470            android:exported="false" >
+470-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:438:13-37
+471            <intent-filter>
+471-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:440:13-442:29
+472                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+472-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:441:17-80
+472-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:441:25-77
+473            </intent-filter>
+474        </service>
+475
+476        <receiver
+476-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:445:9-452:20
+477            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.SmsBroadcastReceiver"
+477-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:446:13-68
+478            android:exported="false" >
+478-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:447:13-37
+479            <intent-filter>
+479-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:449:13-451:29
+480                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+480-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:450:17-94
+480-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:450:25-91
+481            </intent-filter>
+482        </receiver>
+483    </application>
+484
+485</manifest>
