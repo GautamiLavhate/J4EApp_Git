@@ -508,7 +508,7 @@ class CreateRequirementActivity : BaseActivity() ,AdapterLeadStatusCategory.OnCl
                 formData = MultipartBody.Part.createFormData("rerquirement_thumbnail", "", requestBody)
             }
             val call = request.app_create_requirement(userId, reqtitle, reqdes, currentDatest, currentDatest1, reqfunctionalid, reqdaddress, formData)
-            showLoader(this);
+            showLoader1(this);
             call.enqueue(object : Callback<CreateRequirement> {
                 override fun onResponse(
                         call: Call<CreateRequirement>,

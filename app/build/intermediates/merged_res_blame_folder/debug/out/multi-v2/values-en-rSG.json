@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-en-rSG/values-en-rSG.xml",
+            "outputFile": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
             "map": [
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/524b9379484b85cbafd2293905a0a59c/transformed/jetified-play-services-wallet-18.1.3/res/values-en-rSG/values.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/a80fff2c7e032a5515a2c6458129df1a/jetified-play-services-wallet-18.1.3/res/values-en-rSG/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

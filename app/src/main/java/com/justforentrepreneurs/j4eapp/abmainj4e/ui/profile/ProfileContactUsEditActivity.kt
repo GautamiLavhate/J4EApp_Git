@@ -642,7 +642,7 @@ class ProfileContactUsEditActivity : BaseActivity() ,AdapterLeadStatusCategory.O
         if (validation()) {
 
             if (isInternetAvailable(this)) {
-                showLoader(this)
+                showLoader1(this)
 
                 val request = ServiceBuilder.buildService(APIinterface::class.java)
 

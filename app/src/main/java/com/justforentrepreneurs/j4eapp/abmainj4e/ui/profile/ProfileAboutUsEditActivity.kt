@@ -38,6 +38,7 @@ import com.justforentrepreneurs.j4eapp.abmainj4e.base.BaseActivity
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myconnections.Model.ConnectionDecline
 import com.justforentrepreneurs.j4eapp.abmainj4e.utils.*
 import com.bumptech.glide.Glide
+import com.facebook.FacebookSdk
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.adapter.*
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.model.*
@@ -85,6 +86,7 @@ class ProfileAboutUsEditActivity : BaseActivity(),AdapterTurnOver.OnClick2, Adap
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_profile_about_us_edit)
         binding.lifecycleOwner = this
+        FacebookSdk.sdkInitialize(this)
         binding.toolbar.ivEdit.setImageDrawable(
             ResourcesCompat.getDrawable(
                 resources,
@@ -549,7 +551,7 @@ class ProfileAboutUsEditActivity : BaseActivity(),AdapterTurnOver.OnClick2, Adap
     fun onEditBtnClick(view: View) {
         if (validation()) {
             if (isInternetAvailable(this)) {
-                showLoader(this)
+                showLoader1(this)
 
                     val request = ServiceBuilder.buildService(APIinterface::class.java)
                     val userId = RequestBody.create(
@@ -661,6 +663,8 @@ class ProfileAboutUsEditActivity : BaseActivity(),AdapterTurnOver.OnClick2, Adap
                         edtNoOfEmployee, spExpectedTurnover, edtTagetAudience,
                         formData, formData1
                     )
+
+
                     call.enqueue(object : Callback<ConnectionDecline> {
                         override fun onResponse(
                             call: Call<ConnectionDecline>,
@@ -688,6 +692,7 @@ class ProfileAboutUsEditActivity : BaseActivity(),AdapterTurnOver.OnClick2, Adap
                                 }
                             }
                         }
+
 
                         override fun onFailure(call: Call<ConnectionDecline>, t: Throwable) {
                             displayToast(

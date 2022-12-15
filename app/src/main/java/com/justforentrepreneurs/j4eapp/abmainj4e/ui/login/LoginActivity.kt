@@ -5,6 +5,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.Window
@@ -13,6 +14,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.google.firebase.FirebaseApp
 import com.google.firebase.messaging.FirebaseMessaging
 import com.justforentrepreneurs.j4eapp.R
 import com.justforentrepreneurs.j4eapp.abmainj4e.api.APIinterface
@@ -45,13 +47,14 @@ class LoginActivity : BaseActivityOP(), AuthListener {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
         binding.lifecycleOwner = this
         Utils.printHashKey(this)
-
+      //  FirebaseApp.initializeApp(this);
         FirebaseMessaging.getInstance().token
                 .addOnCompleteListener(OnCompleteListener { task ->
                     if (!task.isSuccessful) {
                         return@OnCompleteListener
                     }
                     token = task.result
+                    Log.d("TOK:",token);
                     displayToast(this,token)
 
                 })

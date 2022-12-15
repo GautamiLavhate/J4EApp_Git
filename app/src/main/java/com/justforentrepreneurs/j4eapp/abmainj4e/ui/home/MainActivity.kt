@@ -12,6 +12,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.PowerManager
 import android.provider.Settings
+import android.util.Log
 import android.view.*
 import android.view.View.GONE
 import android.view.View.VISIBLE
@@ -24,9 +25,11 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
+import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.database.*
+import com.google.firebase.messaging.FirebaseMessaging
 import com.justforentrepreneurs.StaticConfig
 import com.justforentrepreneurs.j4eapp.BuildConfig
 import com.justforentrepreneurs.j4eapp.R
@@ -147,6 +150,16 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main_j4e)
         binding.lifecycleOwner = this
         navDrawer()
+
+        FirebaseMessaging.getInstance().token
+            .addOnCompleteListener(OnCompleteListener { task ->
+                if (!task.isSuccessful) {
+                    return@OnCompleteListener
+                }
+                Log.d("TOK:",task.result);
+               // displayToast(this,token)
+
+            })
         //readUsingSharedPreference(MyApp.context(), "UidK")
 
 //        viewModel = ViewModelProvider(

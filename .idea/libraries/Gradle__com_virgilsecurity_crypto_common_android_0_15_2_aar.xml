@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.virgilsecurity.crypto:common-android:0.15.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/121c4cb4444fee8fe40e188bc758077b/transformed/jetified-common-android-0.15.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/121c4cb4444fee8fe40e188bc758077b/transformed/jetified-common-android-0.15.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/121c4cb4444fee8fe40e188bc758077b/transformed/jetified-common-android-0.15.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/919d278c0e8c806026a436d682cce1cf/transformed/jetified-common-android-0.15.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/919d278c0e8c806026a436d682cce1cf/transformed/jetified-common-android-0.15.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/919d278c0e8c806026a436d682cce1cf/transformed/jetified-common-android-0.15.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fea7b916fcbb7e7f9057ee3682acbec3/jetified-common-android-0.15.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fea7b916fcbb7e7f9057ee3682acbec3/jetified-common-android-0.15.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fea7b916fcbb7e7f9057ee3682acbec3/jetified-common-android-0.15.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.virgilsecurity.crypto/common-android/0.15.2/2d47f2799017ea980f8cf7091274525eb7a6a8ab/common-android-0.15.2-javadoc.jar!/" />

@@ -1,930 +1,930 @@
 [
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/gallary_activityzoom.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/gallary_activityzoom.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_j4e_member.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_j4e_member.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_maps_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_maps_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_comment_list.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_comment_list.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_mymebershipupgradebottomshit.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_mymebershipupgradebottomshit.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/delete_dialog_ppt.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/delete_dialog_ppt.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_all_events_filter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_all_events_filter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_all_members.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_all_members.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_profile.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_referral.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_referral.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pending_connecsent.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pending_connecsent.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/featuresmembers_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/featuresmembers_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_member_filter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_member_filter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_upcoming_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_upcoming_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_offlinetransactiondetails.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_offlinetransactiondetails.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_search_home.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_search_home.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_all_lead.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_all_lead.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_my_report_card.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_my_report_card.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_post_category.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_post_category.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_requirement.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_requirement.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_lead_status_add.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_lead_status_add.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_mytestimonialsact.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_mytestimonialsact.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recommendationpeople_bottomsheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/recommendationpeople_bottomsheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_setting.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_setting.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/update_background.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/update_background.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_upgradepopupli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_upgradepopupli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pr_followup.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pr_followup.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_chat_individual.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_chat_individual.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_ps_leads.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_ps_leads.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_bottom_bar.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_bottom_bar.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_posts.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_posts.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_all_posts.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_all_posts.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_membership_title.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_membership_title.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_recommended.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_recommended.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_my_leads.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_my_leads.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_welcome.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_welcome.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_eventdetails.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_eventdetails.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_event_status.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_event_status.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_award_recognition.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_award_recognition.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/toolbar_simple.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/toolbar_simple.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/offline_transaction_details_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/offline_transaction_details_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recommended_lead.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_recommended_lead.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_about_us.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_about_us.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_notification.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_notification.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_eventslayout.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_eventslayout.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recommended.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_recommended.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_profilleview.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_profilleview.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/thank_you_bottom_sheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/thank_you_bottom_sheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_lead_status_add.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_lead_status_add.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_individual.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_individual.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_testimonials.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_testimonials.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_package.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_package.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_event_booking.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_event_booking.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_myguestinvites.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_myguestinvites.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_frag_j4_e_members.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_frag_j4_e_members.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_home.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_search_home.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/offline_transaction_details_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/offline_transaction_details_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_all_lead.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_all_lead.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_events_gallery.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_events_gallery.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/deactivated_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/deactivated_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/full_image_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/full_image_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_my_sub_report_card.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_my_sub_report_card.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_event_joiner.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_event_joiner.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/sort_bottom_sheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/sort_bottom_sheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_pending_referral_received.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_pending_referral_received.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_member_filter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_member_filter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/imagedelete_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/imagedelete_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_my_testimonials.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_my_testimonials.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_award_recognition.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_award_recognition.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_all_posts.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_all_posts.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_edit.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_edit.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_group.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_group.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_leads_detail.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_leads_detail.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_guestinvite.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_guestinvite.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/delete_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/delete_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_membership_feature.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_membership_feature.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/check_box_plan.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/check_box_plan.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_notification.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_notification.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_j4e_members.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_j4e_members.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_all_buddies.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_all_buddies.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_posts.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_posts.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_past_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_past_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/gallary_activityzoom.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/gallary_activityzoom.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_testimonials.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_testimonials.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_all_leads.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_all_leads.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_feedback_event.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_feedback_event.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_my_report_card.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_my_report_card.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/add_gallry_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/add_gallry_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/gallary_activityview.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/gallary_activityview.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_profile.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_profile.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_past_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_past_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_membership_add.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_membership_add.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_setting.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_setting.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_requirements.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_requirements.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_eventdetails.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_eventdetails.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/camera_gallary_bottomsheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/camera_gallary_bottomsheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/add_gallry_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/add_gallry_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_connectionli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_connectionli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome_slide_d.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/welcome_slide_d.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_recommend_person.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_recommend_person.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_myleadstatuslist.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_myleadstatuslist.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_individual.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_individual.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_buddieslayout.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_buddieslayout.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_recommend_person_list.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_recommend_person_list.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main_j4e.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_main_j4e.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_sent_connection.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_sent_connection.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_privacy_and_policy.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_privacy_and_policy.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bm_create.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bm_create.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_buddymonth.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_buddymonth.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_commentsli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_commentsli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/post_info.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/post_info.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_ps_leads.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_ps_leads.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_recommended_to.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_recommended_to.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pr_followup.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pr_followup.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_referral.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_referral.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/planexpaireddialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/planexpaireddialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_applications.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_applications.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_events_gallery.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_events_gallery.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pending_connection.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pending_connection.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/filter_bottom_sheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/filter_bottom_sheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_searchdata.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_searchdata.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_subscribe_plan.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_subscribe_plan.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_confirm_booking.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_confirm_booking.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_profile_gallery.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_profile_gallery.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile_contact_us_edit.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_profile_contact_us_edit.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_buddieslayout.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_buddieslayout.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/reffralcheckbox_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/reffralcheckbox_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_recommended_to.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_recommended_to.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/delete_dialog_pdf.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/delete_dialog_pdf.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/planning_events_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/planning_events_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_editbtn.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_editbtn.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_award.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_award.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/planning_events_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/planning_events_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/delete_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/delete_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_frag_j4_e_members.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_frag_j4_e_members.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_leads_detail.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_leads_detail.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_plan_upgradeadapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_plan_upgradeadapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_login.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_login.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recommdation_note_bm.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/recommdation_note_bm.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/viewpager_profile_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/viewpager_profile_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_my_diary.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_my_diary.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_notification.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_notification.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_event_booking.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_event_booking.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_sent_connection.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_sent_connection.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/renew_bottomsheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/renew_bottomsheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_comment_list.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_comment_list.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_welcome.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_welcome.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_all_buddies.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_all_buddies.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_reviewprofile.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_reviewprofile.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_welcome.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_welcome.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_testimonials.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_testimonials.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_my_recognition.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_my_recognition.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_all_posts.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_all_posts.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_edit.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_edit.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_my_group.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_my_group.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_recognizationlay.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_recognizationlay.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_recommendedbyl.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_recommendedbyl.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_plan_upgradeadapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_plan_upgradeadapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_recommandexitinglist.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_recommandexitinglist.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_comment_list.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_comment_list.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_connectionli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_connectionli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_gallery.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_gallery.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_business_card.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_business_card.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_searchdata.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_searchdata.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_award_recognition.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_award_recognition.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/mainexit_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/mainexit_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pending_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pending_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_profile_contact_us.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_profile_contact_us.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sort_bottom_sheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/sort_bottom_sheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_recommended_by.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_recommended_by.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_terms_and_condition.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_terms_and_condition.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/welcome_slide_d.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/welcome_slide_d.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_buddies.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_buddies.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_guestinvitesli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_guestinvitesli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_business_transactions.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_business_transactions.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_home.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_home.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_recommend_person_other.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_recommend_person_other.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_offline_business.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_offline_business.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_all_posts.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_all_posts.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_mymebershipupgradebottomshit.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_mymebershipupgradebottomshit.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash_j4e.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_splash_j4e.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_leads_status_add.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_leads_status_add.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_awardrecognition.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_awardrecognition.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_ps_buddy_meet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_ps_buddy_meet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_reward_list.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_reward_list.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_event_joiner.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_event_joiner.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/gallary_activityview.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/gallary_activityview.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pending_requirement.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pending_requirement.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_post_category.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_post_category.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_requirements.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_requirements.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_recommended_by.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_recommended_by.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_sent_connection.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_sent_connection.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_completed_requirement.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_completed_requirement.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/recommdation_note_bm.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/recommdation_note_bm.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_event_status.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_event_status.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/thank_you_bottom_sheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/thank_you_bottom_sheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_maps_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_maps_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_posts.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_posts.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bm_create.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bm_create.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_j4e_member.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_j4e_member.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_lead_status_publish.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_lead_status_publish.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_myguestinvites.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_myguestinvites.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notification.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_notification.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/layout_tandc_bottomsheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/layout_tandc_bottomsheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_about_us.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_about_us.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_all_events_filter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_all_events_filter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_completed_mylead.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_completed_mylead.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_profilecontactus.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_profilecontactus.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_guestinvite.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_guestinvite.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_all_event.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_all_event.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_requirement.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_requirement.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_business_transactions.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_business_transactions.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/viewpager_profile_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/viewpager_profile_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_upcoming_event.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_upcoming_event.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/payment_faild_bottomsheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/payment_faild_bottomsheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/payment_faild_bottomsheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/payment_faild_bottomsheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_gallery.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_gallery.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lav_my_diary.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lav_my_diary.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_aboutus.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_aboutus.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_recommend_person_other.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_recommend_person_other.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_referral_given.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_referral_given.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_terms_and_condition.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_terms_and_condition.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_all_event.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_all_event.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_completed_referral.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_completed_referral.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_upcoming_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_upcoming_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/toolbar_single_image.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/toolbar_single_image.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lav_deals_discounts.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lav_deals_discounts.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_membership_benefits.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_membership_benefits.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_pending_requirement.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_pending_requirement.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/renew_bottomsheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/renew_bottomsheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_award.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_award.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_new_my_membership_details.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_new_my_membership_details.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_home.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_home.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_j4emembers.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_j4emembers.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_membership_feature.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_membership_feature.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pending_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pending_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/deactivated_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/deactivated_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_event_status.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_event_status.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_report_card.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_report_card.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_main_j4e.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_main_j4e.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_my_testimonials.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_my_testimonials.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_otp_verification.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_otp_verification.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_group.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_group.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_lead_status_publish.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_lead_status_publish.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_profile_gallery.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_profile_gallery.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_memberfilters.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_memberfilters.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_profilecontactus.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_profilecontactus.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/new_update_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/new_update_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_leadsli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_leadsli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_follow_up.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_follow_up.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile_about_us_edit.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_profile_about_us_edit.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/filter_business_transaction.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/filter_business_transaction.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_package.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_package.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_business_transactions.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_business_transactions.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_editbtn.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_editbtn.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_leads_status_add.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_leads_status_add.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_toprackingst.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_toprackingst.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pending_myleads.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pending_myleads.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_recommendedbyl.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_recommendedbyl.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_feedback.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_feedback.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_referral_given.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_referral_given.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_all_buddies.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_all_buddies.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_profile_reviews.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_profile_reviews.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_recommend_person_list.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_recommend_person_list.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_completed_mylead.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_completed_mylead.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_leadsdeatils.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_leadsdeatils.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/drawer_layout.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/drawer_layout.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/checkbox_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/checkbox_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_award_recognition.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_award_recognition.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_pending_referral.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_pending_referral.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_membership_title_title.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_membership_title_title.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_welcome.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_welcome.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_group.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_group.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_membership_title_title.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_membership_title_title.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_completed_referral_received.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_completed_referral_received.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_award_toprank.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_award_toprank.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pending_requirement.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pending_requirement.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/featuresmembers_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/featuresmembers_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/filter_business_transaction.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/filter_business_transaction.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/filter_bottom_sheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/filter_bottom_sheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pending_connecsent.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pending_connecsent.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_postsli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_postsli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_recognition_add.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_recognition_add.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome_slide_c.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/welcome_slide_c.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_gallery_eventsli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_gallery_eventsli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_recognition_add.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_recognition_add.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_recommandexitinglist.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_recommandexitinglist.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/splash_permissiondialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/splash_permissiondialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_searchdatatype.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_searchdatatype.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recommand_exit_listpeople.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/recommand_exit_listpeople.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/reffralcheckbox_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/reffralcheckbox_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_recommended_by.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_recommended_by.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_business_card.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_business_card.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/checkbox_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/checkbox_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_chat_group_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_chat_group_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_my_diary.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_my_diary.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome_slide_a.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/welcome_slide_a.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_all_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_all_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_follow_up.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_follow_up.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_membership_title.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_membership_title.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recommended_person_rv_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/recommended_person_rv_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_feedback.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_feedback.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_ps_buddy_meet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_ps_buddy_meet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_leads_status_list.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_leads_status_list.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mainexit_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/mainexit_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_profile_about_us.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_profile_about_us.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_buddy_meet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_buddy_meet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_connections.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_connections.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_welcome.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_welcome.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_postsli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_postsli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_comment_list.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_comment_list.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_confirm_booking.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_confirm_booking.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_all_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_all_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/layout_membership_addedit.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/layout_membership_addedit.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_profile_reviews.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_profile_reviews.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/imagedelete_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/imagedelete_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_commentsli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_commentsli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_chat_group_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_chat_group_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/camera_gallary_bottomsheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/camera_gallary_bottomsheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_buddymonth.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_buddymonth.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_all_buddies.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_all_buddies.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/delete_dialog_pdf.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/delete_dialog_pdf.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_upcoming_event.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_upcoming_event.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_categorypost.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_categorypost.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_membershipbenefit.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_membershipbenefit.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/update_background.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/update_background.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_leads_status_list.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_leads_status_list.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_my_group.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_my_group.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_requirements.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_requirements.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_recognition.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_recognition.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_completed_referral.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_completed_referral.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/splash_permissiondialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/splash_permissiondialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_chat_individual.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_chat_individual.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/welcome_slide_c.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/welcome_slide_c.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_referral.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_referral.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_my_leads.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_my_leads.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_memberfilters.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_memberfilters.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_pending_referral.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_pending_referral.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_myguestinvites.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_myguestinvites.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pending_myleads.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pending_myleads.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_searchdatatype.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_searchdatatype.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_profile_about_us_edit.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_profile_about_us_edit.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/planexpaireddialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/planexpaireddialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/check_box_plan.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/check_box_plan.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_reffralstatusdetails.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_reffralstatusdetails.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pr_buddy_meet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pr_buddy_meet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/delete_dialog_ppt.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/delete_dialog_ppt.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_reward_list.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_reward_list.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_paln_features_adapter.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_paln_features_adapter.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/recommand_exit_listpeople.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/recommand_exit_listpeople.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_offline_business.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_create_offline_business.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/welcome_slide_b.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/welcome_slide_b.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lav_my_diary.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lav_my_diary.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_membershipbenefit.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_membershipbenefit.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_membership_benefits.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_membership_benefits.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_toolbar_myguestinvites.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_toolbar_myguestinvites.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_my_sub_report_card.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_my_sub_report_card.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_reviewprofile.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_reviewprofile.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_recommend_person.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_recommend_person.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_event_joiner.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_event_joiner.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_upgradepopupli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_upgradepopupli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/recommended_person_rv_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/recommended_person_rv_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_membership_addedit.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/layout_membership_addedit.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_referral_received.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_referral_received.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/toolbar_search.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/toolbar_search.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_lead_status_category.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_lead_status_category.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_leadsstatuslist.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_leadsstatuslist.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_buddy_meet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_buddy_meet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_recognition.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_recognition.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_offlinetransactiondetails.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_offlinetransactiondetails.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_tandc_bottomsheet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/layout_tandc_bottomsheet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_award_toprank.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_award_toprank.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_new_my_membership_details.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_new_my_membership_details.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/recommendationpeople_bottomsheet.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/recommendationpeople_bottomsheet.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_toprackingst.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_toprackingst.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lav_deals_discounts.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lav_deals_discounts.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_bottom_bar.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_bottom_bar.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_business_transactions.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_business_transactions.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_gallery_eventsli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_gallery_eventsli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_reffralstatusdetails.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_reffralstatusdetails.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_referral_received.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_referral_received.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_welcome.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_welcome.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_pr_buddy_meet.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_pr_buddy_meet.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/welcome_slide_a.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/welcome_slide_a.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_received_connection.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_received_connection.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_create_referral.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_create_referral.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_sent_connection.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_sent_connection.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/toolbar_simple.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/toolbar_simple.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_all_members.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_all_members.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_j4e_members.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_j4e_members.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/drawer_layout.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/drawer_layout.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/item_event_status.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/item_event_status.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_connections.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_connections.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/toolbar_search.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/toolbar_search.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_chatbuddylist.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_chatbuddylist.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_myleadstatuslist.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_myleadstatuslist.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_mytestimonialsact.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_mytestimonialsact.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_leadsstatuslist.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_leadsstatuslist.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_j4emembers.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_j4emembers.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/post_info.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/post_info.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/toolbar_single_image.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/toolbar_single_image.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_report_card.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_report_card.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_guestinvitesli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_guestinvitesli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_recommended_lead.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_recommended_lead.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_lead_status_category.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_lead_status_category.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/lay_paln_features_adapter.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/lay_paln_features_adapter.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_followupli.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_followupli.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_myguestinvites.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_myguestinvites.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_event_joiner.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/item_event_joiner.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_reward_list.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_reward_list.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_toolbar_myguestinvites.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_toolbar_myguestinvites.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_pending_connection.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_pending_connection.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_profilleview.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_profilleview.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/full_image_dialog.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/full_image_dialog.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_group.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_group.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_requirements.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_requirements.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_otp_verification.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_otp_verification.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_events.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_events.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_testimonials.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_testimonials.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/reviewall_popup.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/reviewall_popup.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_profile_about_us.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_profile_about_us.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_events_detail.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_events_detail.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_subscribe_plan.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_subscribe_plan.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_received_connection.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_received_connection.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_membership_add.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_membership_add.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_privacy_and_policy.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_privacy_and_policy.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/new_update_dialog.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/new_update_dialog.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_aboutus.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_aboutus.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_eventslayout.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_eventslayout.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_buddies.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_buddies.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/welcome_slide_b.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/welcome_slide_b.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/bs_chatbuddylist.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/bs_chatbuddylist.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_events.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_events.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_followupli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_followupli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frag_recommended_by.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/frag_recommended_by.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_leadsdeatils.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_leadsdeatils.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_recognizationlay.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_recognizationlay.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_splash_j4e.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_splash_j4e.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/lay_profile_contact_us.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/lay_profile_contact_us.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/frag_all_leads.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/frag_all_leads.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/reviewall_popup.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/reviewall_popup.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_event_booking.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_event_booking.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bs_reward_list.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/bs_reward_list.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_my_posts.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_my_posts.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_events_detail.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_my_events_detail.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_leadsli.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_leadsli.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_my_recognition.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_my_recognition.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_pending_requirement.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_pending_requirement.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_completed_requirement.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_completed_requirement.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/adapter_applications.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/adapter_applications.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_categorypost.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/adapter_categorypost.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/fragment_pending_referral_received.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/fragment_pending_referral_received.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ab_event_booking.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/ab_event_booking.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/activity_profile_contact_us_edit.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/activity_profile_contact_us_edit.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_completed_referral_received.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/fragment_completed_referral_received.xml"
     },
     {
-        "merged": "com.justforentrepreneurs.j4eapp-mergeDebugResources-91:/layout/ab_awardrecognition.xml",
-        "source": "com.justforentrepreneurs.j4eapp-main-94:/layout/ab_awardrecognition.xml"
+        "merged": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_feedback_event.xml",
+        "source": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/res/layout/activity_feedback_event.xml"
     }
 ]

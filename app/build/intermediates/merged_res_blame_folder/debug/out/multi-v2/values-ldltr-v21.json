@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/61a7d6321666abaf510fa5399c535439/transformed/appcompat-1.5.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/557047df04e5865d304ca92d09fc9125/appcompat-1.5.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

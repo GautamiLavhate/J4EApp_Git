@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/ea5e8a0aaf7ead321ae2c7a801e6022f/transformed/jetified-checkout-1.6.12/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/557047df04e5865d304ca92d09fc9125/appcompat-1.5.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "93,162,231,301,375,451,510,581",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "157,226,296,370,446,505,576,644"
+                    }
+                },
+                {
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/a305b3e58ed373b054ffa3fcd6083eb6/jetified-checkout-1.6.12/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/61a7d6321666abaf510fa5399c535439/transformed/appcompat-1.5.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "93,162,231,301,375,451,510,581",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "157,226,296,370,446,505,576,644"
-                    }
-                },
-                {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/0d00d124761a7e2d6c194e74eb92efb1/transformed/material-1.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/bad21613f658b598019714a9c219336b/material-1.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

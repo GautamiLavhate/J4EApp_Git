@@ -1466,7 +1466,7 @@ class ProfileActivity : BaseActivity(),AdapterMyTestimonials.OnClick2,AdapterGal
             list.add(MultipartBody.Part.createFormData("images[]", Filenale, requestBodyimages))
 
             val call = request.user_gallery_add(userId,gallerytype,list)
-            showLoader(this);
+            showLoader1(this);
             call.enqueue(object : Callback<GallaryUpload> {
                 override fun onResponse(
                         call: Call<GallaryUpload>,

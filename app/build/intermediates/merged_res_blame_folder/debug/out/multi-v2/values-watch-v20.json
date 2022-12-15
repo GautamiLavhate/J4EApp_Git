@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/61a7d6321666abaf510fa5399c535439/transformed/appcompat-1.5.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/557047df04e5865d304ca92d09fc9125/appcompat-1.5.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/09b58460df9ff3d85250d5bb3bc79829/transformed/jetified-play-services-auth-20.4.0/res/values-watch-v20/values.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/d0e6b6af1bf62d46b5f0ebe26c1f91b8/jetified-play-services-auth-20.4.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/0d00d124761a7e2d6c194e74eb92efb1/transformed/material-1.4.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/bad21613f658b598019714a9c219336b/material-1.4.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

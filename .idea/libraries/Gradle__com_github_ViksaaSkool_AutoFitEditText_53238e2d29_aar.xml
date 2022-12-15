@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ViksaaSkool:AutoFitEditText:53238e2d29@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/347c4a0be77ca6d854ffea507c95fe54/transformed/jetified-AutoFitEditText-53238e2d29/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/347c4a0be77ca6d854ffea507c95fe54/transformed/jetified-AutoFitEditText-53238e2d29/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/347c4a0be77ca6d854ffea507c95fe54/transformed/jetified-AutoFitEditText-53238e2d29/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/589a4664b12785ff9038e72058302178/transformed/jetified-AutoFitEditText-53238e2d29/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/589a4664b12785ff9038e72058302178/transformed/jetified-AutoFitEditText-53238e2d29/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/589a4664b12785ff9038e72058302178/transformed/jetified-AutoFitEditText-53238e2d29/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4720dcc4d589d03ed4e6d099bf9f8a75/jetified-AutoFitEditText-53238e2d29/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4720dcc4d589d03ed4e6d099bf9f8a75/jetified-AutoFitEditText-53238e2d29/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4720dcc4d589d03ed4e6d099bf9f8a75/jetified-AutoFitEditText-53238e2d29/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

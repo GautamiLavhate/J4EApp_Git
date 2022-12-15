@@ -53,880 +53,925 @@
 24    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 24-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:21:5-74
 24-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:21:22-71
-25
-26    <uses-feature
-26-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:23:5-25:36
-27        android:name="android.hardware.location.network"
-27-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:24:9-57
-28        android:required="false" />
-28-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:25:9-33
-29    <uses-feature
-29-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:26:5-28:36
-30        android:name="android.hardware.location.gps"
-30-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:27:9-53
-31        android:required="false" />
-31-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:28:9-33
-32
-33    <uses-permission android:name="android.permission.READ_CONTACTS" />
-33-->[com.github.broakenmedia:MultiContactPicker:1.8.5] /Users/sapat/.gradle/caches/transforms-3/63493441986a1fd25afb6b3456365a11/transformed/jetified-MultiContactPicker-1.8.5/AndroidManifest.xml:11:5-72
-33-->[com.github.broakenmedia:MultiContactPicker:1.8.5] /Users/sapat/.gradle/caches/transforms-3/63493441986a1fd25afb6b3456365a11/transformed/jetified-MultiContactPicker-1.8.5/AndroidManifest.xml:11:22-69
-34    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-35
-36    <queries>
-36-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:11:5-22:15
-37        <intent>
-37-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:12:9-18:18
-38            <action android:name="android.intent.action.GET_CONTENT" />
-38-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:13:13-72
-38-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:13:21-69
-39
-40            <category android:name="android.intent.category.OPENABLE" />
-40-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:15:13-73
-40-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:15:23-70
-41
-42            <data android:mimeType="*/*" />
-42-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:17-75
-43        </intent>
-44        <intent>
-44-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:19:9-21:18
-45            <action android:name="android.media.action.IMAGE_CAPTURE" />
-45-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:20:13-73
-45-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:20:21-70
-46        </intent>
-47        <!-- Needs to be explicitly declared on Android R+ -->
-48        <package android:name="com.google.android.apps.maps" /> <!-- For browser content -->
-48-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-3/c1d1858c9f969b353db6558b1976b22d/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
-48-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-3/c1d1858c9f969b353db6558b1976b22d/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
-49        <intent>
-49-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-3/c7299939464937d5468b0384bed02b6b/transformed/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:30:9-36:18
-50            <action android:name="android.intent.action.VIEW" />
-50-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:17-69
-50-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:25-66
-51
-52            <category android:name="android.intent.category.BROWSABLE" />
-52-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:17-78
-52-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:27-75
-53
-54            <data android:scheme="https" />
-54-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:17-75
-54-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:23-72
-55        </intent> <!-- End of browser content -->
-56        <!-- For CustomTabsService -->
-57        <intent>
-57-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-3/c7299939464937d5468b0384bed02b6b/transformed/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:39:9-41:18
-58            <action android:name="android.support.customtabs.action.CustomTabsService" />
-58-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-3/c7299939464937d5468b0384bed02b6b/transformed/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:40:13-90
-58-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-3/c7299939464937d5468b0384bed02b6b/transformed/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:40:21-87
-59        </intent>
-60    </queries>
-61
-62    <uses-feature
-62-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-3/c1d1858c9f969b353db6558b1976b22d/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
-63        android:glEsVersion="0x00020000"
-63-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-3/c1d1858c9f969b353db6558b1976b22d/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
-64        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-64-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-3/c1d1858c9f969b353db6558b1976b22d/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
-65    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-65-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapat/.gradle/caches/transforms-3/ca0fd9a6c0771b762c75d37866c2deb0/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
-65-->[com.google.firebase:firebase-messaging:23.0.0] /Users/sapat/.gradle/caches/transforms-3/ca0fd9a6c0771b762c75d37866c2deb0/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
-66    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-66-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/sapat/.gradle/caches/transforms-3/dcbf856e45172a4f5bd3e4f91108ec6f/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
-66-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/sapat/.gradle/caches/transforms-3/dcbf856e45172a4f5bd3e4f91108ec6f/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
-67
-68    <application
-68-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:30:5-453:19
-69        android:name="com.justforentrepreneurs.j4eapp.abmainj4e.J4EApp"
-69-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:31:9-41
-70        android:allowBackup="false"
-70-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:32:9-36
-71        android:debuggable="true"
-72        android:extractNativeLibs="false"
-73        android:icon="@drawable/j4e_app_logo"
-73-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:33:9-46
-74        android:label="@string/app_name"
-74-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:34:9-41
-75        android:requestLegacyExternalStorage="true"
-75-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:35:9-52
-76        android:roundIcon="@drawable/j4e_app_logo"
-76-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:36:9-51
-77        android:supportsRtl="false"
-77-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:37:9-36
-78        android:testOnly="true"
-79        android:theme="@style/AppTheme"
-79-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:38:9-40
-80        android:usesCleartextTraffic="true" >
-80-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:39:9-44
-81        <activity
-81-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:42:9-44:40
-82            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.BusinessCardActivity"
-82-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:43:13-70
-83            android:exported="false" />
-83-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:44:13-37
-84        <activity
-84-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:45:9-47:40
-85            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.allmembers.AllMembersActivity"
-85-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:46:13-71
-86            android:exported="false" />
-86-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:47:13-37
-87        <activity
-87-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:49:9-51:40
-88            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrefrral.receive.ReferralReceivedActivity"
-88-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:50:13-96
-89            android:exported="false" />
-89-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:51:13-37
-90        <activity
-90-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:52:9-54:40
-91            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrefrral.givan.ReferralGivenActivity"
-91-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:53:13-91
-92            android:exported="false" />
-92-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:54:13-37
-93        <activity
-93-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:55:9-57:40
-94            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateReferralActivity"
-94-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:56:13-76
-95            android:exported="false" />
-95-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:57:13-37
-96        <activity
-96-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:58:9-60:40
-97            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.SubscribePlanActivity"
-97-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:59:13-96
-98            android:exported="false" />
-98-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:60:13-37
-99        <activity
-99-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:61:9-63:40
-100            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.NewMyMembershipDetailsActivity"
-100-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:62:13-105
-101            android:exported="false" />
-101-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:63:13-37
-102        <activity
-102-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:64:9-66:40
-103            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.PrivacyAndPolicyActivity"
-103-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:65:13-72
-104            android:exported="false" />
-104-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:66:13-37
-105        <activity
-105-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:67:9-69:40
-106            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.TermsAndConditionActivity"
-106-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:68:13-73
-107            android:exported="false" /> <!-- <service -->
-107-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:69:13-37
-108        <!-- android:name=".services.CompleteSetupService" -->
-109        <!-- android:enabled="true" -->
-110        <!-- android:exported="false" /> -->
-111        <!-- <service -->
-112        <!-- android:name=".services.BackupService" -->
-113        <!-- android:enabled="true" -->
-114        <!-- android:exported="false" /> -->
-115        <uses-library
-115-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:77:9-79:40
-116            android:name="org.apache.http.legacy"
-116-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:78:13-50
-117            android:required="false" /> <!-- ACTIVITIES -->
-117-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:79:13-37
-118        <activity
-118-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:80:9-83:39
-119            android:name="com.canhub.cropper.CropImageActivity"
-119-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:81:13-64
-120            android:exported="false"
-120-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:83:13-37
-121            android:theme="@style/AppTheme" /> <!-- <service -->
-121-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:82:13-44
-122
-123        <provider
-124            android:name="androidx.core.content.FileProvider"
-124-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:86:13-62
-125            android:authorities="com.justforentrepreneurs.j4eapp.provider"
-125-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:87:13-60
-126            android:exported="false"
-126-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:88:13-37
-127            android:grantUriPermissions="true" >
-127-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:89:13-47
-128            <meta-data
-128-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:91:13-93:58
-129                android:name="android.support.FILE_PROVIDER_PATHS"
-129-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:92:17-67
-130                android:resource="@xml/provider_paths" />
-130-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:93:17-55
-131        </provider>
-132
-133        <meta-data
-133-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:96:9-98:55
-134            android:name="com.google.android.geo.API_KEY"
-134-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:97:13-58
-135            android:value="@string/google_maps_key" />
-135-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:98:13-52
-136        <meta-data
-136-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:99:9-101:52
-137            android:name="com.google.android.gms.ads.APPLICATION_ID"
-137-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:100:13-69
-138            android:value="@string/admob_app_id" /> <!-- //j4e -->
-138-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:101:13-49
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:22:5-82
+25-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:22:22-79
+26
+27    <uses-feature
+27-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:24:5-26:36
+28        android:name="android.hardware.location.network"
+28-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:25:9-57
+29        android:required="false" />
+29-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:26:9-33
+30    <uses-feature
+30-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:27:5-29:36
+31        android:name="android.hardware.location.gps"
+31-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:28:9-53
+32        android:required="false" />
+32-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:29:9-33
+33
+34    <uses-permission android:name="android.permission.READ_CONTACTS" />
+34-->[com.github.broakenmedia:MultiContactPicker:1.8.5] /Users/sapat/.gradle/caches/transforms-2/files-2.1/f192599da590f21f9772fea0e75ecf36/jetified-MultiContactPicker-1.8.5/AndroidManifest.xml:11:5-72
+34-->[com.github.broakenmedia:MultiContactPicker:1.8.5] /Users/sapat/.gradle/caches/transforms-2/files-2.1/f192599da590f21f9772fea0e75ecf36/jetified-MultiContactPicker-1.8.5/AndroidManifest.xml:11:22-69
+35    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+36
+37    <queries>
+37-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:11:5-22:15
+38        <intent>
+38-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:12:9-18:18
+39            <action android:name="android.intent.action.GET_CONTENT" />
+39-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:13:13-72
+39-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:13:21-69
+40
+41            <category android:name="android.intent.category.OPENABLE" />
+41-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:15:13-73
+41-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:15:23-70
+42
+43            <data android:mimeType="*/*" />
+43-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:17-75
+44        </intent>
+45        <intent>
+45-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:19:9-21:18
+46            <action android:name="android.media.action.IMAGE_CAPTURE" />
+46-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:20:13-73
+46-->[com.github.CanHub:Android-Image-Cropper:2.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/AndroidManifest.xml:20:21-70
+47        </intent>
+48        <!-- Needs to be explicitly declared on Android R+ -->
+49        <package android:name="com.google.android.apps.maps" /> <!-- For browser content -->
+49-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/e3c44fc7b8184497c7ad73d4630ba59f/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+49-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/e3c44fc7b8184497c7ad73d4630ba59f/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+50        <intent>
+50-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/309961ed416590f0ac741435b1fdfb87/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:30:9-36:18
+51            <action android:name="android.intent.action.VIEW" />
+51-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:17-69
+51-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:25-66
+52
+53            <category android:name="android.intent.category.BROWSABLE" />
+53-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:17-78
+53-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:27-75
+54
+55            <data android:scheme="https" />
+55-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:17-75
+55-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:23-72
+56        </intent> <!-- End of browser content -->
+57        <!-- For CustomTabsService -->
+58        <intent>
+58-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/309961ed416590f0ac741435b1fdfb87/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:39:9-41:18
+59            <action android:name="android.support.customtabs.action.CustomTabsService" />
+59-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/309961ed416590f0ac741435b1fdfb87/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:40:13-90
+59-->[com.google.android.gms:play-services-ads-lite:19.7.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/309961ed416590f0ac741435b1fdfb87/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:40:21-87
+60        </intent>
+61    </queries>
+62
+63    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+63-->[com.google.firebase:firebase-messaging:23.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/17020d9b7e5167174c71e5db0c21ff0a/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:5-77
+63-->[com.google.firebase:firebase-messaging:23.1.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/17020d9b7e5167174c71e5db0c21ff0a/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:22-74
+64
+65    <uses-feature
+65-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/e3c44fc7b8184497c7ad73d4630ba59f/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+66        android:glEsVersion="0x00020000"
+66-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/e3c44fc7b8184497c7ad73d4630ba59f/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+67        android:required="true" />
+67-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sapat/.gradle/caches/transforms-2/files-2.1/e3c44fc7b8184497c7ad73d4630ba59f/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+68
+69    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+69-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9cb057c3b129ba259ba5cfcf41f78aa5/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+69-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/9cb057c3b129ba259ba5cfcf41f78aa5/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+70    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+70-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/df1dda850b18f09b00212247f686416b/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+70-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/sapat/.gradle/caches/transforms-2/files-2.1/df1dda850b18f09b00212247f686416b/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+71
+72    <application
+72-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:31:5-489:19
+73        android:name="com.justforentrepreneurs.j4eapp.abmainj4e.J4EApp"
+73-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:32:9-41
+74        android:allowBackup="false"
+74-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:33:9-36
+75        android:debuggable="true"
+76        android:extractNativeLibs="false"
+77        android:hardwareAccelerated="true"
+77-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:42:9-43
+78        android:icon="@drawable/j4e_app_logo"
+78-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:34:9-46
+79        android:label="@string/app_name"
+79-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:35:9-41
+80        android:largeHeap="true"
+80-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:41:9-33
+81        android:requestLegacyExternalStorage="true"
+81-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:36:9-52
+82        android:roundIcon="@drawable/j4e_app_logo"
+82-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:37:9-51
+83        android:supportsRtl="false"
+83-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:38:9-36
+84        android:testOnly="true"
+85        android:theme="@style/AppTheme"
+85-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:39:9-40
+86        android:usesCleartextTraffic="true" >
+86-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:40:9-44
+87
+88        <!--
+89        <service
+90            android:name=".abmainj4e.fcm.MyFirebaseMessagingService"
+91            android:exported="false"
+92            >
+93            <intent-filter>
+94                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+95            </intent-filter>
+96        </service>
+97        -->
+98
+99        <service
+99-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:57:9-62:19
+100            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseInstanceIdService"
+100-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:57:18-75
+101            android:exported="true" >
+101-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:58:13-36
+102            <intent-filter>
+102-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:59:13-61:29
+103                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+103-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:60:17-80
+103-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:60:25-77
+104            </intent-filter>
+105        </service>
+106        <service android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseMessagingService" >
+106-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:63:9-67:19
+106-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:63:18-74
+107            <intent-filter>
+107-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:64:13-66:29
+108                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+108-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:65:17-78
+108-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:65:25-75
+109            </intent-filter>
+110        </service>
+111
+112        <meta-data
+112-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:69:9-71:55
+113            android:name="com.google.firebase.messaging.default_notification_channel_id"
+113-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:70:13-89
+114            android:value="high_importance_channel" />
+114-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:71:13-52
+115
+116        <!--
+117        <service
+118            android:name=".abmainj4e.fcm.MyFirebaseMessagingService"
+119            android:enabled="true"
+120            android:permission="com.google.android.c2dm.permission.SEND"
+121            android:stopWithTask="false"
+122            android:exported="false">
+123            <intent-filter>
+124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+126                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+127            </intent-filter>
+128        </service>
+129
+130
+131        <service
+132            android:name=".abmainj4e.fcm.MyFirebaseInstanceIdService">
+133            <intent-filter>
+134                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+135            </intent-filter>
+136        </service>
+137        -->
+138
 139        <activity
-139-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:102:9-107:39
-140            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MapsEventsActivity"
-140-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:103:13-81
-141            android:exported="false"
-141-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:107:13-37
-142            android:label="@string/title_activity_maps_events"
-142-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:104:13-63
-143            android:screenOrientation="portrait" />
-143-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:105:13-49
-144        <activity
-144-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:108:9-111:39
-145            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.pendingresponsibilities.CreateFollowUpActivity"
-145-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:109:13-100
-146            android:exported="false"
-146-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:111:13-37
-147            android:screenOrientation="portrait" />
-147-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:110:13-49
+139-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:95:9-97:40
+140            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.BusinessCardActivity"
+140-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:96:13-70
+141            android:exported="false" />
+141-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:97:13-37
+142        <activity
+142-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:98:9-100:40
+143            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.allmembers.AllMembersActivity"
+143-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:99:13-71
+144            android:exported="false" />
+144-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:100:13-37
+145        <activity
+145-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:102:9-104:40
+146            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrefrral.receive.ReferralReceivedActivity"
+146-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:103:13-96
+147            android:exported="false" />
+147-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:104:13-37
 148        <activity
-148-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:112:9-115:39
-149            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateBuddyMeetActivity"
-149-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:113:13-77
-150            android:exported="false"
-150-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:115:13-37
-151            android:screenOrientation="portrait" />
-151-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:114:13-49
-152        <activity
-152-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:116:9-119:39
-153            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.toprankings.TopRankingActivity"
-153-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:117:13-79
-154            android:exported="false"
-154-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:119:13-37
-155            android:screenOrientation="portrait" />
-155-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:118:13-49
-156        <activity
-156-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:120:9-123:39
-157            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateOfflineBusinessActivity"
-157-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:121:13-83
-158            android:exported="false"
-158-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:123:13-37
-159            android:screenOrientation="portrait" />
-159-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:122:13-49
+148-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:105:9-107:40
+149            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrefrral.givan.ReferralGivenActivity"
+149-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:106:13-91
+150            android:exported="false" />
+150-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:107:13-37
+151        <activity
+151-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:108:9-110:40
+152            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateReferralActivity"
+152-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:109:13-76
+153            android:exported="false" />
+153-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:110:13-37
+154        <activity
+154-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:111:9-113:40
+155            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.SubscribePlanActivity"
+155-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:112:13-96
+156            android:exported="false" />
+156-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:113:13-37
+157        <activity
+157-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:114:9-116:40
+158            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.NewMyMembershipDetailsActivity"
+158-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:115:13-105
+159            android:exported="false" />
+159-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:116:13-37
 160        <activity
-160-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:124:9-128:39
-161            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreatePostsActivity"
-161-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:125:13-73
-162            android:exported="false"
-162-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:128:13-37
-163            android:screenOrientation="portrait"
-163-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:126:13-49
-164            android:windowSoftInputMode="adjustPan" />
-164-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:127:13-52
-165        <activity
-165-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:129:9-132:39
-166            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateEventsActivity"
-166-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:130:13-74
-167            android:exported="false"
-167-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:132:13-37
-168            android:screenOrientation="portrait" />
-168-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:131:13-49
-169        <activity
-169-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:133:9-136:39
-170            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.UpdateEventsActivity"
-170-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:134:13-74
-171            android:exported="false"
-171-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:136:13-37
-172            android:screenOrientation="portrait" />
-172-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:135:13-49
-173        <activity
-173-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:137:9-140:39
-174            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateRequirementActivity"
-174-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:138:13-79
-175            android:exported="false"
-175-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:140:13-37
-176            android:screenOrientation="portrait" />
-176-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:139:13-49
-177        <activity
-177-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:141:9-144:39
-178            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrecognition.MyRecognitionAddActivity"
-178-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:142:13-92
-179            android:exported="false"
-179-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:144:13-37
-180            android:screenOrientation="portrait" />
-180-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:143:13-49
-181        <activity
-181-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:145:9-148:39
-182            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MembershipAddActivity"
-182-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:146:13-96
-183            android:exported="false"
-183-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:148:13-37
-184            android:screenOrientation="portrait" />
-184-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:147:13-49
-185        <activity
-185-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:149:9-152:39
-186            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.FirstLoginMembershipAddActivity"
-186-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:150:13-106
-187            android:exported="false"
-187-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:152:13-37
-188            android:screenOrientation="portrait" />
-188-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:151:13-49
-189        <activity
-189-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:153:9-156:39
-190            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.RecommendedLeadActivity"
-190-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:154:13-88
-191            android:exported="false"
-191-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:156:13-37
-192            android:screenOrientation="portrait" />
-192-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:155:13-49
-193        <activity
-193-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:157:9-160:39
-194            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusAddActivity"
-194-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:158:13-89
-195            android:exported="false"
-195-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:160:13-37
-196            android:screenOrientation="portrait" />
-196-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:159:13-49
+160-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:117:9-119:40
+161            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.PrivacyAndPolicyActivity"
+161-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:118:13-72
+162            android:exported="false" />
+162-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:119:13-37
+163        <activity
+163-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:120:9-122:40
+164            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.terms.TermsAndConditionActivity"
+164-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:121:13-73
+165            android:exported="false" /> <!-- <service -->
+165-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:122:13-37
+166        <!-- android:name=".services.CompleteSetupService" -->
+167        <!-- android:enabled="true" -->
+168        <!-- android:exported="false" /> -->
+169        <!-- <service -->
+170        <!-- android:name=".services.BackupService" -->
+171        <!-- android:enabled="true" -->
+172        <!-- android:exported="false" /> -->
+173        <uses-library
+173-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:130:9-132:40
+174            android:name="org.apache.http.legacy"
+174-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:131:13-50
+175            android:required="false" /> <!-- ACTIVITIES -->
+175-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:132:13-37
+176        <activity
+176-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:133:9-136:39
+177            android:name="com.canhub.cropper.CropImageActivity"
+177-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:134:13-64
+178            android:exported="false"
+178-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:136:13-37
+179            android:theme="@style/AppTheme" /> <!-- <service -->
+179-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:135:13-44
+180
+181        <provider
+182            android:name="androidx.core.content.FileProvider"
+182-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:139:13-62
+183            android:authorities="com.justforentrepreneurs.j4eapp.provider"
+183-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:140:13-60
+184            android:exported="false"
+184-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:141:13-37
+185            android:grantUriPermissions="true" >
+185-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:142:13-47
+186            <meta-data
+186-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:144:13-146:58
+187                android:name="android.support.FILE_PROVIDER_PATHS"
+187-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:145:17-67
+188                android:resource="@xml/provider_paths" />
+188-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:146:17-55
+189        </provider>
+190
+191        <meta-data
+191-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:149:9-151:55
+192            android:name="com.google.android.geo.API_KEY"
+192-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:150:13-58
+193            android:value="@string/google_maps_key" />
+193-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:151:13-52
+194        <meta-data
+194-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:152:9-154:52
+195            android:name="com.google.android.gms.ads.APPLICATION_ID"
+195-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:153:13-69
+196            android:value="@string/admob_app_id" /> <!-- //j4e -->
+196-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:154:13-49
 197        <activity
-197-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:161:9-164:39
-198            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusListActivity"
-198-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:162:13-90
+197-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:155:9-160:39
+198            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MapsEventsActivity"
+198-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:156:13-81
 199            android:exported="false"
-199-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:164:13-37
-200            android:screenOrientation="portrait" />
-200-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:163:13-49
-201        <activity
-201-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:165:9-168:39
-202            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsDetailActivity"
-202-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:166:13-86
-203            android:exported="false"
-203-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:168:13-37
-204            android:screenOrientation="portrait" />
-204-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:167:13-49
-205        <activity
-205-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:169:9-172:39
-206            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventJoinerActivity"
-206-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:170:13-82
-207            android:exported="false"
-207-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:172:13-37
-208            android:screenOrientation="portrait" />
-208-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:171:13-49
-209        <activity
-209-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:173:9-176:39
-210            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventStatusActivity"
-210-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:174:13-82
-211            android:exported="false"
-211-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:176:13-37
-212            android:screenOrientation="portrait" />
-212-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:175:13-49
-213        <activity
-213-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:177:9-180:39
-214            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.searchalldata.SearchActivityHome"
-214-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:178:13-86
-215            android:exported="false"
-215-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:180:13-37
-216            android:screenOrientation="portrait" />
-216-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:179:13-49
-217        <activity
-217-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:181:9-184:39
-218            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventBookingActivity"
-218-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:182:13-83
-219            android:exported="false"
-219-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:184:13-37
-220            android:screenOrientation="portrait" />
-220-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:183:13-49
-221        <activity
-221-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:185:9-188:39
-222            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileContactUsEditActivity"
-222-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:186:13-78
-223            android:exported="false"
-223-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:188:13-37
-224            android:screenOrientation="portrait" />
-224-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:187:13-49
-225        <activity
-225-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:189:9-192:39
-226            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileAboutUsEditActivity"
-226-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:190:13-76
-227            android:exported="false"
-227-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:192:13-37
-228            android:screenOrientation="portrait" />
-228-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:191:13-49
-229        <activity
-229-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:193:9-196:39
-230            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileActivity"
-230-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:194:13-65
-231            android:exported="false"
-231-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:196:13-37
-232            android:screenOrientation="portrait" />
-232-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:195:13-49
-233        <activity
-233-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:197:9-200:39
-234            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.setting.SettingActivity"
-234-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:198:13-72
-235            android:exported="false"
-235-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:200:13-37
-236            android:screenOrientation="portrait" />
-236-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:199:13-49
-237        <activity
-237-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:201:9-204:39
-238            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.aboutus.AboutUsActivity"
-238-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:202:13-72
-239            android:exported="false"
-239-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:204:13-37
-240            android:screenOrientation="portrait" />
-240-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:203:13-49
-241        <activity
-241-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:205:9-208:39
-242            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.J4ERatingandReviewActivity"
-242-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:206:13-91
-243            android:exported="false"
-243-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:208:13-37
-244            android:screenOrientation="portrait" />
-244-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:207:13-49
-245        <activity
-245-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:209:9-212:39
-246            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.FeedbackEventActivity"
-246-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:210:13-86
-247            android:exported="false"
-247-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:212:13-37
-248            android:screenOrientation="portrait" />
-248-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:211:13-49
-249        <activity
-249-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:213:9-216:39
-250            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.ReviewActivity"
-250-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:214:13-79
-251            android:exported="false"
-251-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:216:13-37
-252            android:screenOrientation="portrait" />
-252-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:215:13-49
-253        <activity
-253-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:217:9-220:39
-254            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.j4emembers.J4EMembersActivity"
-254-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:218:13-78
-255            android:exported="false"
-255-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:220:13-37
-256            android:screenOrientation="portrait" />
-256-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:219:13-49
-257        <activity
-257-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:221:9-224:39
-258            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.pendingresponsibilities.PendingResponsibilitiesActivity"
-258-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:222:13-109
-259            android:exported="false"
-259-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:224:13-37
-260            android:screenOrientation="portrait" />
-260-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:223:13-49
-261        <activity
-261-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:225:9-228:39
-262            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myreportcard.MyReportCardActivity"
-262-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:226:13-87
-263            android:exported="false"
-263-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:228:13-37
-264            android:screenOrientation="portrait" />
-264-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:227:13-49
-265        <activity
-265-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:229:9-232:39
-266            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.recommended.RecommendedActivity"
-266-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:230:13-85
-267            android:exported="false"
-267-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:232:13-37
-268            android:screenOrientation="portrait" />
-268-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:231:13-49
-269        <activity
-269-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:233:9-236:39
-270            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity"
-270-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:234:13-103
-271            android:exported="false"
-271-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:236:13-37
-272            android:screenOrientation="portrait" />
-272-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:235:13-49
-273        <activity
-273-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:237:9-240:39
-274            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrecognition.MyRecognitionActivity"
-274-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:238:13-89
-275            android:exported="false"
-275-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:240:13-37
-276            android:screenOrientation="portrait" />
-276-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:239:13-49
-277        <activity
-277-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:241:9-244:39
-278            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myawardrecognition.MyAwardRecognitionActivity"
-278-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:242:13-99
-279            android:exported="false"
-279-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:244:13-37
-280            android:screenOrientation="portrait" />
-280-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:243:13-49
-281        <activity
-281-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:245:9-248:39
-282            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mytestimonials.MyTestimonialsActivity"
-282-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:246:13-91
-283            android:exported="false"
-283-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:248:13-37
-284            android:screenOrientation="portrait" />
-284-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:247:13-49
-285        <activity
-285-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:249:9-252:39
-286            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybusinesstransactions.MyBusinessTransactionsActivity"
-286-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:250:13-107
-287            android:exported="false"
-287-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:252:13-37
-288            android:screenOrientation="portrait" />
-288-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:251:13-49
-289        <activity
-289-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:253:9-256:39
-290            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybuddies.MyBuddiesActivity"
-290-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:254:13-81
-291            android:exported="false"
-291-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:256:13-37
-292            android:screenOrientation="portrait" />
-292-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:255:13-49
-293        <activity
-293-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:257:9-260:39
-294            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myguestinvites.MyGuestInvitesActivity"
-294-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:258:13-91
-295            android:exported="false"
-295-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:260:13-37
-296            android:screenOrientation="portrait" />
-296-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:259:13-49
-297        <activity
-297-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:261:9-264:39
-298            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mylead.MyLeadsActivity"
-298-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:262:13-76
-299            android:exported="false"
-299-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:264:13-37
-300            android:screenOrientation="portrait" />
-300-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:263:13-49
-301        <activity
-301-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:265:9-268:39
-302            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myguestinvites.CreateGuestInviteActivity"
-302-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:266:13-94
-303            android:exported="false"
-303-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:268:13-37
-304            android:screenOrientation="portrait" />
-304-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:267:13-49
-305        <activity
-305-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:269:9-272:39
-306            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myconnections.MyConnectionsActivity"
-306-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:270:13-89
-307            android:exported="false"
-307-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:272:13-37
-308            android:screenOrientation="portrait" />
-308-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:271:13-49
-309        <activity
-309-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:273:9-276:39
-310            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrequirements.MyRequirementsActivity"
-310-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:274:13-91
-311            android:exported="false"
-311-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:276:13-37
-312            android:screenOrientation="portrait" />
-312-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:275:13-49
-313        <activity
-313-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:277:9-280:39
-314            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MyEventsActivity"
-314-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:278:13-79
-315            android:exported="false"
-315-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:280:13-37
-316            android:screenOrientation="portrait" />
-316-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:279:13-49
-317        <activity
-317-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:281:9-284:39
-318            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myposts.MyPostsActivity"
-318-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:282:13-77
-319            android:exported="false"
-319-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:284:13-37
-320            android:screenOrientation="portrait" />
-320-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:283:13-49
-321        <activity
-321-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:285:9-288:39
-322            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybusinesstransactions.OfflineTransactionDetails"
-322-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:286:13-102
-323            android:exported="false"
-323-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:288:13-37
-324            android:screenOrientation="portrait" />
-324-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:287:13-49
-325        <activity
-325-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:289:9-292:39
-326            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.RecommendedEventsActivity"
-326-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:290:13-88
-327            android:exported="false"
-327-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:292:13-37
-328            android:screenOrientation="portrait" />
-328-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:291:13-49
-329        <activity
-329-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:293:9-306:20
-330            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.LoginActivity"
-330-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:294:13-61
-331            android:exported="true"
-331-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:296:13-36
-332            android:screenOrientation="portrait" >
-332-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:295:13-49
-333            <intent-filter>
-333-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:298:13-305:29
-334                <action android:name="android.intent.action.VIEW" />
-334-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:17-69
-334-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:25-66
-335
-336                <category android:name="android.intent.category.DEFAULT" />
-336-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:17-76
-336-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:27-73
-337                <category android:name="android.intent.category.BROWSABLE" />
-337-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:17-78
-337-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:27-75
-338
-339                <data android:scheme="@string/fb_login_protocol_scheme" />
-339-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:17-75
-339-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:23-72
-340            </intent-filter>
-341        </activity>
-342        <activity
-342-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:307:9-310:39
-343            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.OTPVerification.OTPVerificationActivity"
-343-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:308:13-81
-344            android:exported="false"
-344-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:310:13-37
-345            android:screenOrientation="portrait" />
-345-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:309:13-49
-346        <activity
-346-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:311:9-314:39
-347            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.welcome.WelcomeActivity"
-347-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:312:13-65
-348            android:exported="false"
-348-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:314:13-37
-349            android:screenOrientation="portrait" />
-349-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:313:13-49
-350        <activity
-350-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:315:9-355:20
-351            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.splash.SplashActivityJ4E"
-351-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:316:13-66
-352            android:exported="true"
-352-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:320:13-36
-353            android:screenOrientation="portrait" >
-353-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:317:13-49
-354            <intent-filter>
-354-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:321:13-325:29
-355                <action android:name="android.intent.action.MAIN" />
-355-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:322:17-69
-355-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:322:25-66
-356
-357                <category android:name="android.intent.category.LAUNCHER" />
-357-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:324:17-77
-357-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:324:27-74
-358            </intent-filter>
-359            <intent-filter>
-359-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:326:13-344:29
-360
-361                <!-- below line is to set the action to our intent to view -->
-362                <action android:name="android.intent.action.VIEW" />
-362-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:17-69
-362-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:25-66
-363
-364                <!-- on below line we are adding a default category to our intent -->
-365                <category android:name="android.intent.category.DEFAULT" />
-365-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:17-76
-365-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:27-73
-366
-367                <!-- on below line we are adding a category to make our app browsable -->
-368                <category android:name="android.intent.category.BROWSABLE" />
-368-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:17-78
-368-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:27-75
-369
-370                <!--
-371                     on below line we are specifying the host name and
-372                    the scheme type from which we will be calling our app
-373                -->
-374                <data
-374-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:17-75
-375                    android:host="just4entrepreneurs.com"
-375-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:342:21-58
-376                    android:scheme="https" />
-376-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:23-72
-377            </intent-filter>
-378            <intent-filter>
-378-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:345:13-354:29
-379                <action android:name="android.intent.action.VIEW" />
-379-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:17-69
-379-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:25-66
-380
-381                <category android:name="android.intent.category.DEFAULT" />
-381-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:17-76
-381-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:27-73
-382                <category android:name="android.intent.category.BROWSABLE" />
-382-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:17-78
-382-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:27-75
-383
-384                <data
-384-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:17-75
-385                    android:host="just4entrepreneurs.com"
-385-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:342:21-58
-386                    android:scheme="http" />
-386-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:23-72
-387            </intent-filter>
-388        </activity>
-389        <activity
-389-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:356:9-365:20
-390            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.home.MainActivity"
-390-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:13-59
-391            android:exported="false"
-391-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:360:13-37
-392            android:screenOrientation="portrait"
-392-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:358:13-49
-393            android:windowSoftInputMode="adjustPan" >
-393-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:359:13-52
-394        </activity>
-395        <activity
-395-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:366:9-369:39
-396            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MyEventsDetailsActivity"
-396-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:367:13-86
-397            android:exported="false" />
-397-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:369:13-37
-398        <activity
-398-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:370:9-375:39
-399            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.GallerViewActivity"
-399-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:371:13-68
-400            android:configChanges="keyboardHidden|orientation|screenSize"
-400-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:372:13-74
-401            android:exported="false"
-401-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:375:13-37
-402            android:screenOrientation="fullSensor"
-402-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:373:13-51
-403            android:theme="@style/AppTheme.NoActionBar" />
-403-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:374:13-56
+199-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:160:13-37
+200            android:label="@string/title_activity_maps_events"
+200-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:157:13-63
+201            android:screenOrientation="portrait" />
+201-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:158:13-49
+202        <activity
+202-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:161:9-164:39
+203            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.pendingresponsibilities.CreateFollowUpActivity"
+203-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:162:13-100
+204            android:exported="false"
+204-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:164:13-37
+205            android:screenOrientation="portrait" />
+205-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:163:13-49
+206        <activity
+206-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:165:9-168:39
+207            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateBuddyMeetActivity"
+207-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:166:13-77
+208            android:exported="false"
+208-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:168:13-37
+209            android:screenOrientation="portrait" />
+209-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:167:13-49
+210        <activity
+210-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:169:9-172:39
+211            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.toprankings.TopRankingActivity"
+211-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:170:13-79
+212            android:exported="false"
+212-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:172:13-37
+213            android:screenOrientation="portrait" />
+213-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:171:13-49
+214        <activity
+214-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:173:9-176:39
+215            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateOfflineBusinessActivity"
+215-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:174:13-83
+216            android:exported="false"
+216-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:176:13-37
+217            android:screenOrientation="portrait" />
+217-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:175:13-49
+218        <activity
+218-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:177:9-181:39
+219            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreatePostsActivity"
+219-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:178:13-73
+220            android:exported="false"
+220-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:181:13-37
+221            android:screenOrientation="portrait"
+221-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:179:13-49
+222            android:windowSoftInputMode="adjustPan" />
+222-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:180:13-52
+223        <activity
+223-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:182:9-185:39
+224            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateEventsActivity"
+224-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:183:13-74
+225            android:exported="false"
+225-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:185:13-37
+226            android:screenOrientation="portrait" />
+226-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:184:13-49
+227        <activity
+227-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:186:9-189:39
+228            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.UpdateEventsActivity"
+228-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:187:13-74
+229            android:exported="false"
+229-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:189:13-37
+230            android:screenOrientation="portrait" />
+230-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:188:13-49
+231        <activity
+231-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:190:9-193:39
+232            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homeService.CreateRequirementActivity"
+232-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:191:13-79
+233            android:exported="false"
+233-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:193:13-37
+234            android:screenOrientation="portrait" />
+234-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:192:13-49
+235        <activity
+235-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:194:9-197:39
+236            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrecognition.MyRecognitionAddActivity"
+236-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:195:13-92
+237            android:exported="false"
+237-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:197:13-37
+238            android:screenOrientation="portrait" />
+238-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:196:13-49
+239        <activity
+239-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:198:9-201:39
+240            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MembershipAddActivity"
+240-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:199:13-96
+241            android:exported="false"
+241-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:201:13-37
+242            android:screenOrientation="portrait" />
+242-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:200:13-49
+243        <activity
+243-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:202:9-205:39
+244            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.FirstLoginMembershipAddActivity"
+244-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:203:13-106
+245            android:exported="false"
+245-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:205:13-37
+246            android:screenOrientation="portrait" />
+246-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:204:13-49
+247        <activity
+247-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:206:9-209:39
+248            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.RecommendedLeadActivity"
+248-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:207:13-88
+249            android:exported="false"
+249-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:209:13-37
+250            android:screenOrientation="portrait" />
+250-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:208:13-49
+251        <activity
+251-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:210:9-213:39
+252            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusAddActivity"
+252-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:211:13-89
+253            android:exported="false"
+253-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:213:13-37
+254            android:screenOrientation="portrait" />
+254-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:212:13-49
+255        <activity
+255-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:214:9-217:39
+256            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsStatusListActivity"
+256-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:215:13-90
+257            android:exported="false"
+257-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:217:13-37
+258            android:screenOrientation="portrait" />
+258-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:216:13-49
+259        <activity
+259-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:218:9-221:39
+260            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.mydiary.MyLeads.MyLeadsDetailActivity"
+260-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:219:13-86
+261            android:exported="false"
+261-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:221:13-37
+262            android:screenOrientation="portrait" />
+262-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:220:13-49
+263        <activity
+263-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:222:9-225:39
+264            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventJoinerActivity"
+264-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:223:13-82
+265            android:exported="false"
+265-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:225:13-37
+266            android:screenOrientation="portrait" />
+266-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:224:13-49
+267        <activity
+267-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:226:9-229:39
+268            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventStatusActivity"
+268-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:227:13-82
+269            android:exported="false"
+269-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:229:13-37
+270            android:screenOrientation="portrait" />
+270-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:228:13-49
+271        <activity
+271-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:230:9-233:39
+272            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.searchalldata.SearchActivityHome"
+272-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:231:13-86
+273            android:exported="false"
+273-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:233:13-37
+274            android:screenOrientation="portrait" />
+274-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:232:13-49
+275        <activity
+275-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:234:9-237:39
+276            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.EventBookingActivity"
+276-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:235:13-83
+277            android:exported="false"
+277-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:237:13-37
+278            android:screenOrientation="portrait" />
+278-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:236:13-49
+279        <activity
+279-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:238:9-241:39
+280            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileContactUsEditActivity"
+280-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:239:13-78
+281            android:exported="false"
+281-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:241:13-37
+282            android:screenOrientation="portrait" />
+282-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:240:13-49
+283        <activity
+283-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:242:9-245:39
+284            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileAboutUsEditActivity"
+284-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:243:13-76
+285            android:exported="false"
+285-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:245:13-37
+286            android:screenOrientation="portrait" />
+286-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:244:13-49
+287        <activity
+287-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:246:9-249:39
+288            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.ProfileActivity"
+288-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:247:13-65
+289            android:exported="false"
+289-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:249:13-37
+290            android:screenOrientation="portrait" />
+290-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:248:13-49
+291        <activity
+291-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:250:9-253:39
+292            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.setting.SettingActivity"
+292-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:251:13-72
+293            android:exported="false"
+293-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:253:13-37
+294            android:screenOrientation="portrait" />
+294-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:252:13-49
+295        <activity
+295-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:254:9-257:39
+296            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.aboutus.AboutUsActivity"
+296-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:255:13-72
+297            android:exported="false"
+297-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:257:13-37
+298            android:screenOrientation="portrait" />
+298-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:256:13-49
+299        <activity
+299-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:258:9-261:39
+300            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.J4ERatingandReviewActivity"
+300-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:259:13-91
+301            android:exported="false"
+301-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:261:13-37
+302            android:screenOrientation="portrait" />
+302-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:260:13-49
+303        <activity
+303-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:262:9-265:39
+304            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.FeedbackEventActivity"
+304-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:263:13-86
+305            android:exported="false"
+305-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:265:13-37
+306            android:screenOrientation="portrait" />
+306-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:264:13-49
+307        <activity
+307-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:266:9-269:39
+308            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.supportfeedback.ReviewActivity"
+308-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:267:13-79
+309            android:exported="false"
+309-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:269:13-37
+310            android:screenOrientation="portrait" />
+310-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:268:13-49
+311        <activity
+311-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:270:9-273:39
+312            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.drawer.j4emembers.J4EMembersActivity"
+312-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:271:13-78
+313            android:exported="false"
+313-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:273:13-37
+314            android:screenOrientation="portrait" />
+314-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:272:13-49
+315        <activity
+315-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:274:9-277:39
+316            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.pendingresponsibilities.PendingResponsibilitiesActivity"
+316-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:275:13-109
+317            android:exported="false"
+317-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:277:13-37
+318            android:screenOrientation="portrait" />
+318-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:276:13-49
+319        <activity
+319-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:278:9-281:39
+320            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myreportcard.MyReportCardActivity"
+320-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:279:13-87
+321            android:exported="false"
+321-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:281:13-37
+322            android:screenOrientation="portrait" />
+322-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:280:13-49
+323        <activity
+323-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:282:9-285:39
+324            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.recommended.RecommendedActivity"
+324-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:283:13-85
+325            android:exported="false"
+325-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:285:13-37
+326            android:screenOrientation="portrait" />
+326-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:284:13-49
+327        <activity
+327-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:286:9-289:39
+328            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mymembershipbenefits.MyMembershipBenefitsActivity"
+328-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:287:13-103
+329            android:exported="false"
+329-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:289:13-37
+330            android:screenOrientation="portrait" />
+330-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:288:13-49
+331        <activity
+331-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:290:9-293:39
+332            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrecognition.MyRecognitionActivity"
+332-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:291:13-89
+333            android:exported="false"
+333-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:293:13-37
+334            android:screenOrientation="portrait" />
+334-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:292:13-49
+335        <activity
+335-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:294:9-297:39
+336            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myawardrecognition.MyAwardRecognitionActivity"
+336-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:295:13-99
+337            android:exported="false"
+337-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:297:13-37
+338            android:screenOrientation="portrait" />
+338-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:296:13-49
+339        <activity
+339-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:298:9-301:39
+340            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mytestimonials.MyTestimonialsActivity"
+340-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:299:13-91
+341            android:exported="false"
+341-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:301:13-37
+342            android:screenOrientation="portrait" />
+342-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:300:13-49
+343        <activity
+343-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:302:9-305:39
+344            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybusinesstransactions.MyBusinessTransactionsActivity"
+344-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:303:13-107
+345            android:exported="false"
+345-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:305:13-37
+346            android:screenOrientation="portrait" />
+346-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:304:13-49
+347        <activity
+347-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:306:9-309:39
+348            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybuddies.MyBuddiesActivity"
+348-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:307:13-81
+349            android:exported="false"
+349-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:309:13-37
+350            android:screenOrientation="portrait" />
+350-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:308:13-49
+351        <activity
+351-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:310:9-313:39
+352            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myguestinvites.MyGuestInvitesActivity"
+352-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:311:13-91
+353            android:exported="false"
+353-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:313:13-37
+354            android:screenOrientation="portrait" />
+354-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:312:13-49
+355        <activity
+355-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:314:9-317:39
+356            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mylead.MyLeadsActivity"
+356-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:315:13-76
+357            android:exported="false"
+357-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:317:13-37
+358            android:screenOrientation="portrait" />
+358-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:316:13-49
+359        <activity
+359-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:318:9-321:39
+360            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myguestinvites.CreateGuestInviteActivity"
+360-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:319:13-94
+361            android:exported="false"
+361-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:321:13-37
+362            android:screenOrientation="portrait" />
+362-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:320:13-49
+363        <activity
+363-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:322:9-325:39
+364            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myconnections.MyConnectionsActivity"
+364-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:323:13-89
+365            android:exported="false"
+365-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:325:13-37
+366            android:screenOrientation="portrait" />
+366-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:324:13-49
+367        <activity
+367-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:326:9-329:39
+368            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myrequirements.MyRequirementsActivity"
+368-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:327:13-91
+369            android:exported="false"
+369-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:329:13-37
+370            android:screenOrientation="portrait" />
+370-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:328:13-49
+371        <activity
+371-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:330:9-333:39
+372            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MyEventsActivity"
+372-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:331:13-79
+373            android:exported="false"
+373-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:333:13-37
+374            android:screenOrientation="portrait" />
+374-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:332:13-49
+375        <activity
+375-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:334:9-337:39
+376            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myposts.MyPostsActivity"
+376-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:335:13-77
+377            android:exported="false"
+377-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:337:13-37
+378            android:screenOrientation="portrait" />
+378-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:336:13-49
+379        <activity
+379-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:338:9-341:39
+380            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.mybusinesstransactions.OfflineTransactionDetails"
+380-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:339:13-102
+381            android:exported="false"
+381-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:341:13-37
+382            android:screenOrientation="portrait" />
+382-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:340:13-49
+383        <activity
+383-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:342:9-345:39
+384            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.RecommendedEventsActivity"
+384-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:343:13-88
+385            android:exported="false"
+385-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:345:13-37
+386            android:screenOrientation="portrait" />
+386-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:344:13-49
+387        <activity
+387-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:346:9-359:20
+388            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.LoginActivity"
+388-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:347:13-61
+389            android:exported="true"
+389-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:349:13-36
+390            android:screenOrientation="portrait" >
+390-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:348:13-49
+391            <intent-filter>
+391-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:351:13-358:29
+392                <action android:name="android.intent.action.VIEW" />
+392-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:17-69
+392-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:25-66
+393
+394                <category android:name="android.intent.category.DEFAULT" />
+394-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:354:17-76
+394-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:354:27-73
+395                <category android:name="android.intent.category.BROWSABLE" />
+395-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:17-78
+395-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:27-75
+396
+397                <data android:scheme="@string/fb_login_protocol_scheme" />
+397-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:17-75
+397-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:23-72
+398            </intent-filter>
+399        </activity>
+400        <activity
+400-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:360:9-363:39
+401            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.OTPVerification.OTPVerificationActivity"
+401-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:361:13-81
+402            android:exported="false"
+402-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:363:13-37
+403            android:screenOrientation="portrait" />
+403-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:362:13-49
 404        <activity
-404-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:376:9-381:39
-405            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.GallerViewEventsActivity"
-405-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:377:13-87
-406            android:configChanges="keyboardHidden|orientation|screenSize"
-406-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:378:13-74
-407            android:exported="false"
-407-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:381:13-37
-408            android:screenOrientation="fullSensor"
-408-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:379:13-51
-409            android:theme="@style/AppTheme.NoActionBar" />
-409-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:380:13-56
-410        <activity
-410-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:382:9-387:39
-411            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.GallerViewActivityZoom"
-411-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:383:13-72
-412            android:configChanges="keyboardHidden|orientation|screenSize"
-412-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:384:13-74
-413            android:exported="false"
-413-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:387:13-37
-414            android:screenOrientation="fullSensor"
-414-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:385:13-51
-415            android:theme="@style/AppTheme.NoActionBar" />
-415-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:386:13-56
-416
-417        <meta-data
-417-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:389:9-391:55
-418            android:name="com.facebook.sdk.ApplicationId"
-418-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:390:13-58
-419            android:value="@string/facebook_app_id" />
-419-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:391:13-52
-420
-421        <activity
-421-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:393:9-399:39
-422            android:name="com.facebook.FacebookActivity"
-422-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:394:13-57
-423            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-423-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:395:13-96
-424            android:exported="false"
-424-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:399:13-37
-425            android:label="@string/app_name"
-425-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:396:13-45
-426            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- If you're sharing links, images or video via the Facebook for Android app, you also need to declare the FacebookContentProvider in the manifest. -->
-426-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:397:13-72
-427        <!-- Append your app id to the end of the authorities value. For example if your Facebook app id is 1533993016893247 -->
-428        <provider
-428-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:401:9-404:40
-429            android:name="com.facebook.FacebookContentProvider"
-429-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:402:13-64
-430            android:authorities="com.facebook.app.FacebookContentProvider4956080674559338967"
-430-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:403:13-94
-431            android:exported="false" />
-431-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:404:13-37
-432
-433        <service
-433-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:9-414:19
-434            android:name="com.google.firebase.components.ComponentDiscoveryService"
-434-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:18-89
-435            android:directBootAware="true"
-435-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:90-120
-436            android:exported="false" >
-436-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:406:121-145
-437            <meta-data
-437-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:408:13-195
-438                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-438-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:408:24-126
-439                android:value="com.google.firebase.components.ComponentRegistrar" />
-439-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:408:127-192
-440            <meta-data
-440-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:410:13-203
-441                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-441-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:410:24-134
-442                android:value="com.google.firebase.components.ComponentRegistrar" />
-442-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:410:135-200
-443            <meta-data
-443-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:411:13-413:84
-444                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-444-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:412:17-109
-445                android:value="com.google.firebase.components.ComponentRegistrar" />
-445-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:413:17-82
-446        </service>
-447
-448        <meta-data
-448-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:416:9-418:69
-449            android:name="com.google.android.gms.version"
-449-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:417:13-58
-450            android:value="@integer/google_play_services_version" />
-450-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:418:13-66
-451        <meta-data
-451-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:419:9-421:60
-452            android:name="com.google.firebase.messaging.default_notification_icon"
-452-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:420:13-83
-453            android:resource="@drawable/splash_app_logo" />
-453-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:421:13-57
-454        <meta-data
-454-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:422:9-424:58
-455            android:name="com.google.firebase.messaging.default_notification_color"
-455-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:423:13-84
-456            android:resource="@color/colorPrimaryDark" />
-456-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:424:13-55
-457        <meta-data
-457-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:425:9-427:71
-458            android:name="com.google.firebase.messaging.default_notification_channel_id"
-458-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:426:13-89
-459            android:value="@string/default_notification_channel_id" />
-459-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:427:13-68
-460
-461        <service
-461-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:429:9-436:19
-462            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseMessagingService"
-462-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:430:13-69
-463            android:exported="true" >
-463-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:431:13-36
-464            <intent-filter>
-464-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:433:13-435:29
-465                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-465-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:17-78
-465-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:25-75
-466            </intent-filter>
-467        </service>
-468        <service
-468-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:437:9-443:19
-469            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.fcm.MyFirebaseInstanceIdService"
-469-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:437:18-75
-470            android:exported="false" >
-470-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:438:13-37
-471            <intent-filter>
-471-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:440:13-442:29
-472                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-472-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:441:17-80
-472-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:441:25-77
-473            </intent-filter>
-474        </service>
-475
-476        <receiver
-476-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:445:9-452:20
-477            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.SmsBroadcastReceiver"
-477-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:446:13-68
-478            android:exported="false" >
-478-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:447:13-37
-479            <intent-filter>
-479-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:449:13-451:29
-480                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
-480-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:450:17-94
-480-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:450:25-91
-481            </intent-filter>
-482        </receiver>
-483    </application>
-484
-485</manifest>
+404-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:364:9-367:39
+405            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.welcome.WelcomeActivity"
+405-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:365:13-65
+406            android:exported="false"
+406-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:367:13-37
+407            android:screenOrientation="portrait" />
+407-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:366:13-49
+408        <activity
+408-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:368:9-408:20
+409            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.splash.SplashActivityJ4E"
+409-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:369:13-66
+410            android:exported="true"
+410-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:373:13-36
+411            android:screenOrientation="portrait" >
+411-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:370:13-49
+412            <intent-filter>
+412-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:374:13-378:29
+413                <action android:name="android.intent.action.MAIN" />
+413-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:375:17-69
+413-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:375:25-66
+414
+415                <category android:name="android.intent.category.LAUNCHER" />
+415-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:377:17-77
+415-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:377:27-74
+416            </intent-filter>
+417            <intent-filter>
+417-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:379:13-397:29
+418
+419                <!-- below line is to set the action to our intent to view -->
+420                <action android:name="android.intent.action.VIEW" />
+420-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:17-69
+420-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:25-66
+421
+422                <!-- on below line we are adding a default category to our intent -->
+423                <category android:name="android.intent.category.DEFAULT" />
+423-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:354:17-76
+423-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:354:27-73
+424
+425                <!-- on below line we are adding a category to make our app browsable -->
+426                <category android:name="android.intent.category.BROWSABLE" />
+426-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:17-78
+426-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:27-75
+427
+428                <!--
+429                     on below line we are specifying the host name and
+430                    the scheme type from which we will be calling our app
+431                -->
+432                <data
+432-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:17-75
+433                    android:host="just4entrepreneurs.com"
+433-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:395:21-58
+434                    android:scheme="https" />
+434-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:23-72
+435            </intent-filter>
+436            <intent-filter>
+436-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:398:13-407:29
+437                <action android:name="android.intent.action.VIEW" />
+437-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:17-69
+437-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:352:25-66
+438
+439                <category android:name="android.intent.category.DEFAULT" />
+439-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:354:17-76
+439-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:354:27-73
+440                <category android:name="android.intent.category.BROWSABLE" />
+440-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:17-78
+440-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:355:27-75
+441
+442                <data
+442-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:17-75
+443                    android:host="just4entrepreneurs.com"
+443-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:395:21-58
+444                    android:scheme="http" />
+444-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:357:23-72
+445            </intent-filter>
+446        </activity>
+447        <activity
+447-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:409:9-418:20
+448            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.home.MainActivity"
+448-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:410:13-59
+449            android:exported="false"
+449-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:413:13-37
+450            android:screenOrientation="portrait"
+450-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:411:13-49
+451            android:windowSoftInputMode="adjustPan" >
+451-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:412:13-52
+452        </activity>
+453        <activity
+453-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:419:9-422:39
+454            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.MyEventsDetailsActivity"
+454-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:420:13-86
+455            android:exported="false" />
+455-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:422:13-37
+456        <activity
+456-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:423:9-428:39
+457            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.GallerViewActivity"
+457-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:424:13-68
+458            android:configChanges="keyboardHidden|orientation|screenSize"
+458-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:425:13-74
+459            android:exported="false"
+459-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:428:13-37
+460            android:screenOrientation="fullSensor"
+460-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:426:13-51
+461            android:theme="@style/AppTheme.NoActionBar" />
+461-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:427:13-56
+462        <activity
+462-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:429:9-434:39
+463            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.homemydiary.myevents.GallerViewEventsActivity"
+463-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:430:13-87
+464            android:configChanges="keyboardHidden|orientation|screenSize"
+464-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:431:13-74
+465            android:exported="false"
+465-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:434:13-37
+466            android:screenOrientation="fullSensor"
+466-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:432:13-51
+467            android:theme="@style/AppTheme.NoActionBar" />
+467-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:433:13-56
+468        <activity
+468-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:435:9-440:39
+469            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.profile.GallerViewActivityZoom"
+469-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:436:13-72
+470            android:configChanges="keyboardHidden|orientation|screenSize"
+470-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:437:13-74
+471            android:exported="false"
+471-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:440:13-37
+472            android:screenOrientation="fullSensor"
+472-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:438:13-51
+473            android:theme="@style/AppTheme.NoActionBar" />
+473-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:439:13-56
+474
+475        <meta-data
+475-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:442:9-444:55
+476            android:name="com.facebook.sdk.ApplicationId"
+476-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:443:13-58
+477            android:value="@string/facebook_app_id" />
+477-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:444:13-52
+478
+479        <activity
+479-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:446:9-452:39
+480            android:name="com.facebook.FacebookActivity"
+480-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:447:13-57
+481            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+481-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:448:13-96
+482            android:exported="false"
+482-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:452:13-37
+483            android:label="@string/app_name"
+483-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:449:13-45
+484            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- If you're sharing links, images or video via the Facebook for Android app, you also need to declare the FacebookContentProvider in the manifest. -->
+484-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:450:13-72
+485        <!-- Append your app id to the end of the authorities value. For example if your Facebook app id is 1533993016893247 -->
+486        <provider
+486-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:454:9-457:40
+487            android:name="com.facebook.FacebookContentProvider"
+487-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:455:13-64
+488            android:authorities="com.facebook.app.FacebookContentProvider4956080674559338967"
+488-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:456:13-94
+489            android:exported="false" />
+489-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:457:13-37
+490
+491        <service
+491-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:459:9-467:19
+492            android:name="com.google.firebase.components.ComponentDiscoveryService"
+492-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:459:18-89
+493            android:directBootAware="true"
+493-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:459:90-120
+494            android:exported="true" >
+494-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:459:121-144
+495            <meta-data
+495-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:461:13-195
+496                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+496-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:461:24-126
+497                android:value="com.google.firebase.components.ComponentRegistrar" />
+497-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:461:127-192
+498            <meta-data
+498-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:463:13-203
+499                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+499-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:463:24-134
+500                android:value="com.google.firebase.components.ComponentRegistrar" />
+500-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:463:135-200
+501            <meta-data
+501-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:464:13-466:84
+502                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+502-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:465:17-109
+503                android:value="com.google.firebase.components.ComponentRegistrar" />
+503-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:466:17-82
+504        </service>
+505
+506        <meta-data
+506-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:469:9-471:69
+507            android:name="com.google.android.gms.version"
+507-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:470:13-58
+508            android:value="@integer/google_play_services_version" />
+508-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:471:13-66
+509        <meta-data
+509-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:473:9-475:60
+510            android:name="com.google.firebase.messaging.default_notification_icon"
+510-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:474:13-83
+511            android:resource="@drawable/splash_app_logo" />
+511-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:475:13-57
+512        <meta-data
+512-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:476:9-478:58
+513            android:name="com.google.firebase.messaging.default_notification_color"
+513-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:477:13-84
+514            android:resource="@color/colorPrimaryDark" />
+514-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:478:13-55
+515
+516        <receiver
+516-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:481:9-488:20
+517            android:name="com.justforentrepreneurs.j4eapp.abmainj4e.ui.login.SmsBroadcastReceiver"
+517-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:482:13-68
+518            android:exported="false" >
+518-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:483:13-37
+519            <intent-filter>
+519-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:485:13-487:29
+520                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+520-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:486:17-94
+520-->/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/src/main/AndroidManifest.xml:486:25-91
+521            </intent-filter>
+522        </receiver>
+523    </application>
+524
+525</manifest>

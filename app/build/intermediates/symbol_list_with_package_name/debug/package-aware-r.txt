@@ -5885,6 +5885,7 @@ layout dialog_choose_app
 layout dialog_ignore_battery
 layout dialog_image_layout
 layout dialog_loader
+layout dialog_loader1
 layout drawer_layout
 layout emoji_item
 layout emoji_skin_popup
@@ -6201,6 +6202,7 @@ raw ccp_ukrainian
 raw ccp_urdu
 raw ccp_uzbek
 raw ccp_vietnamese
+raw firebase_common_keep
 raw keep_ccp
 raw places_keep
 raw record_error
@@ -6407,6 +6409,7 @@ string continue_with_linkedin
 string conversions
 string copied_to_clipboard
 string copy
+string copy_toast_msg
 string could_not_get_audio_file
 string could_not_get_this_image
 string count
@@ -6516,6 +6519,9 @@ string fab_transformation_sheet_behavior
 string facebook_app_id
 string failed
 string failed_to_load_wallpaper
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string fastscroll__app_name
 string fb_login_protocol_scheme
 string fcm_fallback_notification_channel_label
@@ -6527,6 +6533,7 @@ string filter_by
 string finalizing
 string fireapp_video_call
 string fireapp_voice_call
+string firebase_database_url
 string first_name
 string follow_up
 string forward
@@ -7547,6 +7554,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_PlayCore_Transparent
 style Theme_Transparent_ImagePicker
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
@@ -8040,6 +8048,7 @@ styleable fastscroll__fastScroller fastscroll__bubbleColor fastscroll__bubbleTex
 styleable ucrop_AspectRatioTextView ucrop_artv_ratio_title ucrop_artv_ratio_x ucrop_artv_ratio_y
 styleable ucrop_UCropView ucrop_aspect_ratio_x ucrop_aspect_ratio_y ucrop_circle_dimmed_layer ucrop_dimmed_color ucrop_frame_color ucrop_frame_stroke_size ucrop_grid_color ucrop_grid_column_count ucrop_grid_row_count ucrop_grid_stroke_size ucrop_show_frame ucrop_show_grid ucrop_show_oval_crop_frame
 xml image_picker_provider_paths
+xml image_share_filepaths
 xml library_file_paths
 xml provider_paths
 xml standalone_badge

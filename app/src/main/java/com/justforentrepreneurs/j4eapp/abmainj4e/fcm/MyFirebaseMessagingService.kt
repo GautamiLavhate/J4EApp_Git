@@ -8,6 +8,7 @@ import android.media.AudioAttributes
 import android.media.RingtoneManager
 import android.os.Build
 import android.provider.Settings
+import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.justforentrepreneurs.j4eapp.R
@@ -22,6 +23,8 @@ import com.google.firebase.messaging.RemoteMessage
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
+import com.google.firebase.messaging.FirebaseMessaging
+
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
     val TAG = "FirebaseMessagingService"
@@ -40,6 +43,11 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         super.onNewToken(token)
         val deviceID = Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
         tokensd = token
+
+        FirebaseMessaging.getInstance().subscribeToTopic("com.Celebrity");
+
+        Log.d("SUCC1:", token)
+
     }
 
     /*@SuppressLint("LongLogTag")
@@ -52,7 +60,11 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     }
 */
 
-    override fun onMessageReceived(remoteMessage: RemoteMessage) {
+  /*  override fun onMessageReceived(remoteMessage: RemoteMessage) {
+        super.onMessageReceived(remoteMessage)
+
+        Log.d("DMessage1:",remoteMessage.data.toString())
+
         title = remoteMessage.notification!!.title
         message = remoteMessage.data["Msg"]
         icon = remoteMessage.data["thumbnil"]
@@ -61,9 +73,14 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         date = remoteMessage.data["Date"]
         id= remoteMessage.data["id"]
         showNotification(title.toString(), message.toString(), type.toString(),id.toString())
-    }
-    override fun onDeletedMessages() {
-        super.onDeletedMessages()
+    }*/
+
+
+    override fun onMessageReceived(message: RemoteMessage) {
+        super.onMessageReceived(message)
+
+        Log.d("DMessage1:",message.data.toString())
+
     }
 
     private fun showNotification(title: String, message: String, type: String,id: String) {

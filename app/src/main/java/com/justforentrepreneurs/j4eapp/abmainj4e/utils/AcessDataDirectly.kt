@@ -87,6 +87,19 @@ fun showLoader(context: Context) {
     }
 }
 
+
+
+fun showLoader1(context: Context) {
+    dismissLoader()
+    dialog = Dialog(context).apply {
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
+        setCancelable(false)
+        window?.setBackgroundDrawableResource(android.R.color.transparent)
+        setContentView(R.layout.dialog_loader1)
+        show()
+    }
+}
+
 fun showLoaderf(context: FragmentActivity?) {
     dismissLoader()
     dialog = Dialog(context!!).apply {

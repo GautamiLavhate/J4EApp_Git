@@ -524,7 +524,7 @@ class CreatePostsActivity : BaseActivity(),AdapterPostCategoriesNew.OnClick2{
             val currentDatest1 = RequestBody.create(MediaType.parse("text/plain"),currentDate1)
 
             val call = request.app_create_posts(userId,catid,postdes,currentDatest,currentDatest1,formData)
-            showLoader(this);
+            showLoader1(this);
             call.enqueue(object : Callback<ConnectionDecline> {
                 override fun onResponse(
                     call: Call<ConnectionDecline>,
@@ -577,7 +577,7 @@ class CreatePostsActivity : BaseActivity(),AdapterPostCategoriesNew.OnClick2{
 
 
         val call = request.app_edit_posts(userId,catid,postdes,formData,postid)
-        showLoader(this);
+        showLoader1(this);
         call.enqueue(object : Callback<EditPostResponse> {
             override fun onResponse(
                 call: Call<EditPostResponse>,

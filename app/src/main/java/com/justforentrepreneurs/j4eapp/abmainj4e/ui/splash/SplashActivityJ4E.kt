@@ -17,6 +17,9 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.bumptech.glide.Glide
 import com.google.firebase.FirebaseApp
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.messaging.FirebaseMessaging
+import com.google.firebase.messaging.ktx.messaging
 import com.justforentrepreneurs.j4eapp.R
 import com.justforentrepreneurs.j4eapp.abmainj4e.base.BaseActivityOP
 import com.justforentrepreneurs.j4eapp.abmainj4e.ui.home.MainActivity
@@ -37,7 +40,7 @@ class SplashActivityJ4E : BaseActivityOP() {
     var find: String="no"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        FirebaseApp.initializeApp(this);
+      //  FirebaseApp.initializeApp(this);
 
         binding = DataBindingUtil.setContentView(this,R.layout.activity_splash_j4e)
         Glide.with(this)

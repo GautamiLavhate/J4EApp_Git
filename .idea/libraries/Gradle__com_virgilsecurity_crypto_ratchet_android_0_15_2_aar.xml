@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.virgilsecurity.crypto:ratchet-android:0.15.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/77f53e44c8400d96f04f71c868e4a8f5/transformed/jetified-ratchet-android-0.15.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/77f53e44c8400d96f04f71c868e4a8f5/transformed/jetified-ratchet-android-0.15.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/77f53e44c8400d96f04f71c868e4a8f5/transformed/jetified-ratchet-android-0.15.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/60aa4b44f7615d13f767654938bd6a45/transformed/jetified-ratchet-android-0.15.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/60aa4b44f7615d13f767654938bd6a45/transformed/jetified-ratchet-android-0.15.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/60aa4b44f7615d13f767654938bd6a45/transformed/jetified-ratchet-android-0.15.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed088c4ca359c6e2bba77b79131757ff/jetified-ratchet-android-0.15.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed088c4ca359c6e2bba77b79131757ff/jetified-ratchet-android-0.15.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed088c4ca359c6e2bba77b79131757ff/jetified-ratchet-android-0.15.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.virgilsecurity.crypto/ratchet-android/0.15.2/37a96d08750c602139fd8efcb050923eeb01420b/ratchet-android-0.15.2-javadoc.jar!/" />

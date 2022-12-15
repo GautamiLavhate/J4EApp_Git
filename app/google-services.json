@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "592002479924",
+    "firebase_url": "https://j4e-app-default-rtdb.firebaseio.com",
     "project_id": "j4e-app",
     "storage_bucket": "j4e-app.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "592002479924-trsj7bfrigcfa1c10dkffjphlimj7acn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.justforentrepreneurs.j4eapp",
+            "certificate_hash": "b2751a9b76f65862fbf994d8a487bd7c229883ae"
+          }
+        },
         {
           "client_id": "592002479924-6vt82ftf5rm0cv5h0ro0b1i3kebohdq9.apps.googleusercontent.com",
           "client_type": 3

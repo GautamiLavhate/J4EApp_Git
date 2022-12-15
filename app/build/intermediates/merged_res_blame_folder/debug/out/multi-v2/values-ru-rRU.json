@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.justforentrepreneurs.j4eapp-mergeDebugResources-90:/values-ru-rRU/values-ru-rRU.xml",
+            "outputFile": "/Users/sapat/AndroidStudioProjects/J4EApp_Git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "/Users/sapat/.gradle/caches/transforms-3/f57aecc2f0725b0287e66547e69330a5/transformed/jetified-Android-Image-Cropper-2.1.1/res/values-ru-rRU/values-ru-rRU.xml",
+                    "source": "/Users/sapat/.gradle/caches/transforms-2/files-2.1/9c507cf736fd556d43ca48ce8b5c40ca/jetified-Android-Image-Cropper-2.1.1/res/values-ru-rRU/values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
